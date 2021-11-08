@@ -4,7 +4,7 @@
 
 html,
 body {
-    @apply p-0 m-0 text-black font-normal text-base font-hntRegular antialiased;
+    @apply p-0 m-0 text-black font-normal text-base font-hntRegular antialiased bg-white;
 }
 
 .btn {

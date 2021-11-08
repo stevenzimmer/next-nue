@@ -8,14 +8,18 @@ export default function Footer() {
                     <div className="flex items-center justify-between ">
                         <div>
                             <Link href="/">
-                                <a className="font-hntMedium text-3xl">nue</a>
+                                <a className="font-hntMedium text-xl md:text-3xl">
+                                    nue
+                                </a>
                             </Link>
                         </div>
                         <div className="text-center">
                             <p>&#169; {new Date().getFullYear()}</p>
                         </div>
                         <div>
-                            <p>The system of record for ARR</p>
+                            <p className="text-sm md:text-base">
+                                The system of record for ARR
+                            </p>
                         </div>
                     </div>
                 </div>
