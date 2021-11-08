@@ -298,260 +298,7 @@ export default function Home({ data }) {
                         </div>
                     </motion.div>
                 </Section>
-                <Section bgColor="bg-gradient-to-br from-white via-indigo-50 to-indigo-50">
-                    <SectionFade />
-                    <div className="absolute z-0 right-0 top-0 transform -translate-y-1/3 translate-x-1/3">
-                        <svg
-                            width="1227"
-                            height="1143"
-                            viewBox="0 0 1227 1143"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                opacity="0.5"
-                                d="M80.0896 837.148C-10.2615 708.554 -21.9493 514.111 34.9598 362.269C61.3468 291.818 101.858 227.508 154.006 173.29C206.153 119.072 268.835 76.0912 338.202 46.9873C467.75 -6.66672 609.038 -8.54905 745.476 14.3743C866.735 34.8229 989.805 76.7813 1086 170.722C1182.19 264.662 1246.28 419.345 1221.72 565.162C1191.94 741.814 1051.42 849.821 923.298 937.784C779.479 1036.54 628.261 1137.99 462.269 1142.27C296.277 1146.54 179.573 978.702 80.0896 837.148Z"
-                                fill="url(#paint0_linear_663:1070)"
-                            />
-                            <defs>
-                                <linearGradient
-                                    id="paint0_linear_663:1070"
-                                    x1="-345.5"
-                                    y1="-21"
-                                    x2="263.334"
-                                    y2="1138.3"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop stopColor="white" stopOpacity="0" />
-                                    <stop
-                                        offset="0.448049"
-                                        stopColor="#3C68FF"
-                                        stopOpacity="0.16"
-                                    />
-                                    <stop
-                                        offset="0.666054"
-                                        stopColor="#89BDBF"
-                                        stopOpacity="0"
-                                    />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div className="absolute z-0 left-0 bottom-0 transform translate-y-1/3 -translate-x-1/3">
-                        <svg
-                            width="934"
-                            height="818"
-                            viewBox="0 0 934 818"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M889.416 638.205C910.841 614.782 935.257 564.509 933.578 520.999C928.887 399.673 881.891 283.373 800.127 190.753C718.362 98.1322 606.567 34.5571 482.67 10.2232C403.166 -5.39805 319.126 -4.11944 242.305 21.0451C165.484 46.2095 96.48 96.2606 56.6412 164.175C20.7978 225.215 9.87305 296.631 3.77369 366.455C-3.15563 445.932 -3.94702 529.301 31.7226 601.311C66.2921 671.097 132.092 722.853 203.856 757.801C316.989 812.514 445.631 830.283 570.242 808.408C693.773 786.357 829.214 704.044 889.416 638.205Z"
-                                fill="url(#paint0_linear)"
-                            />
-                            <defs>
-                                <linearGradient
-                                    id="paint0_linear"
-                                    x1="2.47436e-05"
-                                    y1="-177"
-                                    x2="629.521"
-                                    y2="867.411"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop
-                                        offset="0.498858"
-                                        stopColor="#3C68FF"
-                                        stopOpacity="0.12"
-                                    />
-                                    <stop
-                                        offset="0.750483"
-                                        stopColor="#89BDBF"
-                                        stopOpacity="0"
-                                    />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div className="absolute z-0 left-0 right-0 bottom-0 w-full transform translate-y-1/4">
-                        <svg
-                            width="2324"
-                            height="1397"
-                            viewBox="0 0 2324 1397"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                opacity="0.2"
-                                d="M1386.47 40.5705C1551.34 -30.9581 1751.2 10.5596 1830.52 40.2596C1939.39 335.062 2156.89 942.703 2155.88 1014.85C2154.62 1105.04 1943.77 1248.75 1462.85 1357.06C1078.12 1443.7 211.441 1155.41 -173.807 1000.43L-79.9746 376.705C-86.8998 498.385 15.9354 708.826 482.678 577.153C1066.11 412.563 1180.39 129.981 1386.47 40.5705Z"
-                                fill="url(#paint0_linear_663:1071)"
-                            />
-                            <defs>
-                                <linearGradient
-                                    id="paint0_linear_663:1071"
-                                    x1="227.825"
-                                    y1="220.923"
-                                    x2="313.78"
-                                    y2="1756.66"
-                                    gradientUnits="userSpaceOnUse"
-                                >
-                                    <stop
-                                        offset="0.24258"
-                                        stopColor="#3C68FF"
-                                    />
-                                    <stop
-                                        offset="0.556021"
-                                        stopColor="#6338EB"
-                                        stopOpacity="0"
-                                    />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                    </div>
-                    <div className="container relative z-20">
-                        <div className="absolute top-12 lg:-left-12 xl:left-0 text-right hidden lg:block">
-                            <div className="transform -translate-x-32">
-                                <FloatingImage
-                                    classes={`mb-12`}
-                                    src={`/images/homepage/squire-box.png`}
-                                    alt={`Squire box image`}
-                                    width={277}
-                                    height={114}
-                                />
-                                <FloatingImage
-                                    classes={`transform mb-12 translate-x-12 text-center"`}
-                                    src={`/images/homepage/finance-clarity-today-arr.png`}
-                                    alt={`Squire box image`}
-                                    width={174}
-                                    height={174}
-                                />
 
-                                <FloatingImage
-                                    classes={``}
-                                    src={`/images/homepage/finance-clarity-new-quote.png`}
-                                    alt={`New quote image`}
-                                    width={372.5}
-                                    height={366.5}
-                                />
-                            </div>
-                        </div>
-
-                        <div className="absolute top-8 lg:-right-12 xl:right-3 text-left hidden lg:block">
-                            <div className="transform translate-x-1/2">
-                                <FloatingImage
-                                    classes={``}
-                                    src={`/images/homepage/ge-box.png`}
-                                    alt={`GE Box image`}
-                                    width={287}
-                                    height={114}
-                                />
-
-                                <FloatingImage
-                                    classes={``}
-                                    src={`/images/homepage/finance-clarity-arr-momentum.png`}
-                                    alt={`Arr momentum image`}
-                                    width={449}
-                                    height={332}
-                                />
-
-                                <FloatingImage
-                                    classes={``}
-                                    src={`/images/homepage/finance-clarity-columns.png`}
-                                    alt={`Finance clarity columns`}
-                                    width={361}
-                                    height={355.5}
-                                />
-                            </div>
-                        </div>
-                        <div className="py-12 lg:py-20 flex flex-col-reverse md:flex-col">
-                            <div className="flex justify-center ">
-                                <div className="w-full lg:w-8/12">
-                                    <FloatingImage
-                                        classes={``}
-                                        src={`/images/homepage/finance-clarity-main.png`}
-                                        alt={`Finance clarity Main image`}
-                                        width={1730}
-                                        height={1102}
-                                    />
-
-                                    <div className="flex -mx-2 lg:hidden">
-                                        <div className="w-6/12 px-2">
-                                            <FloatingImage
-                                                classes={``}
-                                                src={`/images/homepage/squire-box.png`}
-                                                alt={`Squire box image`}
-                                                width={138.5}
-                                                height={57}
-                                            />
-
-                                            <FloatingImage
-                                                classes={``}
-                                                src={`/images/homepage/finance-clarity-columns.png`}
-                                                alt={`Finance clarity columns`}
-                                                width={361}
-                                                height={355.5}
-                                            />
-
-                                            <FloatingImage
-                                                classes={`text-right`}
-                                                src={`/images/homepage/ge-box.png`}
-                                                alt={`GE Box image`}
-                                                width={143.5}
-                                                height={57}
-                                            />
-                                        </div>
-                                        <div className="w-6/12 px-2">
-                                            <FloatingImage
-                                                classes={``}
-                                                src={`/images/homepage/finance-clarity-arr-momentum.png`}
-                                                alt={`Arr momentum image`}
-                                                width={449}
-                                                height={332}
-                                            />
-
-                                            <FloatingImage
-                                                classes={`text-right`}
-                                                src={`/images/homepage/finance-clarity-new-quote.png`}
-                                                alt={`Finance clarity new quote image`}
-                                                width={372.5}
-                                                height={366.5}
-                                            />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="flex justify-center relative">
-                                <div className="w-11/12 lg:w-9/12 xl:w-7/12">
-                                    <div className="text-center">
-                                        <HeaderLabel>
-                                            FINANCE CLARITY
-                                        </HeaderLabel>
-
-                                        <div className="mb-6">
-                                            <Header2>
-                                                Leverage clean ARR data from
-                                                opportunity-to-cash
-                                            </Header2>
-                                        </div>
-
-                                        <div className="flex justify-center">
-                                            <div className="w-full lg:w-9/12">
-                                                <HeaderP>
-                                                    No more cobbling together
-                                                    data. Sales and Finance can
-                                                    finally be friends with a
-                                                    single view of revenue data
-                                                    across the entire flow.
-                                                </HeaderP>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="lg:py-12"></div>
-                    </div>
-                </Section>
                 <Section
                     // blobs={sectionBlobs2}
                     bgColor="bg-gradient-to-br from-white via-red-50 to-red-50"
@@ -640,7 +387,7 @@ export default function Home({ data }) {
                         </svg>
                     </div>
                     <div className="container relative">
-                        <div className="lg:py-20"></div>
+                        <div className="lg:py-10"></div>
                         <div className="py-12 lg:py-20 ">
                             <div className="relative">
                                 <div className="absolute top-0 xl:top-12 left-0 hidden lg:block">
@@ -896,7 +643,7 @@ export default function Home({ data }) {
                         </svg>
                     </div>
                     <div className="container relative">
-                        <div className="lg:py-20"></div>
+                        <div className="lg:py-10"></div>
                         <div className="py-20 ">
                             <div className="relative">
                                 <div className="absolute top-32 left-20 h-full flex items-center hidden lg:block">
@@ -1014,6 +761,260 @@ export default function Home({ data }) {
                                                     width={`312`}
                                                     height={`183`}
                                                 />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="lg:py-12"></div>
+                    </div>
+                </Section>
+                <Section bgColor="bg-gradient-to-br from-white via-indigo-50 to-indigo-50">
+                    <SectionFade />
+                    <div className="absolute z-0 right-0 top-0 transform -translate-y-1/3 translate-x-1/3">
+                        <svg
+                            width="1227"
+                            height="1143"
+                            viewBox="0 0 1227 1143"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                opacity="0.5"
+                                d="M80.0896 837.148C-10.2615 708.554 -21.9493 514.111 34.9598 362.269C61.3468 291.818 101.858 227.508 154.006 173.29C206.153 119.072 268.835 76.0912 338.202 46.9873C467.75 -6.66672 609.038 -8.54905 745.476 14.3743C866.735 34.8229 989.805 76.7813 1086 170.722C1182.19 264.662 1246.28 419.345 1221.72 565.162C1191.94 741.814 1051.42 849.821 923.298 937.784C779.479 1036.54 628.261 1137.99 462.269 1142.27C296.277 1146.54 179.573 978.702 80.0896 837.148Z"
+                                fill="url(#paint0_linear_663:1070)"
+                            />
+                            <defs>
+                                <linearGradient
+                                    id="paint0_linear_663:1070"
+                                    x1="-345.5"
+                                    y1="-21"
+                                    x2="263.334"
+                                    y2="1138.3"
+                                    gradientUnits="userSpaceOnUse"
+                                >
+                                    <stop stopColor="white" stopOpacity="0" />
+                                    <stop
+                                        offset="0.448049"
+                                        stopColor="#3C68FF"
+                                        stopOpacity="0.16"
+                                    />
+                                    <stop
+                                        offset="0.666054"
+                                        stopColor="#89BDBF"
+                                        stopOpacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div className="absolute z-0 left-0 bottom-0 transform translate-y-1/3 -translate-x-1/3">
+                        <svg
+                            width="934"
+                            height="818"
+                            viewBox="0 0 934 818"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M889.416 638.205C910.841 614.782 935.257 564.509 933.578 520.999C928.887 399.673 881.891 283.373 800.127 190.753C718.362 98.1322 606.567 34.5571 482.67 10.2232C403.166 -5.39805 319.126 -4.11944 242.305 21.0451C165.484 46.2095 96.48 96.2606 56.6412 164.175C20.7978 225.215 9.87305 296.631 3.77369 366.455C-3.15563 445.932 -3.94702 529.301 31.7226 601.311C66.2921 671.097 132.092 722.853 203.856 757.801C316.989 812.514 445.631 830.283 570.242 808.408C693.773 786.357 829.214 704.044 889.416 638.205Z"
+                                fill="url(#paint0_linear)"
+                            />
+                            <defs>
+                                <linearGradient
+                                    id="paint0_linear"
+                                    x1="2.47436e-05"
+                                    y1="-177"
+                                    x2="629.521"
+                                    y2="867.411"
+                                    gradientUnits="userSpaceOnUse"
+                                >
+                                    <stop
+                                        offset="0.498858"
+                                        stopColor="#3C68FF"
+                                        stopOpacity="0.12"
+                                    />
+                                    <stop
+                                        offset="0.750483"
+                                        stopColor="#89BDBF"
+                                        stopOpacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div className="absolute z-0 left-0 right-0 bottom-0 w-full transform translate-y-1/4">
+                        <svg
+                            width="2324"
+                            height="1397"
+                            viewBox="0 0 2324 1397"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                opacity="0.2"
+                                d="M1386.47 40.5705C1551.34 -30.9581 1751.2 10.5596 1830.52 40.2596C1939.39 335.062 2156.89 942.703 2155.88 1014.85C2154.62 1105.04 1943.77 1248.75 1462.85 1357.06C1078.12 1443.7 211.441 1155.41 -173.807 1000.43L-79.9746 376.705C-86.8998 498.385 15.9354 708.826 482.678 577.153C1066.11 412.563 1180.39 129.981 1386.47 40.5705Z"
+                                fill="url(#paint0_linear_663:1071)"
+                            />
+                            <defs>
+                                <linearGradient
+                                    id="paint0_linear_663:1071"
+                                    x1="227.825"
+                                    y1="220.923"
+                                    x2="313.78"
+                                    y2="1756.66"
+                                    gradientUnits="userSpaceOnUse"
+                                >
+                                    <stop
+                                        offset="0.24258"
+                                        stopColor="#3C68FF"
+                                    />
+                                    <stop
+                                        offset="0.556021"
+                                        stopColor="#6338EB"
+                                        stopOpacity="0"
+                                    />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div className="container relative z-20">
+                        <div className="absolute top-12 lg:-left-12 xl:left-0 text-right hidden lg:block">
+                            <div className="transform -translate-x-32">
+                                <FloatingImage
+                                    classes={`mb-12`}
+                                    src={`/images/homepage/squire-box.png`}
+                                    alt={`Squire box image`}
+                                    width={277}
+                                    height={114}
+                                />
+                                <FloatingImage
+                                    classes={`transform mb-12 translate-x-12 text-center"`}
+                                    src={`/images/homepage/finance-clarity-today-arr.png`}
+                                    alt={`Squire box image`}
+                                    width={174}
+                                    height={174}
+                                />
+
+                                <FloatingImage
+                                    classes={``}
+                                    src={`/images/homepage/finance-clarity-new-quote.png`}
+                                    alt={`New quote image`}
+                                    width={372.5}
+                                    height={366.5}
+                                />
+                            </div>
+                        </div>
+
+                        <div className="absolute top-8 lg:-right-12 xl:right-3 text-left hidden lg:block">
+                            <div className="transform translate-x-1/2">
+                                <FloatingImage
+                                    classes={``}
+                                    src={`/images/homepage/ge-box.png`}
+                                    alt={`GE Box image`}
+                                    width={287}
+                                    height={114}
+                                />
+
+                                <FloatingImage
+                                    classes={``}
+                                    src={`/images/homepage/finance-clarity-arr-momentum.png`}
+                                    alt={`Arr momentum image`}
+                                    width={449}
+                                    height={332}
+                                />
+
+                                <FloatingImage
+                                    classes={``}
+                                    src={`/images/homepage/finance-clarity-columns.png`}
+                                    alt={`Finance clarity columns`}
+                                    width={361}
+                                    height={355.5}
+                                />
+                            </div>
+                        </div>
+                        <div className="py-12 lg:py-20 flex flex-col-reverse md:flex-col">
+                            <div className="flex justify-center ">
+                                <div className="w-full lg:w-8/12">
+                                    <FloatingImage
+                                        classes={``}
+                                        src={`/images/homepage/finance-clarity-main.png`}
+                                        alt={`Finance clarity Main image`}
+                                        width={1730}
+                                        height={1102}
+                                    />
+
+                                    <div className="flex -mx-2 lg:hidden">
+                                        <div className="w-6/12 px-2">
+                                            <FloatingImage
+                                                classes={``}
+                                                src={`/images/homepage/squire-box.png`}
+                                                alt={`Squire box image`}
+                                                width={138.5}
+                                                height={57}
+                                            />
+
+                                            <FloatingImage
+                                                classes={``}
+                                                src={`/images/homepage/finance-clarity-columns.png`}
+                                                alt={`Finance clarity columns`}
+                                                width={361}
+                                                height={355.5}
+                                            />
+
+                                            <FloatingImage
+                                                classes={`text-right`}
+                                                src={`/images/homepage/ge-box.png`}
+                                                alt={`GE Box image`}
+                                                width={143.5}
+                                                height={57}
+                                            />
+                                        </div>
+                                        <div className="w-6/12 px-2">
+                                            <FloatingImage
+                                                classes={``}
+                                                src={`/images/homepage/finance-clarity-arr-momentum.png`}
+                                                alt={`Arr momentum image`}
+                                                width={449}
+                                                height={332}
+                                            />
+
+                                            <FloatingImage
+                                                classes={`text-right`}
+                                                src={`/images/homepage/finance-clarity-new-quote.png`}
+                                                alt={`Finance clarity new quote image`}
+                                                width={372.5}
+                                                height={366.5}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="flex justify-center relative">
+                                <div className="w-11/12 lg:w-9/12 xl:w-7/12">
+                                    <div className="text-center">
+                                        <HeaderLabel>
+                                            FINANCE CLARITY
+                                        </HeaderLabel>
+
+                                        <div className="mb-6">
+                                            <Header2>
+                                                Leverage clean ARR data from
+                                                opportunity-to-cash
+                                            </Header2>
+                                        </div>
+
+                                        <div className="flex justify-center">
+                                            <div className="w-full lg:w-9/12">
+                                                <HeaderP>
+                                                    No more cobbling together
+                                                    data. Sales and Finance can
+                                                    finally be friends with a
+                                                    single view of revenue data
+                                                    across the entire flow.
+                                                </HeaderP>
                                             </div>
                                         </div>
                                     </div>
