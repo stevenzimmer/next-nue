@@ -4,23 +4,16 @@
 
 html,
 body {
-    @apply p-0 m-0 text-black font-normal text-base;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
+    @apply p-0 m-0 text-black font-normal text-base font-hntRegular antialiased;
 }
 
 .btn {
-    @apply py-2 px-6 font-medium focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md;
-    min-width: 100px;
+    @apply py-2 px-3 md:px-6 text-center text-sm md:text-base font-hntMedium font-semibold focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md hover:shadow-lg inline-block transition-shadow duration-200;
+    min-width: 110px;
+
+    &-big {
+        @apply py-3;
+    }
     &-primary {
         @apply bg-gradient-to-r from-blue to-purple text-white;
     }

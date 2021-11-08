@@ -1,0 +1,333 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4204430, 2021-11-01T21:30:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaNowText-Medium by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-medium/
+ * 
+ * Webfont: HelveticaNowDisplay-Regular by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-regular/
+ * 
+ * Webfont: HelveticaNowDisplay-BdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-bold-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-Blk by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-black/
+ * 
+ * Webfont: HelveticaNowDisplay-BlkIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-black-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-HairIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-hairline-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-Hair by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-hairline/
+ * 
+ * Webfont: HelveticaNowDisplay-Italic by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-LtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-light-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-MdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-medium-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-Md by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-medium/
+ * 
+ * Webfont: HelveticaNowDisplay-ThIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-thin-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-XBdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-extrabold-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-XBlkIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-extrablack-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-XLt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-extralight/
+ * 
+ * Webfont: HelveticaNowDisplay-XLtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-extralight-italic/
+ * 
+ * Webfont: HelveticaNowMicro-Regular by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-regular/
+ * 
+ * Webfont: HelveticaNowMicro-BdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-bold-italic/
+ * 
+ * Webfont: HelveticaNowMicro-Bold by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-bold/
+ * 
+ * Webfont: HelveticaNowMicro-ExtraBold by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-extrabold/
+ * 
+ * Webfont: HelveticaNowMicro-XLt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-extralight/
+ * 
+ * Webfont: HelveticaNowMicro-It by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-italic/
+ * 
+ * Webfont: HelveticaNowMicro-Light by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-light/
+ * 
+ * Webfont: HelveticaNowMicro-LtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-light-italic/
+ * 
+ * Webfont: HelveticaNowMicro-MdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-medium-italic/
+ * 
+ * Webfont: HelveticaNowMicro-Medium by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-medium/
+ * 
+ * Webfont: HelveticaNowMicro-XBdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-extrabold-italic/
+ * 
+ * Webfont: HelveticaNowMicro-XLtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/micro-extralight-italic/
+ * 
+ * Webfont: HelveticaNowText-Regular by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-regular/
+ * 
+ * Webfont: HelveticaNowText-BdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-bold-italic/
+ * 
+ * Webfont: HelveticaNowText-Black by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-black/
+ * 
+ * Webfont: HelveticaNowText-BlkIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-black-italic/
+ * 
+ * Webfont: HelveticaNowText-ExtraBold by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-extrabold/
+ * 
+ * Webfont: HelveticaNowText-ExtraLight by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-extralight/
+ * 
+ * Webfont: HelveticaNowText-It by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-italic/
+ * 
+ * Webfont: HelveticaNowText-LtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-light-italic/
+ * 
+ * Webfont: HelveticaNowText-MdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-medium-italic/
+ * 
+ * Webfont: HelveticaNowText-Thin by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-thin/
+ * 
+ * Webfont: HelveticaNowText-ThIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-thin-italic/
+ * 
+ * Webfont: HelveticaNowText-XBdIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-extrabold-italic/
+ * 
+ * Webfont: HelveticaNowText-XLtIt by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/text-extralight-italic/
+ * 
+ * Webfont: HelveticaNowDisplay-XBlk by Monotype
+ * URL: https://www.myfonts.com/fonts/mti/helvetica-now/display-extrablack/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2019 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+/* 
+  
+@font-face {
+  font-family: "HelveticaNowMicro-Bold";
+  src: url('webFonts/HelveticaNowMicroBold/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-Regular";
+  src: url('webFonts/HelveticaNowMicroRegular/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-BdIt";
+  src: url('webFonts/HelveticaNowMicroBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-XBdIt";
+  src: url('webFonts/HelveticaNowDisplayXBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayXBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-MdIt";
+  src: url('webFonts/HelveticaNowDisplayMdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayMdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Md";
+  src: url('webFonts/HelveticaNowDisplayMd/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayMd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-BdIt";
+  src: url('webFonts/HelveticaNowDisplayBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-XBlkIt";
+  src: url('webFonts/HelveticaNowDisplayXBlkIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayXBlkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Regular";
+  src: url('webFonts/HelveticaNowDisplayRegular/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayRegular/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-XLtIt";
+  src: url('webFonts/HelveticaNowDisplayXLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayXLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Blk";
+  src: url('webFonts/HelveticaNowDisplayBlk/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayBlk/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-BlkIt";
+  src: url('webFonts/HelveticaNowDisplayBlkIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayBlkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Italic";
+  src: url('webFonts/HelveticaNowDisplayItalic/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-ThIt";
+  src: url('webFonts/HelveticaNowDisplayThIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayThIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-LtIt";
+  src: url('webFonts/HelveticaNowDisplayLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayLtIt/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay-XLt";
+  src: url('webFonts/HelveticaNowDisplayXLt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayXLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-ExtraBold";
+  src: url('webFonts/HelveticaNowMicroExtraBold/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-Hair";
+  src: url('webFonts/HelveticaNowDisplayHair/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayHair/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-HairIt";
+  src: url('webFonts/HelveticaNowDisplayHairIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayHairIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-XBdIt";
+  src: url('webFonts/HelveticaNowTextXBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextXBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-It";
+  src: url('webFonts/HelveticaNowTextIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-ThIt";
+  src: url('webFonts/HelveticaNowTextThIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextThIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-XLtIt";
+  src: url('webFonts/HelveticaNowTextXLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextXLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowDisplay-XBlk";
+  src: url('webFonts/HelveticaNowDisplayXBlk/font.woff2') format('woff2'), url('webFonts/HelveticaNowDisplayXBlk/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-MdIt";
+  src: url('webFonts/HelveticaNowTextMdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextMdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-BdIt";
+  src: url('webFonts/HelveticaNowTextBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-ExtraBold";
+  src: url('webFonts/HelveticaNowTextExtraBold/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextExtraBold/font.woff') format('woff');
+}
+  */
+
+@font-face {
+    font-family: "HelveticaNowText-Medium";
+    src: url("./Medium/font.woff2") format("woff2"),
+        url("./Medium/font.woff") format("woff");
+    font-style: medium;
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: "HelveticaNowText-Regular";
+    src: url("./Regular/font.woff2") format("woff2"),
+        url("./Regular/font.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowText-Black";
+    src: url("./Black/font.woff2") format("woff2"),
+        url("./Black/font.woff") format("woff");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+/* 
+@font-face {
+  font-family: "HelveticaNowMicro-Medium";
+  src: url('webFonts/HelveticaNowMicroMedium/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroMedium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-Thin";
+  src: url('webFonts/HelveticaNowTextThin/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextThin/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-BlkIt";
+  src: url('webFonts/HelveticaNowTextBlkIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextBlkIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-XBdIt";
+  src: url('webFonts/HelveticaNowMicroXBdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroXBdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-Black";
+  src: url('webFonts/HelveticaNowTextBlack/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextBlack/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-MdIt";
+  src: url('webFonts/HelveticaNowMicroMdIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroMdIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-LtIt";
+  src: url('webFonts/HelveticaNowTextLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-It";
+  src: url('webFonts/HelveticaNowMicroIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-XLtIt";
+  src: url('webFonts/HelveticaNowMicroXLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroXLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowText-ExtraLight";
+  src: url('webFonts/HelveticaNowTextExtraLight/font.woff2') format('woff2'), url('webFonts/HelveticaNowTextExtraLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-LtIt";
+  src: url('webFonts/HelveticaNowMicroLtIt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroLtIt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-Light";
+  src: url('webFonts/HelveticaNowMicroLight/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroLight/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNowMicro-XLt";
+  src: url('webFonts/HelveticaNowMicroXLt/font.woff2') format('woff2'), url('webFonts/HelveticaNowMicroXLt/font.woff') format('woff');
+} */

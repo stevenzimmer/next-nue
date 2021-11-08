@@ -1,31 +1,15 @@
-import { Blob } from "react-blob";
-const BackgroundBlob = ({ style, props }) => {
+// import { Blob } from "react-blob";
+import { useInView } from "react-intersection-observer";
+export default function Section({ children, bgColor = "bg-transparent" }) {
+    // const { inView, entry, ref } = useInView();
+    // console.log(ref);
+    // console.log(entry);
+    // console.log(inView);
     return (
-        <Blob
-            size="100vh"
-            style={{
-                position: "absolute",
-                zIndex: 0,
-                backgroundColor: "#000",
-                opacity: 0.05,
-                animationDuration: "400s",
-                ...style,
-            }}
-            {...props}
-        />
-    );
-};
-export default function Section({
-    children,
-    bgColor = "bg-transparent",
-    blobs = [],
-}) {
-    return (
-        <section className={`relative ${bgColor}`}>
-            {blobs &&
-                blobs.map((blobStyle, i) => {
-                    return <BackgroundBlob key={i} style={blobStyle} />;
-                })}
+        <section
+            className={`relative z-10 overflow-hidden ${bgColor}`}
+            // ref={ref}
+        >
             {children}
         </section>
     );

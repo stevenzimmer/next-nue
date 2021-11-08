@@ -1,7 +1,7 @@
 export default function Label({ children }) {
     return (
-        <div>
-            <p className="uppercase text-xl">{children}</p>
+        <div className="mb-2">
+            <p className="uppercase md:text-xl font-hntRegular">{children}</p>
         </div>
     );
 }

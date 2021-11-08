@@ -7,6 +7,26 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
+        fontFamily: {
+            hntRegular: [
+                "'HelveticaNowText-Regular'",
+                "Helvetica",
+                "Arial",
+                "sans-serif",
+            ],
+            hntMedium: [
+                "'HelveticaNowText-Medium'",
+                "Helvetica",
+                "Arial",
+                "sans-serif",
+            ],
+            hntBlack: [
+                "'HelveticaNowText-Black'",
+                "Helvetica",
+                "Arial",
+                "sans-serif",
+            ],
+        },
         screens: {
             sm: "640px",
             // => @media (min-width: 640px) { ... }
@@ -45,7 +65,7 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: { translate: ["hover"] },
     },
     plugins: [],
 };
