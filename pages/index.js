@@ -1,13 +1,9 @@
-import { useState, useEffect } from "react";
-
 import { motion, useAnimation } from "framer-motion";
 
 // Next
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-
-import styles from "../styles/Home.module.css";
 
 // Components
 import Navbar from "../components/Navbar";
@@ -277,7 +273,6 @@ export default function Home({ data }) {
                                                     height={`1213`}
                                                     layout="responsive"
                                                     onLoad={() => {
-                                                        console.log("On load");
                                                         animationControlMain.start(
                                                             "show"
                                                         );
@@ -301,7 +296,6 @@ export default function Home({ data }) {
                         </div>
                     </motion.div>
                 </Section>
-                {/*  */}
                 <Section bgColor="bg-gradient-to-br from-white via-indigo-50 to-indigo-50">
                     <div className="absolute z-10 left-0 right-0 top-0 w-full bg-gradient-to-b from-white to-transparent py-20"></div>
                     <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-gradient-to-b from-transparent to-white py-20"></div>
@@ -515,7 +509,7 @@ export default function Home({ data }) {
 
                                             <FloatingImage
                                                 classes={`text-right`}
-                                                src={`/images/homepage/ffinance-clarity-new-quote.png`}
+                                                src={`/images/homepage/finance-clarity-new-quote.png`}
                                                 alt={`Finance clarity new quote image`}
                                                 width={372.5}
                                                 height={366.5}
