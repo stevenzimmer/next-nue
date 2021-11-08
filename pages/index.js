@@ -14,6 +14,7 @@ import Header2 from "../components/text/Header2";
 import HeaderP from "../components/text/HeaderP";
 import Section from "../components/Section";
 import FloatingImage from "../components/FloatingImage";
+import SectionFade from "../components/SectionFade";
 
 // Strapi API config
 import { API_URL } from "../config/index";
@@ -74,8 +75,9 @@ export default function Home({ data }) {
             <Navbar />
             <main className="">
                 <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
-                    <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-gradient-to-b from-transparent via-white to-white py-32"></div>
-                    <div className="absolute z-10 left-0 right-0 top-0 w-full bg-gradient-to-b from-white via-white to-transparent py-12"></div>
+                    <SectionFade />
+                    {/* <div className="absolute z-10 left-0 right-0 top-0 w-full bg-fade-b py-12"></div> */}
+                    {/* <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-fade-t py-32"></div> */}
                     <div className="absolute z-0 top-0 right-0 transform -translate-y-3/4 translate-x-1/4 lg:-translate-y-1/2 lg:translate-x-1/2">
                         <svg
                             width="1066"
@@ -186,7 +188,7 @@ export default function Home({ data }) {
                             height={183}
                         />
 
-                        <div className="flex justify-center pt-40">
+                        <div className="flex justify-center pt-32 lg:pt-40">
                             <div className="w-11/12 lg:w-7/12 xl:w-6/12">
                                 <div className="text-center relative z-20">
                                     <div className="mb-6">
@@ -297,8 +299,7 @@ export default function Home({ data }) {
                     </motion.div>
                 </Section>
                 <Section bgColor="bg-gradient-to-br from-white via-indigo-50 to-indigo-50">
-                    <div className="absolute z-10 left-0 right-0 top-0 w-full bg-gradient-to-b from-white to-transparent py-20"></div>
-                    <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-gradient-to-b from-transparent to-white py-20"></div>
+                    <SectionFade />
                     <div className="absolute z-0 right-0 top-0 transform -translate-y-1/3 translate-x-1/3">
                         <svg
                             width="1227"
@@ -461,7 +462,7 @@ export default function Home({ data }) {
                                 />
                             </div>
                         </div>
-                        <div className="py-20 flex flex-col-reverse md:flex-col">
+                        <div className="py-12 lg:py-20 flex flex-col-reverse md:flex-col">
                             <div className="flex justify-center ">
                                 <div className="w-full lg:w-8/12">
                                     <FloatingImage
@@ -548,15 +549,16 @@ export default function Home({ data }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="py-12"></div>
+                        <div className="lg:py-12"></div>
                     </div>
                 </Section>
                 <Section
                     // blobs={sectionBlobs2}
                     bgColor="bg-gradient-to-br from-white via-red-50 to-red-50"
                 >
-                    <div className="absolute z-10 left-0 right-0 top-0 w-full bg-gradient-to-b from-white via-white to-transparent py-20"></div>
-                    <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-gradient-to-b from-transparent via-transparent to-white py-20"></div>
+                    <SectionFade />
+                    {/* <div className="absolute z-10 left-0 right-0 top-0 w-full bg-fade-b py-20"></div> */}
+                    {/* <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-fade-t py-20"></div> */}
                     <div className="absolute z-0 left-0 top-0 transform translate-y-1/3 -translate-x-1/3">
                         <svg
                             width="1155"
@@ -638,7 +640,7 @@ export default function Home({ data }) {
                         </svg>
                     </div>
                     <div className="container relative">
-                        <div className="py-12 lg:py-20"></div>
+                        <div className="lg:py-20"></div>
                         <div className="py-12 lg:py-20 ">
                             <div className="relative">
                                 <div className="absolute top-0 xl:top-12 left-0 hidden lg:block">
@@ -768,12 +770,8 @@ export default function Home({ data }) {
                         <div className="lg:py-12"></div>
                     </div>
                 </Section>
-                <Section
-                    // blobs={sectionBlobs3}
-                    bgColor="bg-gradient-to-br from-white via-green-50 to-green-50"
-                >
-                    <div className="absolute left-0 right-0 top-0 w-full bg-gradient-to-b from-white via-white to-transparent  py-20"></div>
-                    <div className="absolute left-0 right-0 bottom-0 w-full bg-gradient-to-b from-transparent via-transparent to-white py-20"></div>
+                <Section bgColor="bg-gradient-to-br from-white via-green-50 to-green-50">
+                    <SectionFade />
                     <div className="absolute z-0 bottom-0 right-0 left-0 w-full hidden ">
                         <svg
                             width="1440"
@@ -898,7 +896,7 @@ export default function Home({ data }) {
                         </svg>
                     </div>
                     <div className="container relative">
-                        <div className="py-20"></div>
+                        <div className="lg:py-20"></div>
                         <div className="py-20 ">
                             <div className="relative">
                                 <div className="absolute top-32 left-20 h-full flex items-center hidden lg:block">

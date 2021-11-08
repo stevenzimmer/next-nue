@@ -23,45 +23,25 @@ body {
     }
 }
 
-.vector1 {
-    position: absolute;
-    left: 44.24%;
-    right: -16.18%;
-    top: -2.86%;
-    bottom: 87.55%;
-    left: 637px;
-    top: -207.662109375px;
-    border-radius: 0px;
-    background: linear-gradient(184.66deg, #d5c5df 3.77%, #c4eef5 93.79%);
-    opacity: 0.2;
-    transform: rotate(-32.94deg);
-}
-
-.custom-shape-divider-top-1635428704 {
-    position: absolute;
-    /* left: 44.24%; */
-    /* right: -16.18%; */
-    /* top: -2.86%; */
-    /* bottom: 87.55%; */
-    /* left: 637px; */
-    /* top: -207.662109375px; */
-    /* bottom: 87.55%; */
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    line-height: 0;
-    /* z-index: 100; */
-    /* background: linear-gradient(184.66deg, #d5c5df 3.77%, #c4eef5 93.79%); */
-}
-
-.custom-shape-divider-top-1635428704 svg {
-    /* position: relative; */
-    /* display: block; */
-    height: 1112;
-    width: 1036;
-}
-
-.custom-shape-divider-top-1635428704 .shape-fill {
-    fill: #9b9b9b;
-    background: linear-gradient(184.66deg, #d5c5df 3.77%, #c4eef5 93.79%);
+.bg {
+    &-fade {
+        &-b {
+            background-image: -webkit-gradient(
+                linear,
+                left top,
+                left bottom,
+                from(rgba(255, 255, 255, 1)),
+                to(rgba(255, 255, 255, 0))
+            );
+        }
+        &-t {
+            background-image: -webkit-gradient(
+                linear,
+                left bottom,
+                left top,
+                from(rgba(255, 255, 255, 1)),
+                to(rgba(255, 255, 255, 0))
+            );
+        }
+    }
 }
