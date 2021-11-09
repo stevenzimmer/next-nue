@@ -195,10 +195,14 @@ export default function Home({ data }) {
                                         <Header1>{data.herotitle}</Header1>
                                     </div>
 
-                                    <div className="mb-6">
-                                        <h2 className="text-xl md:text-2xl">
-                                            The system of record for ARR
-                                        </h2>
+                                    <div className="mb-6 flex justify-center">
+                                        <div className="w-11/12 sm:w-7/12 lg:w-9/12 xl:w-8/12">
+                                            <h2 className="text-lg md:text-2xl">
+                                                The system of record for revenue
+                                                across the entire customer
+                                                lifecycle
+                                            </h2>
+                                        </div>
                                     </div>
 
                                     <div className="">
