@@ -66,7 +66,7 @@ export default function Home({ data }) {
             <Head>
                 <title>{data.metatitle}</title>
                 <meta name="description" content={data.metadescription} />
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/nue-favicon.png" />
                 <link
                     href="/fonts/HelveticaNowText/index.css"
                     rel="stylesheet"
@@ -76,8 +76,6 @@ export default function Home({ data }) {
             <main className="">
                 <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
                     <SectionFade />
-                    {/* <div className="absolute z-10 left-0 right-0 top-0 w-full bg-fade-b py-12"></div> */}
-                    {/* <div className="absolute z-10 left-0 right-0 bottom-0 w-full bg-fade-t py-32"></div> */}
                     <div className="absolute z-0 top-0 right-0 transform -translate-y-3/4 translate-x-1/4 lg:-translate-y-1/2 lg:translate-x-1/2">
                         <svg
                             width="1066"
