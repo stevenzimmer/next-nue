@@ -1,6 +1,7 @@
 import { motion, useAnimation } from "framer-motion";
 
 // Next
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -50,6 +51,10 @@ export default function Home({ data }) {
 
     return (
         <>
+            <Head>
+                <title>{data.metatitle}</title>
+                <meta name="description" content={data.metadescription} />
+            </Head>
             <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
                 <SectionFade />
                 <div className="absolute z-0 top-0 right-0 transform -translate-y-3/4 translate-x-1/4 lg:-translate-y-1/2 lg:translate-x-1/2">
