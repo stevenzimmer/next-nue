@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function Navbar() {
     return (
-        <nav className="absolute w-full top-0 left-0 right-0 bg-transparent z-50 ">
+        <nav className="absolute w-full top-0 left-0 right-0 bg-transparent z-50 md:px-6 ">
             <div className="container">
                 <div className="flex justify-center">
                     <div className="w-11/12 md:w-full">

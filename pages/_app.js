@@ -1,9 +1,12 @@
 import "../styles/globals.css";
-// import "tailwindcss/tailwind.css";
-// import Navbar from "@components/Navbar";
+import Layout from "../components/Layout";
 
-function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+function NueApp({ Component, pageProps }) {
+    return (
+        <Layout {...pageProps}>
+            <Component {...pageProps} />
+        </Layout>
+    );
 }
 
-export default MyApp;
+export default NueApp;
