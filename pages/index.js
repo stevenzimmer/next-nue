@@ -14,7 +14,7 @@ import FloatingImage from "@/components/FloatingImage";
 import SectionFade from "@/components/SectionFade";
 
 // Blobs
-import BlobGreen1 from "@/components/blobs/green1";
+import BlobGreen1 from "@/components/blobs/Green1";
 import BlobGreen2 from "@/components/blobs/Green2";
 import BlobGreen3 from "@/components/blobs/Green3";
 import BlobBlue1 from "@/components/blobs/Blue1";
