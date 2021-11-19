@@ -45,3 +45,35 @@ body {
         }
     }
 }
+
+.ellipse {
+    &-blue {
+        mix-blend-mode: multiply;
+        background: linear-gradient(
+            27.26deg,
+            #174aff 10.29%,
+            rgba(48, 193, 255, 0.71) 47.6%,
+            rgba(23, 130, 255, 0) 79.9%
+        );
+    }
+    &-indigo {
+        background: radial-gradient(
+            99.28% 75.82% at 76.01% 84.93%,
+            #7285e5 0%,
+            rgba(204, 166, 254, 0.591861) 58.15%,
+            rgba(213, 194, 238, 0) 98.88%
+        );
+        mix-blend-mode: normal;
+    }
+
+    &-green {
+        background: linear-gradient(
+            315.72deg,
+            #3be8d3 14.79%,
+            #52cd99 41.1%,
+            rgba(80, 227, 194, 0) 77.3%
+        );
+        mix-blend-mode: multiply;
+        transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+    }
+}

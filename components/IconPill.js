@@ -1,33 +1,10 @@
 import { motion, useAnimation } from "framer-motion";
-import Image from "next/image";
 import useInView from "react-cool-inview";
-const item = {
-    hidden: {
-        opacity: 0,
-        y: 100,
-    },
-    show: {
-        opacity: 1,
-        y: 0,
-        transition: {
-            ease: [0.6, 0.01, -0.5, 0.95],
-            duration: 1,
-        },
-    },
-};
-
-export default function FloatingImage({
-    classes,
-    src,
-    alt,
-    width,
-    height,
-    responsive = false,
-}) {
+export default function IconPill({ children, color, svg }) {
     const controls = useAnimation();
 
     const { observe, unobserve, inView, scrollDirection, entry } = useInView({
-        threshold: 0.3, // Default is 0
+        threshold: 0.5, // Default is 0
         onChange: ({ inView, scrollDirection, entry, observe, unobserve }) => {
             // Triggered whenever the target meets a threshold, e.g. [0.25, 0.5, ...]
 
@@ -37,7 +14,7 @@ export default function FloatingImage({
         onEnter: ({ scrollDirection, entry, observe, unobserve }) => {
             console.log("observe");
             controls.start("show");
-            // unobserve();
+            unobserve();
             // Triggered when the target enters the viewport
         },
         onLeave: ({ scrollDirection, entry, observe, unobserve }) => {
@@ -46,22 +23,36 @@ export default function FloatingImage({
         },
         // More useful options...
     });
-
+    const item = {
+        hidden: {
+            opacity: 0,
+            x: -50,
+        },
+        show: {
+            opacity: 1,
+            x: 0,
+            transition: {
+                duration: 0.3,
+            },
+        },
+    };
+    // console.log(children);
     return (
         <motion.div
-            animate={controls}
+            className={`${color} px-3 py-2 rounded-full text-center mb-2`}
             variants={item}
             initial="hidden"
-            className={`${classes}`}
+            animate={controls}
             ref={observe}
         >
-            <Image
-                src={src}
-                alt={alt}
-                width={width}
-                height={height}
-                layout={`${responsive ? "responsive" : "intrinsic"}`}
-            />
+            <div className="flex items-center">
+                <div className="w-8">{svg}</div>
+                <div className="">
+                    <p className="whitespace-nowrap font-hntMedium text-sm">
+                        {children}
+                    </p>
+                </div>
+            </div>
         </motion.div>
     );
 }

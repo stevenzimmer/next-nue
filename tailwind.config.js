@@ -58,10 +58,22 @@ module.exports = {
                 blue: {
                     DEFAULT: "#7B4AEE",
                     dark: "#1a2e4b",
+                    100: "#EBF1FE",
+                    200: "#3c68ff",
+                },
+                indigo: {
+                    100: "#F2EEFF",
+                    200: "#8356CD",
+                },
+                green: {
+                    200: "#52CD99",
                 },
                 purple: {
                     DEFAULT: "#43A9D5",
                 },
+            },
+            spacing: {
+                88: "22rem",
             },
         },
     },

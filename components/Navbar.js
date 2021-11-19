@@ -7,14 +7,14 @@ export default function Navbar() {
                     <div className="w-11/12 md:w-full">
                         <div className="flex items-center justify-between py-5">
                             <div>
-                                <Link href="/">
+                                <Link href="/" replace>
                                     <a className="font-hntMedium text-2xl md:text-3xl">
                                         nue
                                     </a>
                                 </Link>
                             </div>
-                            <div className="flex items-center -mx-3">
-                                <div className="px-3">
+                            <div className="flex items-center sm:-mx-3">
+                                <div className="px-2 sm:px-3">
                                     <Link href="https://app.getruby.io/login">
                                         <a
                                             target="_blank"
@@ -24,7 +24,7 @@ export default function Navbar() {
                                         </a>
                                     </Link>
                                 </div>
-                                <div className="px-3">
+                                <div className="sm:px-3">
                                     <Link href="https://calendly.com/nue/nue-io-overview-conversation">
                                         <a
                                             target="_blank"

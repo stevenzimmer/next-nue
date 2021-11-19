@@ -54,6 +54,11 @@ export default function Home({ data }) {
             <Head>
                 <title>{data.metatitle}</title>
                 <meta name="description" content={data.metadescription} />
+                <meta property="og:title" content={data.metatitle} />
+                <meta
+                    property="og:description"
+                    content={data.metadescription}
+                />
             </Head>
             <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
                 <SectionFade />
@@ -616,6 +621,7 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
+    // console.log(API_URL);
     // Get homepage data from
     const res = await fetch(`${API_URL}/homepage`);
     const data = await res.json();
