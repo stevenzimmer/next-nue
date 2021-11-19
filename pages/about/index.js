@@ -960,9 +960,10 @@ export default function About() {
                             <div className="text-center">
                                 <p className="font-hntRegular leading-normal">
                                     Nue was founded by a team that built Zuora,
-                                    Anaplan, and Salesforce Steelbrick. Our
-                                    investors include NextWorld Capital,
-                                    Information Venture Partners.
+                                    Anaplan, and Salesforce Steelbrick (now
+                                    Salesforce CPQ). Our investors include
+                                    NextWorld Capital, Information Venture
+                                    Partners.
                                 </p>
                             </div>
                         </div>
