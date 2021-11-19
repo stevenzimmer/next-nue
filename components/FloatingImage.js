@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
-import useInView from "react-cool-inview";
+// import useInView from "react-cool-inview";
 const item = {
     hidden: {
         opacity: 0,
@@ -26,26 +26,26 @@ export default function FloatingImage({
 }) {
     const controls = useAnimation();
 
-    const { observe, unobserve, inView, scrollDirection, entry } = useInView({
-        threshold: 0.3, // Default is 0
-        onChange: ({ inView, scrollDirection, entry, observe, unobserve }) => {
-            // Triggered whenever the target meets a threshold, e.g. [0.25, 0.5, ...]
+    // const { observe, unobserve, inView, scrollDirection, entry } = useInView({
+    //     threshold: 0.3, // Default is 0
+    //     onChange: ({ inView, scrollDirection, entry, observe, unobserve }) => {
+    //         // Triggered whenever the target meets a threshold, e.g. [0.25, 0.5, ...]
 
-            unobserve(); // To stop observing the current target element
-            observe(); // To re-start observing the current target element
-        },
-        onEnter: ({ scrollDirection, entry, observe, unobserve }) => {
-            // console.log("observe");
-            controls.start("show");
-            // unobserve();
-            // Triggered when the target enters the viewport
-        },
-        onLeave: ({ scrollDirection, entry, observe, unobserve }) => {
-            // Triggered when the target leaves the viewport
-            // controls.start("leave");
-        },
-        // More useful options...
-    });
+    //         unobserve(); // To stop observing the current target element
+    //         observe(); // To re-start observing the current target element
+    //     },
+    //     onEnter: ({ scrollDirection, entry, observe, unobserve }) => {
+    //         // console.log("observe");
+    //         controls.start("show");
+    //         // unobserve();
+    //         // Triggered when the target enters the viewport
+    //     },
+    //     onLeave: ({ scrollDirection, entry, observe, unobserve }) => {
+    //         // Triggered when the target leaves the viewport
+    //         // controls.start("leave");
+    //     },
+    //     // More useful options...
+    // });
 
     return (
         <motion.div
@@ -53,7 +53,7 @@ export default function FloatingImage({
             variants={item}
             initial="hidden"
             className={`${classes}`}
-            ref={observe}
+            // ref={observe}
         >
             <Image
                 src={src}
@@ -61,6 +61,9 @@ export default function FloatingImage({
                 width={width}
                 height={height}
                 layout={`${responsive ? "responsive" : "intrinsic"}`}
+                onLoad={() => {
+                    controls.start("show");
+                }}
             />
         </motion.div>
     );
