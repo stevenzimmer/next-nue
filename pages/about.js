@@ -447,7 +447,7 @@ const icons = {
     },
 };
 
-export default function about() {
+export default function About() {
     const controls = useAnimation();
 
     const { observe, unobserve, inView, scrollDirection, entry } = useInView({
@@ -771,19 +771,19 @@ export default function about() {
                                         <div>{icons.subscriptions.lg()}</div>
                                     </div>
                                     <div>
-                                        <p>+</p>
+                                        <p className="text-green-200">+</p>
                                     </div>
                                     <div className="px-2">
                                         {icons.consumption.lg()}
                                     </div>
                                     <div>
-                                        <p>+</p>
+                                        <p className="text-green-200">+</p>
                                     </div>
                                     <div className="px-2">
                                         {icons.physicalGoods.lg()}
                                     </div>
                                     <div>
-                                        <p>+</p>
+                                        <p className="text-green-200">+</p>
                                     </div>
                                     <div className="px-2">
                                         {icons.services.lg()}
