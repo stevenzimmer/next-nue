@@ -21,7 +21,7 @@ export default function Footer() {
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="px-6">
+                                    <div className="px-6 hidden">
                                         <Link href="#">
                                             <a className="text-sm md:text-base text-white opacity-80 hover:opacity-100 transition-opacity duration-200 ease-linear">
                                                 Hiring

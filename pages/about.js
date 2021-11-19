@@ -7,7 +7,7 @@ import Head from "next/head";
 // Components
 import Header1 from "@/components/text/Header1";
 import Header2 from "@/components/text/Header2";
-import HeaderP from "@/components/text/HeaderP";
+import HeaderLabel from "@/components/text/HeaderLabel";
 import Section from "@/components/Section";
 import IconPill from "@/components/IconPill";
 import SectionFade from "@/components/SectionFade";
@@ -600,14 +600,19 @@ export default function About() {
                     </svg>
                 </div>
 
-                <div className="container relative ">
-                    <div className="flex justify-center py-32 lg:py-40">
-                        <div className="w-11/12 md:w-10/12 lg:w-7/12 text-xl md:text-3xl font-hntMedium">
-                            <div className="mb-12 text-center">
-                                <Header1>About nue</Header1>
-                            </div>
+                <div className="container relative pt-32 lg:pt-40">
+                    <div className="flex justify-center ">
+                        <div className="w-11/12 md:w-full lg:w-11/12 xl:w-9/12 text-center">
+                            <Header1>
+                                Modern business starts with empowering RevOps
+                            </Header1>
+                        </div>
+                    </div>
+                    <div className="flex justify-center mb-24">
+                        <div className="w-11/12 md:w-10/12 xl:w-7/12 text-xl lg:text-3xl font-hntMedium">
+                            <div className="mb-12 text-center"></div>
 
-                            <p className="mb-6">
+                            <p className="mb-6 leading-normal">
                                 “Go-to-market motions today have seen a
                                 collision of new requirements. At Nue we believe
                                 that the right way to accelerate business
@@ -615,23 +620,23 @@ export default function About() {
                                 sell however they want and wherever they want –
                                 with complete revenue visibility end-to-end.
                             </p>
-                            <p>
+                            <p className="mb-12 leading-normal">
                                 No more cobbling together solutions. No more
                                 coding projects. No more systems integrators.
-                                Just hit go. Nue enables every go-to-mark market
+                                Just hit go. Nue enables every go-to-market
                                 motion expected of the modern business.”
+                            </p>
+                            <p className="font-hntRegular">
+                                Team of{" "}
+                                <span className="font-hntMedium">nue</span>
                             </p>
                         </div>
                     </div>
-                    <div className="flex justify-center">
-                        <div className="w-11/12 sm:w-7/12 md:w-full lg:w-9/12 xl:w-7/12  ">
-                            <div className="text-center mb-12 md:mb-24">
-                                <Header2>
-                                    Modern business starts with empowering
-                                    RevOps
-                                </Header2>
-                            </div>
-                        </div>
+
+                    <div className="text-center mb-12 ">
+                        <h2 className="font-hntMedium uppercase text-xl lg:text-3xl">
+                            we believe
+                        </h2>
                     </div>
                     <div className="flex justify-center relative ">
                         <div className="flex justify-center w-full absolute top-0 left-0 transform -translate-x-20 md:-translate-x-32 lg:-translate-x-72">
