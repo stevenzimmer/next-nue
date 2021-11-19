@@ -96,14 +96,14 @@ export default function Home({ data }) {
                     />
 
                     <div className="flex justify-center pt-32 lg:pt-40">
-                        <div className="w-11/12 lg:w-7/12 xl:w-6/12">
+                        <div className="w-11/12 lg:w-7/12 xl:w-5/12">
                             <div className="text-center relative z-20">
                                 <div className="mb-6">
                                     <Header1>{data.herotitle}</Header1>
                                 </div>
 
                                 <div className="mb-6 flex justify-center">
-                                    <div className="w-11/12 sm:w-7/12 lg:w-9/12 xl:w-8/12">
+                                    <div className="w-11/12 sm:w-7/12 lg:w-9/12 xl:w-9/12">
                                         <h2 className="text-lg md:text-2xl">
                                             The system of record for revenue
                                             across the entire customer lifecycle

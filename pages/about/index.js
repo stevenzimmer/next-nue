@@ -601,7 +601,7 @@ export default function About() {
                 </div>
 
                 <div className="container relative pt-32 lg:pt-40">
-                    <div className="flex justify-center ">
+                    <div className="flex justify-center mb-12">
                         <div className="w-11/12 md:w-full lg:w-11/12 xl:w-9/12 text-center">
                             <Header1>
                                 Modern business starts with empowering RevOps
@@ -610,8 +610,6 @@ export default function About() {
                     </div>
                     <div className="flex justify-center mb-24">
                         <div className="w-11/12 md:w-10/12 xl:w-7/12 text-xl lg:text-3xl font-hntMedium">
-                            <div className="mb-12 text-center"></div>
-
                             <p className="mb-6 leading-normal">
                                 “Go-to-market motions today have seen a
                                 collision of new requirements. At Nue we believe
@@ -626,18 +624,10 @@ export default function About() {
                                 Just hit go. Nue enables every go-to-market
                                 motion expected of the modern business.”
                             </p>
-                            <p className="font-hntRegular">
-                                Team of{" "}
-                                <span className="font-hntMedium">nue</span>
-                            </p>
+                            <p className="font-hntMedium mb-12">Nue Team</p>
                         </div>
                     </div>
 
-                    <div className="text-center mb-12 ">
-                        <h2 className="font-hntMedium uppercase text-xl lg:text-3xl">
-                            we believe
-                        </h2>
-                    </div>
                     <div className="flex justify-center relative ">
                         <div className="flex justify-center w-full absolute top-0 left-0 transform -translate-x-20 md:-translate-x-32 lg:-translate-x-72">
                             <div className="relative w-full h-48 md:h-72 lg:h-80 xl:h-88 flex justify-center flex-row-reverse ">
@@ -962,6 +952,18 @@ export default function About() {
                                         </IconPill>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex justify-center pb-40">
+                        <div className="w-11/12 md:w-10/12 xl:w-7/12 text-xl font-hntMedium">
+                            <div className="text-center">
+                                <p className="font-hntRegular leading-normal">
+                                    Nue was founded by a team that built Zuora,
+                                    Anaplan, and Salesforce Steelbrick. Our
+                                    investors include NextWorld Capital,
+                                    Information Venture Partners.
+                                </p>
                             </div>
                         </div>
                     </div>
