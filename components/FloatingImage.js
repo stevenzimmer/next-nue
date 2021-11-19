@@ -35,7 +35,7 @@ export default function FloatingImage({
             observe(); // To re-start observing the current target element
         },
         onEnter: ({ scrollDirection, entry, observe, unobserve }) => {
-            console.log("observe");
+            // console.log("observe");
             controls.start("show");
             // unobserve();
             // Triggered when the target enters the viewport

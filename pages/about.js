@@ -474,6 +474,17 @@ export default function About() {
         <>
             <Head>
                 <title>About nue</title>
+                <meta
+                    name="description"
+                    content="Modern business starts with empowering
+                                    RevOps"
+                />
+                <meta property="og:title" content="About nue" />
+                <meta
+                    property="og:description"
+                    content="Modern business starts with empowering
+                    RevOps"
+                />
             </Head>
             <Section bgColor="bg-gradient-to-br from-white via-red-50 to-red-100 ">
                 <SectionFade />
