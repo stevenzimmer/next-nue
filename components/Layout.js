@@ -16,7 +16,10 @@ export default function Layout({ children }) {
                 <meta property="og:url" content="https://www.nue.io/" />
                 <meta property="og:site_name" content="nue" />
 
-                <meta property="og:image" content="/social/open-graph.jpg" />
+                <meta
+                    property="og:image"
+                    content="/images/social/open-graph.jpg"
+                />
                 <meta property="og:image:width" content="1200" />
                 <meta property="og:image:height" content="600" />
             </Head>
