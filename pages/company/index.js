@@ -609,7 +609,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="flex justify-center mb-24">
-                        <div className="w-11/12 md:w-10/12 xl:w-7/12 text-xl lg:text-3xl font-hntMedium">
+                        <div className="w-11/12 md:w-10/12 xl:w-8/12 text-xl lg:text-3xl font-hntMedium">
                             <p className="mb-6 leading-normal">
                                 “Go-to-market motions today have seen a
                                 collision of new requirements. At Nue we believe
@@ -956,7 +956,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="flex justify-center pb-40">
-                        <div className="w-11/12 md:w-10/12 xl:w-7/12 text-xl font-hntMedium">
+                        <div className="w-11/12 md:w-10/12 xl:w-6/12 text-xl font-hntMedium">
                             <div className="text-center">
                                 <p className="font-hntRegular leading-normal">
                                     Nue was founded by a team that built Zuora,
