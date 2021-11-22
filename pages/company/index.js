@@ -860,9 +860,9 @@ export default function About() {
                         </div>
                     </div>
                     <div className="flex justify-center pb-40">
-                        <div className="w-11/12 md:w-10/12 xl:w-6/12 text-xl font-hntMedium">
+                        <div className="w-11/12 md:w-10/12 xl:w-6/12">
                             <div className="text-center">
-                                <p className="font-hntRegular leading-normal">
+                                <p className="font-hntRegular leading-normal text-xl">
                                     Nue was founded by a team that built Zuora,
                                     Anaplan, and Salesforce Steelbrick (now
                                     Salesforce CPQ). Our investors include
