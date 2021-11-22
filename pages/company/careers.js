@@ -15,7 +15,7 @@ export default function Careers() {
     return (
         <>
             <Head>
-                <title>We're hiring!</title>
+                <title>We&apos;re hiring!</title>
                 <meta
                     name="description"
                     content="We are looking for curious, energetic rock stars to join our engineering team."
@@ -111,9 +111,9 @@ export default function Careers() {
                                         <ul className="mb-6 list-disc pl-6">
                                             <li>
                                                 Highly motivated self-starter
-                                                with a builder's mindset; expect
-                                                plenty of freedom and plenty of
-                                                responsibilities
+                                                with a builder&apos;s mindset;
+                                                expect plenty of freedom and
+                                                plenty of responsibilities
                                             </li>
                                             <li>
                                                 Bachelor’s degree in Computer
