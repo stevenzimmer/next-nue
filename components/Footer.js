@@ -15,9 +15,9 @@ export default function Footer() {
                                 </Link>
                                 <div className="px-4 md:px-12 flex items-center justify-start">
                                     <div className="px-6">
-                                        <Link href="/about/">
+                                        <Link href="/company/">
                                             <a className="text-sm md:text-base text-white opacity-80 hover:opacity-100 transition-opacity duration-200 ease-linear">
-                                                About
+                                                Company
                                             </a>
                                         </Link>
                                     </div>
