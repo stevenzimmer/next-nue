@@ -13,6 +13,12 @@ import IconPill from "@/components/IconPill";
 import SectionFade from "@/components/SectionFade";
 import AboutBubble from "@/components/AboutBubble";
 
+// Blobs
+import BlobRed3 from "@/components/blobs/Red3";
+import BlobWhite1 from "@/components/blobs/White1";
+
+import BlurRed1 from "@/components/blurs/Red1";
+
 const icons = {
     headphones: () => {
         return (
@@ -488,116 +494,14 @@ export default function About() {
             </Head>
             <Section bgColor="bg-gradient-to-br from-white via-red-50 to-red-100 ">
                 <SectionFade />
-                <div className="absolute top-0 right-0">
-                    <svg
-                        width="1440"
-                        height="1062"
-                        viewBox="0 0 1440 1062"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <mask
-                            id="mask0_1014_6693"
-                            style={{ maskType: "alpha" }}
-                            maskUnits="userSpaceOnUse"
-                            x="-150"
-                            y="-151"
-                            width="1741"
-                            height="1213"
-                        >
-                            <rect
-                                x="-150"
-                                y="-151"
-                                width="1740"
-                                height="1213"
-                                fill="#C4C4C4"
-                            />
-                        </mask>
-                        <g mask="url(#mask0_1014_6693)">
-                            <path
-                                opacity="0.8"
-                                d="M1852.93 -1233.54C1701.73 -1272.77 1539.29 -1231.14 1407.41 -1136.39C1275.53 -1041.65 1173.25 -896.703 1103.89 -735.231C969.046 -420.721 961.192 -29.5621 1104.51 279.772C1247.82 589.106 1546.32 799.698 1847.2 777.607C2025.91 764.468 2195.88 675.051 2340.79 552.376C2465.94 446.424 2578.52 308.682 2625.69 136.862C2677.1 -50.4296 2644.83 -256.296 2583.71 -439.672C2520.85 -628.191 2427.1 -804.099 2301.9 -943.847C2176.7 -1083.59 2019.75 -1190.27 1852.93 -1233.54Z"
-                                fill="#EBB4CA"
-                                fillOpacity="0.33"
-                            />
-                        </g>
-                    </svg>
+                <div className="absolute top-0 right-0 ">
+                    <BlobRed3 />
                 </div>
                 <div className="absolute -top-0 left-0 ">
-                    <svg
-                        width="431"
-                        height="956"
-                        viewBox="0 0 431 956"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            opacity="0.3"
-                            d="M-693.653 101.882C-634.941 -34.8178 -477.517 -136.457 -318.296 -160.294C-244.431 -171.368 -167.979 -167.665 -93.6384 -149.411C-19.2974 -131.157 51.3637 -98.7383 114.004 -54.1458C230.402 29.4654 309.625 147.395 365.28 272.957C414.68 384.586 446.95 507.894 420.649 633.146C394.349 758.398 299.219 885.326 162.852 933.525C-2.36555 991.892 -170.591 924.719 -315.117 858.503C-477.358 784.184 -645.939 704.919 -740.755 567.346C-835.571 429.773 -758.267 252.381 -693.653 101.882Z"
-                            fill="white"
-                        />
-                    </svg>
+                    <BlobWhite1 />
                 </div>
                 <div className="absolute -top-96 right-0">
-                    <svg
-                        width="1440"
-                        height="1781"
-                        viewBox="0 0 1440 1781"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <g opacity="0.5" filter="url(#filter0_f_1014_6692)">
-                            <rect
-                                x="1680.19"
-                                y="679.947"
-                                width="802.241"
-                                height="777.026"
-                                transform="rotate(138.113 1680.19 679.947)"
-                                fill="#FF4A51"
-                            />
-                        </g>
-                        <defs>
-                            <filter
-                                id="filter0_f_1014_6692"
-                                x="-9.83936"
-                                y="-472.517"
-                                width="2264.03"
-                                height="2262.09"
-                                filterUnits="userSpaceOnUse"
-                                colorInterpolationFilters="sRGB"
-                            >
-                                <feFlood
-                                    floodOpacity="0"
-                                    result="BackgroundImageFix"
-                                />
-                                <feBlend
-                                    mode="normal"
-                                    in="SourceGraphic"
-                                    in2="BackgroundImageFix"
-                                    result="shape"
-                                />
-                                <feGaussianBlur
-                                    stdDeviation="287"
-                                    result="effect1_foregroundBlur_1014_6692"
-                                />
-                            </filter>
-                        </defs>
-                    </svg>
-                </div>
-                <div className="absolute top-0 left-0 ">
-                    <svg
-                        width="431"
-                        height="956"
-                        viewBox="0 0 431 956"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                            opacity="0.3"
-                            d="M-693.653 101.882C-634.941 -34.8178 -477.517 -136.457 -318.296 -160.294C-244.431 -171.368 -167.979 -167.665 -93.6384 -149.411C-19.2974 -131.157 51.3637 -98.7383 114.004 -54.1458C230.402 29.4654 309.625 147.395 365.28 272.957C414.68 384.586 446.95 507.894 420.649 633.146C394.349 758.398 299.219 885.326 162.852 933.525C-2.36555 991.892 -170.591 924.719 -315.117 858.503C-477.358 784.184 -645.939 704.919 -740.755 567.346C-835.571 429.773 -758.267 252.381 -693.653 101.882Z"
-                            fill="white"
-                        />
-                    </svg>
+                    <BlurRed1 />
                 </div>
 
                 <div className="container relative pt-32 lg:pt-40">
