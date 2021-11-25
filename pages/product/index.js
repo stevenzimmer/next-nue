@@ -34,8 +34,7 @@ export default function Product() {
                 />
             </Head>
             <div className="bg-gradient-to-br from-indigo-50 via-red-50 to-green-50 relative overflow-hidden ">
-                <div className="absolute z-10 left-0 right-0 top-0 w-full bg-fade-b py-20"></div>
-
+                <SectionFade />
                 <div className="absolute w-full h-full -top-32 left-0 right-0">
                     <ProductHeroBlob />
                 </div>
@@ -52,6 +51,7 @@ export default function Product() {
                     <BlobGreen4 />
                 </div>
                 <Section>
+                    {/* <SectionFade /> */}
                     <div className="container relative">
                         <div className="flex justify-center pt-32 lg:pt-40">
                             <div className="w-11/12 lg:w-7/12 xl:w-5/12">
