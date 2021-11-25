@@ -47,12 +47,9 @@ export default function BlobGreen4() {
                         width="1767.44"
                         height="2149.55"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -71,12 +68,9 @@ export default function BlobGreen4() {
                         width="1612.73"
                         height="1899.41"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -95,12 +89,9 @@ export default function BlobGreen4() {
                         width="1612.73"
                         height="1899.41"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -120,11 +111,11 @@ export default function BlobGreen4() {
                         y2="1716.24"
                         gradientUnits="userSpaceOnUse"
                     >
-                        <stop offset="0.277556" stop-color="#25A378" />
+                        <stop offset="0.277556" stopColor="#25A378" />
                         <stop
                             offset="0.620466"
-                            stop-color="white"
-                            stop-opacity="0"
+                            stopColor="white"
+                            stopOpacity="0"
                         />
                     </linearGradient>
                 </defs>

@@ -47,12 +47,9 @@ export default function BlobPink2() {
                         width="1687.91"
                         height="1995.78"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -71,12 +68,9 @@ export default function BlobPink2() {
                         width="1553.07"
                         height="1784.05"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -95,12 +89,9 @@ export default function BlobPink2() {
                         width="1553.07"
                         height="1784.05"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -120,8 +111,8 @@ export default function BlobPink2() {
                         y2="1712.16"
                         gradientUnits="userSpaceOnUse"
                     >
-                        <stop stop-color="#6120CC" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="#6120CC" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                     </linearGradient>
                 </defs>
             </svg>

@@ -47,12 +47,9 @@ export default function BlobRed4() {
                         width="1769.52"
                         height="2152.16"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -71,12 +68,9 @@ export default function BlobRed4() {
                         width="1614.29"
                         height="1901.37"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -95,12 +89,9 @@ export default function BlobRed4() {
                         width="1614.29"
                         height="1901.37"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -120,11 +111,11 @@ export default function BlobRed4() {
                         y2="401.76"
                         gradientUnits="userSpaceOnUse"
                     >
-                        <stop stop-color="#E92F36" />
+                        <stop stopColor="#E92F36" />
                         <stop
                             offset="0.85459"
-                            stop-color="white"
-                            stop-opacity="0"
+                            stopColor="white"
+                            stopOpacity="0"
                         />
                     </linearGradient>
                 </defs>

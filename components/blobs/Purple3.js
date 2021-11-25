@@ -48,12 +48,9 @@ export default function BlobPurple3() {
                         width="2122.58"
                         height="1754.53"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -72,12 +69,9 @@ export default function BlobPurple3() {
                         width="1879.18"
                         height="1603.05"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -96,12 +90,9 @@ export default function BlobPurple3() {
                         width="1879.18"
                         height="1603.05"
                         filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
+                        colorInterpolationFilters="sRGB"
                     >
-                        <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
-                        />
+                        <feFlood floodOpacity="0" result="BackgroundImageFix" />
                         <feBlend
                             mode="normal"
                             in="SourceGraphic"
@@ -121,8 +112,8 @@ export default function BlobPurple3() {
                         y2="1664.39"
                         gradientUnits="userSpaceOnUse"
                     >
-                        <stop stop-color="#6239EB" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                        <stop stopColor="#6239EB" />
+                        <stop offset="1" stopColor="white" stopOpacity="0" />
                     </linearGradient>
                 </defs>
             </svg>
