@@ -28,6 +28,13 @@ export default function Footer() {
                                             </a>
                                         </Link>
                                     </div>
+                                    <div className="px-6 ">
+                                        <Link href="/product/">
+                                            <a className="text-sm md:text-base text-white opacity-80 hover:opacity-100 transition-opacity duration-200 ease-linear">
+                                                Product
+                                            </a>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 

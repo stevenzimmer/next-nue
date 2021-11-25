@@ -1,7 +1,7 @@
-export default function HeaderP({ children }) {
+export default function HeaderP({ children, classes }) {
     return (
         <>
-            <p className="text-lg mb-6 last:mb-0">{children}</p>
+            <p className={`text-lg ${classes} last:mb-0`}>{children}</p>
         </>
     );
 }
