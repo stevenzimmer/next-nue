@@ -30,7 +30,7 @@ export default function Careers() {
                         <div className="w-11/12 md:w-full">
                             <div className="text-center mb-12 md:mb-24">
                                 <div className="mb-6">
-                                    <Header1>We're growing fast</Header1>
+                                    <Header1>We&apos;re growing fast</Header1>
                                 </div>
                                 <HeaderP>
                                     If interested, please email your resume to{" "}
