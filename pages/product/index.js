@@ -1,14 +1,9 @@
-import { motion, useAnimation } from "framer-motion";
-
 // Next
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 
 // Components
 import HeaderLabel from "@/components/text/HeaderLabel";
 import Header1 from "@/components/text/Header1";
-import Header2 from "@/components/text/Header2";
 import Header3 from "@/components/text/Header3";
 import HeaderP from "@/components/text/HeaderP";
 import Section from "@/components/Section";
@@ -51,7 +46,6 @@ export default function Product() {
                     <BlobGreen4 />
                 </div>
                 <Section>
-                    {/* <SectionFade /> */}
                     <div className="container relative">
                         <div className="flex justify-center pt-32 lg:pt-40">
                             <div className="w-11/12 lg:w-7/12 xl:w-5/12">
@@ -79,8 +73,6 @@ export default function Product() {
                     </div>
                 </Section>
                 <Section>
-                    {/* <SectionFade /> */}
-
                     <div className="container relative">
                         <div className="flex justify-center py-20">
                             <div className="w-full lg:w-11/12 relative">
@@ -148,7 +140,6 @@ export default function Product() {
                     </div>
                 </Section>
                 <Section>
-                    {/* <SectionFade /> */}
                     <div className="container relative">
                         <div className="flex justify-center py-20">
                             <div className="w-full lg:w-11/12 relative">
@@ -224,7 +215,6 @@ export default function Product() {
                     </div>
                 </Section>
                 <Section>
-                    {/* <SectionFade /> */}
                     <div className="container relative">
                         <div className="flex justify-center py-20">
                             <div className="w-full lg:w-11/12 relative">
@@ -291,7 +281,6 @@ export default function Product() {
                     </div>
                 </Section>
                 <Section>
-                    {/* <SectionFade /> */}
                     <div className="container relative">
                         <div className="flex justify-center py-20">
                             <div className="w-full lg:w-11/12 relative">
