@@ -31,22 +31,27 @@ export default function Careers() {
                     </div>
                     <div className="flex flex-wrap justify-between -mx-6">
                         <div className="w-full lg:w-3/12 px-6 mb-6 lg:mb-0 py-12">
-                            <div className="bg-white shadow-inner px-6 py-4">
-                                <div className="border-b last:border-transparent py-2">
-                                    <a
-                                        className="font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                        href="#principal-engineer"
-                                    >
-                                        Principal Engineer
-                                    </a>
+                            <div className=" px-6 py-4 bg-white  rounded-lg shadow-lg">
+                                <div className="mb-2 border-b pb-2">
+                                    <p className="text-lg">Open roles</p>
                                 </div>
-                                <div className="border-b last:border-transparent py-2">
-                                    <a
-                                        className="font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                        href="#senior-engineer"
-                                    >
-                                        Senior Engineer
-                                    </a>
+                                <div className="">
+                                    <div className="mb-2">
+                                        <a
+                                            className="text-lg font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                            href="#principal-engineer"
+                                        >
+                                            Principal Engineer
+                                        </a>
+                                    </div>
+                                    <div className="">
+                                        <a
+                                            className="text-lg font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                            href="#senior-engineer"
+                                        >
+                                            Senior Engineer
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
