@@ -3,6 +3,7 @@ import useInView from "react-cool-inview";
 
 // Next
 import Head from "next/head";
+import Link from "next/link";
 
 // Components
 import Header1 from "@/components/text/Header1";
@@ -28,9 +29,32 @@ export default function Careers() {
                     <div className="text-center mb-24">
                         <Header1>Join us</Header1>
                     </div>
-                    <div className="flex justify-center">
-                        <div className="lg:w-8/12">
-                            <div className="mb-12">
+                    <div className="flex flex-wrap justify-between -mx-6">
+                        <div className="w-full lg:w-3/12 px-6 mb-6 lg:mb-0 py-12">
+                            <div className="bg-white shadow-inner px-6 py-4">
+                                <div className="border-b last:border-transparent py-2">
+                                    <a
+                                        className="font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                        href="#principal-engineer"
+                                    >
+                                        Principal Engineer
+                                    </a>
+                                </div>
+                                <div className="border-b last:border-transparent py-2">
+                                    <a
+                                        className="font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                        href="#senior-engineer"
+                                    >
+                                        Senior Engineer
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-9/12 px-6">
+                            <div
+                                className="py-12 border-b"
+                                id="principal-engineer"
+                            >
                                 <div className="mb-6">
                                     <Header2>Principal Engineer</Header2>
                                 </div>
@@ -188,7 +212,7 @@ export default function Careers() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="mb-12">
+                            <div className="py-12" id="senior-engineer">
                                 <div className="mb-6">
                                     <Header2>Senior Engineer</Header2>
                                 </div>
