@@ -26,11 +26,27 @@ export default function Careers() {
                 <SectionFade />
 
                 <div className="container relative py-32 lg:py-40">
-                    <div className="text-center mb-24">
-                        <Header1>Join us</Header1>
+                    <div className="flex justify-center">
+                        <div className="w-11/12 md:w-full">
+                            <div className="text-center mb-12 md:mb-24">
+                                <div className="mb-6">
+                                    <Header1>We're growing fast</Header1>
+                                </div>
+                                <HeaderP>
+                                    If interested, please email your resume to{" "}
+                                    <a
+                                        className="underline font-hntMedium"
+                                        href="mailto:recruit@nue.io"
+                                    >
+                                        recruit@nue.io
+                                    </a>
+                                </HeaderP>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex flex-wrap justify-between -mx-6">
-                        <div className="w-full lg:w-3/12 px-6 mb-6 lg:mb-0 py-12">
+
+                    <div className="flex flex-wrap justify-center lg:justify-between -mx-6">
+                        <div className="w-11/12 lg:w-3/12 px-6 mb-6 lg:mb-0 lg:py-12 transform xl:translate-x-6">
                             <div className=" px-6 py-4 bg-white  rounded-lg shadow-lg">
                                 <div className="mb-2 border-b pb-2">
                                     <p className="text-lg">Open roles</p>
@@ -55,7 +71,7 @@ export default function Careers() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full lg:w-9/12 px-6">
+                        <div className="w-11/12 lg:w-9/12 px-6">
                             <div
                                 className="py-12 border-b"
                                 id="principal-engineer"
