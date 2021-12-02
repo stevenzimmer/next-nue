@@ -45,9 +45,9 @@ export default function Careers() {
                         </div>
                     </div>
 
-                    <div className="flex flex-wrap justify-center lg:justify-between -mx-6">
-                        <div className="w-11/12 lg:w-3/12 px-6 mb-6 lg:mb-0 lg:py-12 transform xl:translate-x-6">
-                            <div className=" px-6 py-4 bg-white  rounded-lg shadow-lg">
+                    <div className="flex flex-wrap justify-center lg:justify-between ">
+                        <div className="w-11/12 lg:w-3/12 mb-6 lg:mb-0 lg:py-12">
+                            <div className="px-6 py-4 bg-white rounded-lg shadow-lg">
                                 <div className="mb-2 border-b pb-2">
                                     <p className="text-lg">Open roles</p>
                                 </div>
@@ -71,13 +71,15 @@ export default function Careers() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-11/12 lg:w-9/12 px-6">
+                        <div className="w-11/12 lg:w-8/12">
                             <div
                                 className="py-12 border-b"
                                 id="principal-engineer"
                             >
                                 <div className="mb-6">
-                                    <Header2>Principal Engineer</Header2>
+                                    <h2 className="text-2xl md:text-5xl font-hntMedium">
+                                        Principal Engineer
+                                    </h2>
                                 </div>
 
                                 <HeaderP>
@@ -235,7 +237,9 @@ export default function Careers() {
                             </div>
                             <div className="py-12" id="senior-engineer">
                                 <div className="mb-6">
-                                    <Header2>Senior Engineer</Header2>
+                                    <h2 className="text-2xl md:text-5xl font-hntMedium">
+                                        Senior Engineer
+                                    </h2>
                                 </div>
 
                                 <div className="mb-6">

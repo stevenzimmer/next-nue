@@ -52,12 +52,10 @@ export default function Home({ data }) {
     return (
         <>
             <Head>
-                <title>{data.metatitle}</title>
-                <meta name="description" content={data.metadescription} />
-                <meta property="og:title" content={data.metatitle} />
+                <title>RevOps for the modern company</title>
                 <meta
-                    property="og:description"
-                    content={data.metadescription}
+                    name="description"
+                    content="The system of record for revenue across the entire customer lifecycle"
                 />
             </Head>
             <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
@@ -179,7 +177,7 @@ export default function Home({ data }) {
                                             }}
                                         >
                                             <Image
-                                                src={`/images/homepage/hero-main-wrapper.png`}
+                                                src={`/images/homepage/hero-main-whole.png`}
                                                 alt={`Homepage hero wrapper image`}
                                                 width={`1977`}
                                                 height={`1213`}
@@ -190,16 +188,6 @@ export default function Home({ data }) {
                                                     );
                                                 }}
                                             />
-                                            <div className="absolute flex justify-end items-center xl:items-end h-full right-0 top-0 sm:pt-4 sm:pr-6 sm:pl-4 sm:pb-0  md:pt-12 md:pl-6 md:pr-6 md:pb-4 lg:pb-6 lg:pr-6 lg:pl-36 xl:pb-10 xl:pr-6 xl:pl-44 xl:pt-0">
-                                                <div className="w-10/12 lg:w-full">
-                                                    <Image
-                                                        src={`/images/homepage/hero-main-inner.png`}
-                                                        alt={`Homepage hero inner image`}
-                                                        width={`1542`}
-                                                        height={`931`}
-                                                    />
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </motion.div>
