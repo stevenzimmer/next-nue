@@ -97,7 +97,9 @@ export default function Home({ data }) {
                         <div className="w-11/12 lg:w-7/12 xl:w-5/12">
                             <div className="text-center relative z-20">
                                 <div className="mb-6">
-                                    <Header1>{data.herotitle}</Header1>
+                                    <Header1>
+                                        RevOps for the modern company
+                                    </Header1>
                                 </div>
 
                                 <div className="mb-6 flex justify-center">
