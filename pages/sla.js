@@ -12,7 +12,7 @@ export default function Sla() {
                 <div className="flex justify-center">
                     <div className="w-11/12 lg:w-10/12  xl:w-8/12">
                         <div className="content">
-                            <div className="text-center">
+                            <div className="">
                                 <h1>
                                     RUBY.IO, INC. D/B/A NUE.IO <br />
                                     SUPPORT SERVICES
