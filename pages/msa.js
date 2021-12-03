@@ -9,7 +9,7 @@ export default function Msa({ data }) {
     return (
         <>
             <Head>
-                <title>Support Services</title>
+                <title>{data.data.attributes.Title}</title>
                 <meta key="robots" name="robots" content="noindex,follow" />
             </Head>
             <div className="container py-40">
