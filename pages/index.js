@@ -609,14 +609,3 @@ export default function Home({ data }) {
         </>
     );
 }
-
-export async function getStaticProps() {
-    // console.log(API_URL);
-    // Get homepage data from
-    const res = await fetch(`${API_URL}/homepage`);
-    const data = await res.json();
-    return {
-        props: { data },
-        revalidate: 1,
-    };
-}
