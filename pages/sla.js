@@ -154,10 +154,11 @@ export default function Sla() {
                                         </td>
                                         <td className="">
                                             Requests will be logged and
-                                            evaluated in Nue.io' sole discretion
-                                            for inclusion in a future release.
-                                            The designated Customer Contact will
-                                            be updated upon request.
+                                            evaluated in Nue.io&apos; sole
+                                            discretion for inclusion in a future
+                                            release. The designated Customer
+                                            Contact will be updated upon
+                                            request.
                                         </td>
                                     </tr>
                                 </tbody>
@@ -180,12 +181,12 @@ export default function Sla() {
                                     contacts for Nue.io and Customer Users with
                                     regard to Customer IT issues across all
                                     Customer sites. Customer IT issues include
-                                    issues relating to Customer's hardware,
+                                    issues relating to Customer&apos;s hardware,
                                     software, desktop setup, network, ISP and
                                     all other technical issues for which
                                     Customer is responsible that may affect
-                                    Customer's ability to access and use the
-                                    Nue.io Service.
+                                    Customer&apos;s ability to access and use
+                                    the Nue.io Service.
                                 </li>
                             </ul>
                         </div>
