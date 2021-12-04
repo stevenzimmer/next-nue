@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { MDXProvider } from "@mdx-js/react";
 import { marked } from "marked";
 
 // Strapi API config
