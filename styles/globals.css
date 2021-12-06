@@ -77,3 +77,43 @@ body {
         transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
     }
 }
+
+.content {
+    h1 {
+        @apply font-hntMedium mb-12 text-3xl md:text-4xl lg:text-6xl;
+    }
+    p {
+        @apply mb-6;
+    }
+    a {
+        @apply underline text-blue-500;
+    }
+    strong {
+        @apply font-hntMedium;
+    }
+    ul {
+        @apply pl-6 mb-6;
+
+        li {
+            @apply mb-2 last:mb-0;
+        }
+    }
+
+    table {
+        @apply table-auto w-full mb-6;
+
+        thead {
+            tr {
+                td {
+                    @apply font-hntMedium text-center;
+                }
+            }
+        }
+
+        tr {
+            td {
+                @apply border p-3;
+            }
+        }
+    }
+}

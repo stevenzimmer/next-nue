@@ -15,7 +15,7 @@ export default function Navbar() {
                             </div>
                             <div className="flex items-center sm:-mx-3">
                                 <div className="px-2 sm:px-3">
-                                    <Link href="https://app.getruby.io/login">
+                                    <Link href="https://app.nue.io/login">
                                         <a
                                             target="_blank"
                                             className="btn btn-white"
