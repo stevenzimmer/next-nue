@@ -8,7 +8,7 @@ body {
 }
 
 .btn {
-    @apply py-2 px-3 md:px-6 text-center text-sm md:text-base font-hntMedium font-semibold focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md hover:shadow-lg inline-block transition-shadow duration-200;
+    @apply py-2 px-3 whitespace-nowrap md:px-6 text-center text-sm md:text-base font-hntMedium font-semibold focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md hover:shadow-lg inline-block transition-shadow duration-200;
     min-width: 110px;
 
     &-big {
@@ -114,6 +114,22 @@ body {
             td {
                 @apply border p-3;
             }
+        }
+    }
+}
+
+.clip {
+    &-path {
+        &-left {
+            clip-path: path(
+                "M287.341 769.841C314.27 752.652 351.102 710.139 360.803 667.405C387.846 548.237 372.453 422.937 317.093 311.599C261.733 200.261 169.613 109.336 55.5072 53.4074C-17.7123 17.512 -99.7435 -3.13593 -180.979 1.3168C-262.214 5.76953 -342.333 36.4516 -398.752 92.0963C-449.496 142.098 -478.719 208.679 -502.836 274.968C-530.275 350.426 -552.761 431.266 -536.842 510.56C-521.414 587.407 -470.93 654.86 -410.269 707.528C-314.54 790.185 -194.111 840.968 -67.2744 852.162C58.5587 862.903 211.666 818.164 287.341 769.841Z"
+            );
+        }
+
+        &-right {
+            clip-path: path(
+                "M281.161 -880.531C227.207 -863.467 144.701 -807.616 108.512 -738.947C7.61084 -547.457 -23.4964 -326.021 20.1789 -110.15C63.8542 105.721 179.781 303.518 349.369 451.519C458.186 546.501 589.07 619.434 730.099 649.058C871.129 678.681 1022.27 662.916 1144.31 593.577C1254.05 531.29 1334.58 430.772 1406.23 328.413C1487.77 211.889 1563.3 83.8857 1572.42 -59.0793C1581.25 -197.631 1525.8 -336.183 1446.16 -454.104C1320.26 -639.411 1137.5 -781.507 925.622 -858.806C715.255 -934.87 432.788 -928.515 281.161 -880.531Z"
+            );
         }
     }
 }
