@@ -553,8 +553,8 @@ export default function Product() {
                                 classes={``}
                                 src={`/images/product/hero.png`}
                                 alt={`Product hero graphic`}
-                                width={1129}
-                                height={588}
+                                width={1228}
+                                height={611}
                                 onLoad={() => {
                                     animationControlMain.start("show");
                                 }}
@@ -575,9 +575,8 @@ export default function Product() {
                                                     to={silo.anchor}
                                                     smooth={true}
                                                     duration={200}
-                                                >
-                                                    <a className="absolute w-full h-full inset-0 z-10"></a>
-                                                </ReactScrollLink>
+                                                    className="absolute w-full h-full inset-0 z-10"
+                                                ></ReactScrollLink>
                                                 <div className="flex items-center h-12">
                                                     {silo.icon.large()}
                                                 </div>
