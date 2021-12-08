@@ -79,7 +79,7 @@ module.exports = {
         },
     },
     variants: {
-        extend: { translate: ["hover"] },
+        extend: { translate: ["hover"], boxShadow: ["hover"] },
     },
     plugins: [],
 };

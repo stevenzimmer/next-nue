@@ -133,3 +133,7 @@ body {
         }
     }
 }
+
+.glassy {
+    @apply bg-clip-padding backdrop-filter backdrop-blur-xl bg-white bg-opacity-20;
+}

@@ -6,6 +6,10 @@ const footerLinks = [
         header: "Product",
         children: [
             {
+                text: "Overview",
+                link: "/product/",
+            },
+            {
                 text: "Platform",
                 link: "/platform/",
             },
@@ -71,12 +75,12 @@ export default function Footer() {
                                     })}
                                 </div>
                             </div>
-                            <div className="md:w-1/4 lg:w-1/5 text-right">
+                            <div className="md:w-1/4 lg:w-1/5 text-right flex flex-col justify-between">
                                 <div className="mb-4">
                                     <Link href="https://calendly.com/nue/nue-io-overview-conversation">
                                         <a
                                             target="_blank"
-                                            className="btn btn-primary"
+                                            className="btn btn-primary w-full"
                                         >
                                             Book a demo
                                         </a>
