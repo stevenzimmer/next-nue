@@ -1,13 +1,10 @@
-import { motion, useAnimation } from "framer-motion";
-import useInView from "react-cool-inview";
+import { Link as ReactScrollLink } from "react-scroll";
 
 // Next
 import Head from "next/head";
-import Link from "next/link";
 
 // Components
 import Header1 from "@/components/text/Header1";
-import Header2 from "@/components/text/Header2";
 import Section from "@/components/Section";
 import SectionFade from "@/components/SectionFade";
 import HeaderP from "@/components/text/HeaderP";
@@ -52,22 +49,22 @@ export default function Careers() {
                                     <p className="text-lg">Open roles</p>
                                 </div>
                                 <div className="">
-                                    <div className="mb-2">
-                                        <a
-                                            className="text-lg font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                            href="#principal-engineer"
-                                        >
-                                            Principal Engineer
-                                        </a>
-                                    </div>
-                                    <div className="">
-                                        <a
-                                            className="text-lg font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                            href="#senior-engineer"
-                                        >
-                                            Senior Engineer
-                                        </a>
-                                    </div>
+                                    <ReactScrollLink
+                                        to="principal-engineer"
+                                        smooth={true}
+                                        duration={200}
+                                        className="text-lg cursor-pointer block mb-2 font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                    >
+                                        Principal Engineer
+                                    </ReactScrollLink>
+                                    <ReactScrollLink
+                                        to="senior-engineer"
+                                        smooth={true}
+                                        duration={200}
+                                        className="text-lg block cursor-pointer font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                    >
+                                        Senior Engineer
+                                    </ReactScrollLink>
                                 </div>
                             </div>
                         </div>

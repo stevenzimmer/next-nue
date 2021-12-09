@@ -5,24 +5,31 @@ import Head from "next/head";
 import { Link as ReactScrollLink } from "react-scroll";
 
 // Components
-import HeaderLabel from "@/components/text/HeaderLabel";
 import Header1 from "@/components/text/Header1";
 import Header3 from "@/components/text/Header3";
-import HeaderP from "@/components/text/HeaderP";
 import Section from "@/components/Section";
 import FloatingImage from "@/components/FloatingImage";
 import SectionFade from "@/components/SectionFade";
 
-// Blobs
-import ProductHeroBlob from "@/components/blobs/ProductHero";
-import BlobPurple3 from "@/components/blobs/Purple3";
-import BlobRed4 from "@/components/blobs/Red4";
-import BlobPink2 from "@/components/blobs/Pink2";
-import BlobGreen4 from "@/components/blobs/Green4";
-
 const productSilos = [
     {
         icon: {
+            small: () => {
+                return (
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M8 16C3.5816 16 0 12.4184 0 8C0 4.4176 2.3544 1.3856 5.6 0.3664V2.0656C4.22474 2.62404 3.08624 3.64297 2.37925 4.94809C1.67226 6.25322 1.44071 7.76345 1.7242 9.22044C2.0077 10.6774 2.78863 11.9906 3.93341 12.9355C5.07819 13.8803 6.51569 14.398 8 14.4C9.27502 14.4 10.521 14.0192 11.5783 13.3066C12.6356 12.594 13.456 11.5819 13.9344 10.4H15.6336C14.6144 13.6456 11.5824 16 8 16ZM15.96 8.8H7.2V0.04C7.4632 0.0136 7.7304 0 8 0C12.4184 0 16 3.5816 16 8C16 8.2696 15.9864 8.5368 15.96 8.8ZM8.8 1.6496V7.2H14.3504C14.1723 5.79009 13.5303 4.47947 12.5254 3.47459C11.5205 2.46971 10.2099 1.82767 8.8 1.6496Z"
+                            fill="#6239EB"
+                        />
+                    </svg>
+                );
+            },
             large: () => {
                 return (
                     <svg
@@ -137,6 +144,22 @@ const productSilos = [
     },
     {
         icon: {
+            small: () => {
+                return (
+                    <svg
+                        width="15"
+                        height="17"
+                        viewBox="0 0 15 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M11.6667 11.9C13.0475 11.9 14.1667 13.0416 14.1667 14.45C14.1667 15.8584 13.0475 17 11.6667 17C10.2858 17 9.16667 15.8584 9.16667 14.45C9.16667 13.0416 10.2858 11.9 11.6667 11.9ZM3.33333 8.5C5.175 8.5 6.66667 10.0215 6.66667 11.9C6.66667 13.7785 5.175 15.3 3.33333 15.3C1.49167 15.3 0 13.7785 0 11.9C0 10.0215 1.49167 8.5 3.33333 8.5ZM11.6667 13.6C11.2067 13.6 10.8333 13.9808 10.8333 14.45C10.8333 14.9192 11.2067 15.3 11.6667 15.3C12.1267 15.3 12.5 14.9192 12.5 14.45C12.5 13.9808 12.1267 13.6 11.6667 13.6ZM3.33333 10.2C2.4125 10.2 1.66667 10.9608 1.66667 11.9C1.66667 12.8393 2.4125 13.6 3.33333 13.6C4.25417 13.6 5 12.8393 5 11.9C5 10.9608 4.25417 10.2 3.33333 10.2ZM10.4167 0C12.9483 0 15 2.0927 15 4.675C15 7.2573 12.9483 9.35 10.4167 9.35C7.885 9.35 5.83333 7.2573 5.83333 4.675C5.83333 2.0927 7.885 0 10.4167 0ZM10.4167 1.7C8.80583 1.7 7.5 3.03195 7.5 4.675C7.5 6.31805 8.80583 7.65 10.4167 7.65C12.0275 7.65 13.3333 6.31805 13.3333 4.675C13.3333 3.03195 12.0275 1.7 10.4167 1.7Z"
+                            fill="#9839EB"
+                        />
+                    </svg>
+                );
+            },
             large: () => {
                 return (
                     <svg
@@ -263,6 +286,22 @@ const productSilos = [
     },
     {
         icon: {
+            small: () => {
+                return (
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M2.6984 2.00801C4.15975 0.711511 6.04641 -0.00306837 7.99999 9.90416e-06C12.4184 9.90416e-06 16 3.58161 16 8C16.0026 9.63512 15.5018 11.2314 14.5656 12.572L12.4 8H14.4C14.4 6.72749 14.0207 5.48385 13.3105 4.42797C12.6003 3.37208 11.5914 2.55187 10.4128 2.07213C9.23419 1.59239 7.93931 1.47489 6.69359 1.73464C5.44787 1.99439 4.30786 2.6196 3.4192 3.53041L2.6992 2.00881L2.6984 2.00801ZM13.3016 13.992C11.8402 15.2885 9.95357 16.0031 7.99999 16C3.5816 16 0 12.4184 0 8C0 6.3 0.530399 4.724 1.4344 3.42801L3.6 8H1.6C1.59997 9.27251 1.97929 10.5161 2.6895 11.572C3.39971 12.6279 4.40856 13.4481 5.58717 13.9279C6.76579 14.4076 8.06066 14.5251 9.30639 14.2654C10.5521 14.0056 11.6921 13.3804 12.5808 12.4696L13.3008 13.9912L13.3016 13.992ZM5.19999 9.6H9.59999C9.70607 9.6 9.80782 9.55786 9.88283 9.48284C9.95784 9.40783 9.99999 9.30608 9.99999 9.2C9.99999 9.09391 9.95784 8.99217 9.88283 8.91716C9.80782 8.84214 9.70607 8.8 9.59999 8.8H6.39999C5.86956 8.8 5.36085 8.58929 4.98578 8.21421C4.61071 7.83914 4.39999 7.33043 4.39999 6.8C4.39999 6.26957 4.61071 5.76086 4.98578 5.38579C5.36085 5.01072 5.86956 4.8 6.39999 4.8H7.19999V4H8.79999V4.8H10.8V6.4H6.39999C6.29391 6.4 6.19216 6.44214 6.11715 6.51716C6.04213 6.59217 5.99999 6.69391 5.99999 6.8C5.99999 6.90609 6.04213 7.00783 6.11715 7.08284C6.19216 7.15786 6.29391 7.2 6.39999 7.2H9.59999C10.1304 7.2 10.6391 7.41071 11.0142 7.78579C11.3893 8.16086 11.6 8.66957 11.6 9.2C11.6 9.73043 11.3893 10.2391 11.0142 10.6142C10.6391 10.9893 10.1304 11.2 9.59999 11.2H8.79999V12H7.19999V11.2H5.19999V9.6Z"
+                            fill="#67AAA2"
+                        />
+                    </svg>
+                );
+            },
             large: () => {
                 return (
                     <svg
@@ -283,9 +322,9 @@ const productSilos = [
         label: "FINANCE",
         anchor: "finance",
         img: {
-            slug: "finance.png",
-            width: 1109,
-            height: 1685,
+            slug: "finance-2.png",
+            width: 660,
+            height: 950,
         },
         section: {
             title: "Ensure accurate billing and collections",
@@ -387,6 +426,22 @@ const productSilos = [
     },
     {
         icon: {
+            small: () => {
+                return (
+                    <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M0 16C0 14.3834 0.642175 12.8331 1.78525 11.69C2.92833 10.5469 4.47868 9.90476 6.09524 9.90476C7.7118 9.90476 9.26214 10.5469 10.4052 11.69C11.5483 12.8331 12.1905 14.3834 12.1905 16H10.6667C10.6667 14.7876 10.185 13.6248 9.32773 12.7675C8.47042 11.9102 7.30766 11.4286 6.09524 11.4286C4.88282 11.4286 3.72006 11.9102 2.86275 12.7675C2.00544 13.6248 1.52381 14.7876 1.52381 16H0ZM6.09524 9.14286C3.56952 9.14286 1.52381 7.09714 1.52381 4.57143C1.52381 2.04571 3.56952 0 6.09524 0C8.62095 0 10.6667 2.04571 10.6667 4.57143C10.6667 7.09714 8.62095 9.14286 6.09524 9.14286ZM6.09524 7.61905C7.77905 7.61905 9.14286 6.25524 9.14286 4.57143C9.14286 2.88762 7.77905 1.52381 6.09524 1.52381C4.41143 1.52381 3.04762 2.88762 3.04762 4.57143C3.04762 6.25524 4.41143 7.61905 6.09524 7.61905ZM12.4069 10.4404C13.4776 10.9226 14.3863 11.7038 15.0237 12.6901C15.6611 13.6763 16.0001 14.8257 16 16H14.4762C14.4764 15.1192 14.2221 14.2571 13.7441 13.5174C13.266 12.7777 12.5844 12.1917 11.7813 11.8301L12.4061 10.4404H12.4069ZM11.8827 1.83848C12.6503 2.15489 13.3066 2.69222 13.7684 3.38227C14.2301 4.07232 14.4765 4.88399 14.4762 5.71429C14.4765 6.75987 14.0859 7.76779 13.381 8.54006C12.6761 9.31232 11.7079 9.79312 10.6667 9.888V8.35429C11.2312 8.27343 11.7549 8.01373 12.161 7.6133C12.5671 7.21287 12.8341 6.69282 12.9228 6.12947C13.0115 5.56613 12.9173 4.98918 12.654 4.48332C12.3907 3.97746 11.9721 3.56933 11.4598 3.31886L11.8827 1.83848Z"
+                            fill="#4D2DB8"
+                        />
+                    </svg>
+                );
+            },
             large: () => {
                 return (
                     <svg
@@ -508,6 +563,25 @@ export default function Product() {
             </Head>
             <div className="bg-gradient-to-br from-indigo-50 via-white to-green-50 relative overflow-hidden ">
                 <SectionFade />
+                <div className="absolute w-full h-full right-0 top-0 transform translate-x-2/3">
+                    <div className="w-full h-full clip-path-right bg-indigo-100 opacity-75"></div>
+                </div>
+
+                <div className="absolute w-96 h-full left-0 top-1/4">
+                    <div className="w-full h-full clip-path-left bg-blue-100 opacity-75"></div>
+                </div>
+
+                {/* <div className="absolute w-full h-full left-0 top-48 ">
+                    <div className="w-full h-full clip-path-left bg-indigo-100 "></div>
+                </div> */}
+
+                {/* <div className="absolute w-96 h-96  left-0 bottom-0 ">
+                    <div className="w-full h-full  clip-path-left bg-blue-50 opacity-75"></div>
+                </div> */}
+
+                <div className="absolute w-1/2 h-1/2 transform rotate-90 right-0 bottom-0 ">
+                    <div className="w-full h-full  clip-path-right bg-blue-50 opacity-50"></div>
+                </div>
                 {/* <div className="absolute w-full h-full -top-32 left-0 right-0"> */}
                 {/* <ProductHeroBlob /> */}
                 {/* </div>
@@ -520,9 +594,11 @@ export default function Product() {
                 <div className="absolute left-0 top-1/3  ">
                     <BlobPink2 />
                 </div>
-                <div className="absolute right-0 top-2/3  ">
-                    <BlobGreen4 />
-                </div> */}
+                */}
+                {/* <div className="absolute right-0 top-2/3  "> */}
+                {/* <BlobGreen4 /> */}
+                {/* <div className="w-full h-full   clip-path-left bg-green-50 opacity-100"></div> */}
+                {/* </div> */}
                 <Section>
                     <div className="container relative">
                         <div className="flex justify-center pt-32 lg:pt-40 md:mb-12">
@@ -551,10 +627,10 @@ export default function Product() {
                         <div className="text-center md:mb-12">
                             <FloatingImage
                                 classes={``}
-                                src={`/images/product/hero.png`}
+                                src={`/images/product/hero-2.png`}
                                 alt={`Product hero graphic`}
                                 width={1228}
-                                height={611}
+                                height={627}
                                 onLoad={() => {
                                     animationControlMain.start("show");
                                 }}
@@ -638,8 +714,8 @@ export default function Product() {
                                             </div>
                                             <div className="w-11/12 lg:w-6/12 p-6  ">
                                                 <div className="flex items-center mb-6">
-                                                    <div className="w-20">
-                                                        {silo.icon.large()}
+                                                    <div className="w-8">
+                                                        {silo.icon.small()}
                                                     </div>
                                                     <div className="w-full">
                                                         <p className="uppercase font-hntMedium text-sm md:text-base">
@@ -648,7 +724,7 @@ export default function Product() {
                                                     </div>
                                                 </div>
 
-                                                <div className="mb-6">
+                                                <div className="mb-12">
                                                     <Header3>
                                                         {silo.section.title}
                                                     </Header3>
@@ -663,17 +739,17 @@ export default function Product() {
                                                                 <div className="w-20">
                                                                     {para.icon()}
                                                                 </div>
-                                                                <div className="w-full">
-                                                                    <HeaderP classes="font-hntMedium mb-2">
+                                                                <div className="w-full px-6">
+                                                                    <p className="font-hntMedium text-lg mb-2">
                                                                         {
                                                                             para.header
                                                                         }
-                                                                    </HeaderP>
-                                                                    <HeaderP>
+                                                                    </p>
+                                                                    <p className="text-sm text-grey-800">
                                                                         {
                                                                             para.text
                                                                         }
-                                                                    </HeaderP>
+                                                                    </p>
                                                                 </div>
                                                             </div>
                                                         );

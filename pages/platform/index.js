@@ -158,7 +158,7 @@ const columns = {
                 );
             },
             title: "Revenue Builder",
-            text: "Configure complex price models and discounts (tiered, ramp, usage, etc) with our no code, business-user bundle and promo builder",
+            text: "Configure complex price models and discounts (tiered, ramp, usage, etc) with our no code, business-user bundle and promo builder.",
         },
         {
             icon: () => {
@@ -282,14 +282,14 @@ export default function Platform() {
                             <div className="w-11/12 lg:w-8/12 xl:w-6/12">
                                 <div className="text-center relative z-20">
                                     <HeaderLabel>platform</HeaderLabel>
-                                    <div className="mb-6">
+                                    <div className="mb-12">
                                         <Header1>
                                             Manage your customer revenue
                                             lifecycles with one platform
                                         </Header1>
                                     </div>
 
-                                    <div className="mb-6 flex justify-center">
+                                    <div className="md:mb-12 flex justify-center">
                                         <div className="w-11/12 sm:w-full ">
                                             <h2 className="text-lg md:text-2xl">
                                                 Configure dynamic pricing. Sell
@@ -304,11 +304,11 @@ export default function Platform() {
                         </div>
                         <div className="mb-12">
                             <FloatingImage
-                                classes={``}
-                                src={`/images/platform/hero.png`}
+                                classes={`mx-auto`}
+                                src={`/images/platform/hero-2.png`}
                                 alt={`Platform hero graphic`}
-                                width={1500}
-                                height={581}
+                                width={1301}
+                                height={516}
                                 onLoad={() => {
                                     animationControlMain.start("show");
                                 }}
