@@ -135,7 +135,7 @@ const mainMenus = [
                     );
                 },
                 header: "About Nue",
-                description: "The Modern Order Platform",
+                description: "Who we are",
                 link: "/company/",
             },
 
@@ -217,27 +217,6 @@ export default function Navbar() {
                                                                         ""
                                                                     )
                                                                 }
-                                                                // onClick={(
-                                                                //     e
-                                                                // ) => {
-                                                                //     e.stopPropagation();
-                                                                //     e.preventDefault();
-                                                                //     let thisTab =
-                                                                //         e.target.innerText.toLowerCase();
-
-                                                                //     if (
-                                                                //         thisTab ===
-                                                                //         dropDownOpen
-                                                                //     ) {
-                                                                //         setdropDownOpen(
-                                                                //             ""
-                                                                //         );
-                                                                //     } else {
-                                                                //         setdropDownOpen(
-                                                                //             thisTab
-                                                                //         );
-                                                                //     }
-                                                                // }}
                                                             >
                                                                 {menu.title}
                                                                 <AnimatePresence>

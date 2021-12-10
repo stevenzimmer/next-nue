@@ -33,9 +33,9 @@ export default function Careers() {
                                     If interested, please email your resume to{" "}
                                     <a
                                         className="underline font-hntMedium"
-                                        href="mailto:recruit@nue.io"
+                                        href="mailto:careers@nue.io"
                                     >
-                                        recruit@nue.io
+                                        careers@nue.io
                                     </a>
                                 </HeaderP>
                             </div>

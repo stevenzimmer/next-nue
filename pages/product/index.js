@@ -49,6 +49,10 @@ const productSilos = [
         },
         label: "SALES & CUSTOMER SUCCESS",
         anchor: "sales-customer-success",
+        blob: {
+            color: "bg-indigo-50",
+            pos: "-translate-x-1/2 rotate-180",
+        },
         section: {
             title: "Sales-led monetization",
             paras: [
@@ -183,6 +187,10 @@ const productSilos = [
             slug: "revenue-operations.png",
             width: 548,
             height: 798,
+        },
+        blob: {
+            color: "bg-indigo-100",
+            pos: "translate-x-1/4 rotate-90 origin-center",
         },
         section: {
             title: "Grow revenue instead of integrating it",
@@ -326,6 +334,10 @@ const productSilos = [
             width: 660,
             height: 950,
         },
+        blob: {
+            color: "bg-green-50",
+            pos: "-translate-x-1/3 -translate-y-0- rotate-0",
+        },
         section: {
             title: "Ensure accurate billing and collections",
             paras: [
@@ -459,7 +471,10 @@ const productSilos = [
                 );
             },
         },
-
+        blob: {
+            color: "bg-indigo-50 opacity-75",
+            pos: "translate-x-1/3 rotate-180",
+        },
         label: "CUSTOMERS",
         anchor: "customers",
         img: {
@@ -561,45 +576,15 @@ export default function Product() {
                     content="Nue helps teams manage their revenue streams, optimize them, and deliver complete overview and predictive analytics to their finance teams."
                 />
             </Head>
-            <div className="bg-gradient-to-br from-indigo-50 via-white to-green-50 relative overflow-hidden ">
-                <SectionFade />
-                <div className="absolute w-full h-full right-0 top-0 transform translate-x-2/3">
-                    <div className="w-full h-full clip-path-right bg-indigo-100 opacity-75"></div>
-                </div>
-
-                <div className="absolute w-96 h-full left-0 top-1/4">
-                    <div className="w-full h-full clip-path-left bg-blue-100 opacity-75"></div>
-                </div>
-
-                {/* <div className="absolute w-full h-full left-0 top-48 ">
-                    <div className="w-full h-full clip-path-left bg-indigo-100 "></div>
-                </div> */}
-
-                {/* <div className="absolute w-96 h-96  left-0 bottom-0 ">
-                    <div className="w-full h-full  clip-path-left bg-blue-50 opacity-75"></div>
-                </div> */}
-
-                <div className="absolute w-1/2 h-1/2 transform rotate-90 right-0 bottom-0 ">
-                    <div className="w-full h-full  clip-path-right bg-blue-50 opacity-50"></div>
-                </div>
-                {/* <div className="absolute w-full h-full -top-32 left-0 right-0"> */}
-                {/* <ProductHeroBlob /> */}
-                {/* </div>
-                <div className="absolute left-0 top-1/4 tranform -translate-y-1/3">
-                    <BlobPurple3 />
-                </div>
-                <div className="absolute right-0 top-1/4 transform translate-x-96">
-                    <BlobRed4 />
-                </div>
-                <div className="absolute left-0 top-1/3  ">
-                    <BlobPink2 />
-                </div>
-                */}
-                {/* <div className="absolute right-0 top-2/3  "> */}
-                {/* <BlobGreen4 /> */}
-                {/* <div className="w-full h-full   clip-path-left bg-green-50 opacity-100"></div> */}
-                {/* </div> */}
+            <div className="bg-gradient-to-br from-indigo-50 via-white to-indigo-50 relative overflow-hidden ">
                 <Section>
+                    <SectionFade />
+                    <div className="absolute w-full h-full left-0 top-0 transform translate-y-96 ">
+                        <div className="w-full h-full clip-path-left bg-blue-100"></div>
+                    </div>
+                    <div className="absolute w-full h-full right-0 top-0 transform translate-x-2/3">
+                        <div className="w-full h-full clip-path-right bg-indigo-100 opacity-75"></div>
+                    </div>
                     <div className="container relative">
                         <div className="flex justify-center pt-32 lg:pt-40 md:mb-12">
                             <div className="w-11/12 lg:w-7/12 xl:w-6/12">
@@ -691,6 +676,14 @@ export default function Product() {
                 {productSilos.map((silo, i) => {
                     return (
                         <Section key={i}>
+                            <SectionFade />
+                            {/* <div className="absolute w-full h-full left-0 bottom-0 transform translate-x-96  ">
+                                <div className="w-full h-full clip-path-right bg-green-50"></div>
+                            </div> */}
+                            <SectionBlob
+                                pos={silo.blob.pos}
+                                color={silo.blob.color}
+                            />
                             <div className="container relative">
                                 <div
                                     className="flex justify-center py-12 md:py-20"
@@ -765,5 +758,16 @@ export default function Product() {
                 })}
             </div>
         </>
+    );
+}
+function SectionBlob(props) {
+    return (
+        <div
+            className={`absolute w-full h-full left-0 bottom-0 transform ${props.pos}`}
+        >
+            <div
+                className={`w-full h-full clip-path-right ${props.color}`}
+            ></div>
+        </div>
     );
 }
