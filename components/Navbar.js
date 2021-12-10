@@ -47,7 +47,7 @@ const mainMenus = [
                 },
                 header: "For RevOps",
                 description: "Grow revenue instead of integrating it",
-                link: "/product/#revenue-operations",
+                link: "/teams/#revenue-operations",
             },
             {
                 icon: () => {
@@ -68,7 +68,7 @@ const mainMenus = [
                 },
                 header: "For Sales and CS",
                 description: "Sales and CS-led monetization",
-                link: "/product/#sales-customer-success",
+                link: "/teams/#sales-customer-success",
             },
             {
                 icon: () => {
@@ -89,7 +89,7 @@ const mainMenus = [
                 },
                 header: "For Finance",
                 description: "Ensure accurate billing and collections data",
-                link: "/product/#finance",
+                link: "/teams/#finance",
             },
             {
                 icon: () => {
@@ -110,7 +110,7 @@ const mainMenus = [
                 },
                 header: "For Customers",
                 description: "Customer-led revenue growth",
-                link: "/product/#customers",
+                link: "/teams/#customers",
             },
         ],
     },

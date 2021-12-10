@@ -506,6 +506,7 @@ export default function About() {
                 <div className="container relative pt-32 lg:pt-40">
                     <div className="flex justify-center mb-12">
                         <div className="w-11/12 md:w-full lg:w-11/12 xl:w-9/12 text-center">
+                            <HeaderLabel>About Nue</HeaderLabel>
                             <Header1>
                                 Modern business starts with empowering RevOps
                             </Header1>
@@ -858,6 +859,13 @@ export default function About() {
                             </div>
                         </div>
                     </div>
+                    <div className="flex justify-center mb-6">
+                        <div className="w-11/12 md:w-10/12 xl:w-6/12">
+                            <div className="text-center">
+                                <Header2>About the team</Header2>
+                            </div>
+                        </div>
+                    </div>
                     <div className="flex justify-center pb-40">
                         <div className="w-11/12 md:w-10/12 xl:w-6/12">
                             <div className="text-center">
@@ -865,8 +873,8 @@ export default function About() {
                                     Nue was founded by a team that built Zuora,
                                     Anaplan, and Salesforce Steelbrick (now
                                     Salesforce CPQ). Our investors include
-                                    NextWorld Capital, Information Venture
-                                    Partners.
+                                    Information Venture Partners, NextWorld
+                                    Capital, and SV Technology.
                                 </p>
                             </div>
                         </div>
