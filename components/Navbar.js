@@ -205,40 +205,52 @@ export default function Navbar() {
                                                             <a
                                                                 href="#"
                                                                 className={`main-nav-item text-lg font-hntMedium`}
-                                                                onClick={(
+                                                                onMouseEnter={(
                                                                     e
-                                                                ) => {
-                                                                    e.stopPropagation();
-                                                                    e.preventDefault();
-                                                                    let thisTab =
-                                                                        e.target.innerText.toLowerCase();
+                                                                ) =>
+                                                                    setdropDownOpen(
+                                                                        e.target.innerText.toLowerCase()
+                                                                    )
+                                                                }
+                                                                onMouseLeave={() =>
+                                                                    setdropDownOpen(
+                                                                        ""
+                                                                    )
+                                                                }
+                                                                // onClick={(
+                                                                //     e
+                                                                // ) => {
+                                                                //     e.stopPropagation();
+                                                                //     e.preventDefault();
+                                                                //     let thisTab =
+                                                                //         e.target.innerText.toLowerCase();
 
-                                                                    if (
-                                                                        thisTab ===
-                                                                        dropDownOpen
-                                                                    ) {
-                                                                        setdropDownOpen(
-                                                                            ""
-                                                                        );
-                                                                    } else {
-                                                                        setdropDownOpen(
-                                                                            thisTab
-                                                                        );
-                                                                    }
-                                                                }}
+                                                                //     if (
+                                                                //         thisTab ===
+                                                                //         dropDownOpen
+                                                                //     ) {
+                                                                //         setdropDownOpen(
+                                                                //             ""
+                                                                //         );
+                                                                //     } else {
+                                                                //         setdropDownOpen(
+                                                                //             thisTab
+                                                                //         );
+                                                                //     }
+                                                                // }}
                                                             >
                                                                 {menu.title}
+                                                                <AnimatePresence>
+                                                                    {dropDownOpen ===
+                                                                        menu.title.toLowerCase() && (
+                                                                        <DropDown
+                                                                            list={
+                                                                                menu.dropdown
+                                                                            }
+                                                                        />
+                                                                    )}
+                                                                </AnimatePresence>
                                                             </a>
-                                                            <AnimatePresence>
-                                                                {dropDownOpen ===
-                                                                    menu.title.toLowerCase() && (
-                                                                    <DropDown
-                                                                        list={
-                                                                            menu.dropdown
-                                                                        }
-                                                                    />
-                                                                )}
-                                                            </AnimatePresence>
                                                         </li>
                                                     );
                                                 })}
