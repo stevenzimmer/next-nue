@@ -7,7 +7,7 @@ const footerLinks = [
         children: [
             {
                 text: "Overview",
-                link: "/product/",
+                link: "/teams/",
             },
             {
                 text: "Platform",
