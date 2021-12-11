@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import Link from "next/link";
 
+import Logo from "./Logo";
+
 const mainMenus = [
     {
         title: "Platform",
@@ -184,27 +186,26 @@ export default function Navbar() {
                 <div className="container">
                     <div className="flex justify-center">
                         <div className="w-11/12 md:w-full">
-                            <div className="flex items-center justify-between py-5">
+                            <div className="flex items-center justify-between py-3">
                                 <div className="flex justify-between items-center w-full">
-                                    <div className="md:w-32">
-                                        <Link href="/" replace>
-                                            <a className="font-hntMedium text-2xl md:text-3xl md:leading-4">
-                                                nue
-                                            </a>
-                                        </Link>
-                                    </div>
+                                    <Logo />
                                     <div className="w-full items-center justify-between hidden lg:flex">
                                         <div>
                                             <ul className="flex items-center ">
                                                 {mainMenus.map((menu, i) => {
                                                     return (
                                                         <li
-                                                            className="relative px-6 font-hntMedium select-none"
+                                                            className=""
                                                             key={i}
                                                         >
                                                             <a
-                                                                href="#"
-                                                                className={`main-nav-item text-lg font-hntMedium`}
+                                                                href={`#`}
+                                                                className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
+                                                                onClick={(
+                                                                    e
+                                                                ) => {
+                                                                    e.preventDefault();
+                                                                }}
                                                                 onMouseEnter={(
                                                                     e
                                                                 ) =>
@@ -441,7 +442,7 @@ function MobileMenuSection(props) {
     return (
         <div className="">
             <div
-                className="flex items-center justify-between w-full cursor-pointer select-none  hover:bg-grey-50 p-6"
+                className="flex items-center justify-between w-full cursor-pointer select-none hover:bg-grey-50 p-6"
                 onClick={() => {
                     setSectionOpen(!sectionOpen);
                 }}
@@ -501,7 +502,7 @@ function DropDown(props) {
                         duration: 0.1,
                     },
                 }}
-                className={`bg-white absolute top-10 -left-4  w-96 p-6 rounded-lg shadow-lg`}
+                className={`bg-white absolute top-12 -left-4 w-96 p-6 rounded-lg shadow-lg`}
             >
                 <div className="absolute -top-3 left-12 w-12 h-12">
                     <svg
@@ -541,7 +542,7 @@ function DropDownInner(props) {
                     duration: 0.1,
                 },
             }}
-            className="relative menu-item flex items-center p-3 rounded-lg transition-colors duration-200 hover:bg-blue-50 px-6"
+            className="relative menu-item flex items-center px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-blue-50 mb-2 last:mb-0"
         >
             <a
                 href={props.item.link}
@@ -551,8 +552,8 @@ function DropDownInner(props) {
                 <span>{props.item.icon()}</span>
             </div>
             <div className="w-full">
-                <p className="font-hntMedium ">{props.item.header}</p>
-                <p className="text-xs font-hntRegular">
+                <p className="font-hntMedium text-sm ">{props.item.header}</p>
+                <p className="text-xs font-hntRegular text-grey-800">
                     {props.item.description}
                 </p>
             </div>
