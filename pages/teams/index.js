@@ -591,7 +591,7 @@ export default function Teams() {
                             <div className="w-11/12 lg:w-7/12 xl:w-6/12">
                                 <div className="text-center relative z-20">
                                     <div className="mb-6">
-                                        <HeaderLabel>teams</HeaderLabel>
+                                        <HeaderLabel>for teams</HeaderLabel>
                                         <Header1>
                                             Unify your end-to-end ARR journey
                                         </Header1>

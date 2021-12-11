@@ -478,7 +478,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>About nue</title>
+                <title>About Nue</title>
                 <meta
                     name="description"
                     content="Modern business starts with empowering

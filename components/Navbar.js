@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const mainMenus = [
     {
-        title: "Product",
+        title: "Platform",
         dropdown: [
             {
                 icon: () => {
@@ -156,7 +156,7 @@ const mainMenus = [
                         </svg>
                     );
                 },
-                header: "Jobs",
+                header: "Careers",
                 description: "Come work with us",
                 link: "/company/careers/",
             },
