@@ -1,6 +1,8 @@
 import Link from "next/link";
 import SectionFade from "./SectionFade";
 import Logo from "./Logo";
+import BlobPurple4 from "./blobs/Purple4";
+import WavePurple2 from "./waves/Purple2";
 const footerLinks = [
     {
         header: "Platform",
@@ -25,10 +27,6 @@ const footerLinks = [
                 text: "For Customers",
                 link: "/teams/#customers",
             },
-            // {
-            //     text: "Sign in",
-            //     link: "https://app.nue.io/login",
-            // },
         ],
     },
     {
@@ -42,13 +40,24 @@ const footerLinks = [
                 text: "Careers",
                 link: "/company/careers/",
             },
+            // {
+            //     text: "Sign in",
+            //     link: "https://app.nue.io/login",
+            // },
         ],
     },
 ];
 export default function Footer() {
     return (
-        <footer className=" py-24 md:px-6 relative">
-            <div className="container">
+        <footer className="py-28 md:px-6 relative overflow-hidden">
+            <SectionFade />
+            <div className="absolute w-full h-full inset-0 opacity-30">
+                <WavePurple2 />
+            </div>
+            <div className="absolute w-full h-full inset-0 opacity-30">
+                <BlobPurple4 />
+            </div>
+            <div className="container relative z-10">
                 <div className="flex items-center md:items-stretch justify-start flex-wrap flex-col-reverse lg:flex-row">
                     <div className="w-11/12 lg:w-2/5 ">
                         <div className="flex flex-col justify-between h-full">
