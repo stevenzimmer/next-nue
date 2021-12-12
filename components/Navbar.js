@@ -168,25 +168,14 @@ const mainMenus = [
 export default function Navbar() {
     const [dropDownOpen, setdropDownOpen] = useState("");
     const [mobileOpen, setMobileOpen] = useState(false);
-    // useEffect(() => {
-    //     const onClick = (e) => {
-    //         if (!e.target.classList.contains("main-nav-item")) {
-    //             setdropDownOpen("");
-    //         }
-    //     };
-    //     document.body.addEventListener("click", onClick);
 
-    //     return () => {
-    //         document.body.removeEventListener("click", onClick);
-    //     };
-    // }, []);
     return (
         <>
-            <nav className="absolute w-full top-0 left-0 right-0 bg-transparent z-50 md:px-6 ">
+            <nav className="absolute w-full top-0 left-0 right-0 bg-transparent z-50 md:px-6 py-5">
                 <div className="container">
                     <div className="flex justify-center">
                         <div className="w-11/12 md:w-full">
-                            <div className="flex items-center justify-between py-3">
+                            <div className="flex items-center justify-between ">
                                 <div className="flex justify-between items-center w-full">
                                     <Logo />
                                     <div className="w-full items-center justify-between hidden lg:flex">
@@ -201,11 +190,6 @@ export default function Navbar() {
                                                             <a
                                                                 href={`#`}
                                                                 className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
-                                                                // onClick={(
-                                                                //     e
-                                                                // ) => {
-                                                                //     e.preventDefault();
-                                                                // }}
                                                                 onMouseEnter={(
                                                                     e
                                                                 ) =>
