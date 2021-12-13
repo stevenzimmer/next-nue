@@ -305,7 +305,7 @@ export default function Platform() {
                         <div className="mb-12">
                             <FloatingImage
                                 classes={`mx-auto`}
-                                src={`/images/platform/hero-2.png`}
+                                src={`/images/platform/hero-3.png`}
                                 alt={`Platform hero graphic`}
                                 width={1301}
                                 height={516}

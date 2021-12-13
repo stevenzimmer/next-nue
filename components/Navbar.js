@@ -49,7 +49,7 @@ const mainMenus = [
                 },
                 header: "For RevOps",
                 description: "Grow revenue instead of integrating it",
-                link: "/teams/#revenue-operations",
+                link: "/teams/",
             },
             {
                 icon: () => {

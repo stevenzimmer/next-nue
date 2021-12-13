@@ -13,7 +13,7 @@ const footerLinks = [
             },
             {
                 text: "For RevOps",
-                link: "/teams/#revenue-operations",
+                link: "/teams/",
             },
             {
                 text: "For Sales and CS",
