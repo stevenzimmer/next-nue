@@ -91,7 +91,7 @@ const columns = {
                     <>
                         <span className="text-indigo-300">Omnichannel</span>{" "}
                         with native quoting inside Salesforce CRM and outside
-                        for partners. Plug and play cart for website sales.
+                        for partners. Plug and play cart for website sales
                     </>
                 );
             },
