@@ -45,7 +45,7 @@ const footerLinks = [
                 link: "/privacy-policy/",
             },
             {
-                text: "Website Terms of Use",
+                text: "Terms of Use",
                 link: "/terms/",
             },
             // {
