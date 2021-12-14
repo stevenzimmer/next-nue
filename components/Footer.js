@@ -3,58 +3,8 @@ import SectionFade from "./SectionFade";
 import Logo from "./Logo";
 import BlobPurple4 from "./blobs/Purple4";
 import WavePurple2 from "./waves/Purple2";
-const footerLinks = [
-    {
-        header: "Platform",
-        children: [
-            {
-                text: "Platform Overview",
-                link: "/platform/",
-            },
-            {
-                text: "For RevOps",
-                link: "/teams/",
-            },
-            {
-                text: "For Sales and CS",
-                link: "/teams/#sales-customer-success",
-            },
-            {
-                text: "For Finance",
-                link: "/teams/#finance",
-            },
-            {
-                text: "For Customers",
-                link: "/teams/#customers",
-            },
-        ],
-    },
-    {
-        header: "Company",
-        children: [
-            {
-                text: "About Nue",
-                link: "/company/",
-            },
-            {
-                text: "Careers",
-                link: "/company/careers/",
-            },
-            {
-                text: "Privacy Policy",
-                link: "/privacy-policy/",
-            },
-            {
-                text: "Terms of Use",
-                link: "/terms/",
-            },
-            // {
-            //     text: "Sign in",
-            //     link: "https://app.nue.io/login",
-            // },
-        ],
-    },
-];
+
+import { footerLinks } from "@/data/footer";
 export default function Footer() {
     return (
         <footer className="py-28 md:px-6 relative overflow-hidden">

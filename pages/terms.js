@@ -1,4 +1,5 @@
 import Head from "next/head";
+import PageDefault from "@/layouts/PageDefault";
 // Strapi API config
 import { API_URL } from "@/config/index";
 export default function Terms({ data }) {
@@ -7,19 +8,13 @@ export default function Terms({ data }) {
             <Head>
                 <title>Website terms of use</title>
             </Head>
-            <div className="container py-40">
-                <div className="flex justify-center">
-                    <div className="w-11/12 lg:w-10/12  xl:w-8/12">
-                        <div className="content">
-                            <div
-                                dangerouslySetInnerHTML={{
-                                    __html: data.data.attributes.body,
-                                }}
-                            ></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <PageDefault>
+                <div
+                    dangerouslySetInnerHTML={{
+                        __html: data.data.attributes.body,
+                    }}
+                ></div>
+            </PageDefault>
         </>
     );
 }
