@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useRouter } from "next/router";
 
 import Link from "next/link";
 
@@ -168,6 +169,13 @@ const mainMenus = [
 export default function Navbar() {
     const [dropDownOpen, setdropDownOpen] = useState("");
     const [mobileOpen, setMobileOpen] = useState(false);
+    const router = useRouter();
+
+    useEffect(() => {
+        if (mobileOpen) {
+            setMobileOpen(!mobileOpen);
+        }
+    }, [router.asPath]);
 
     return (
         <>
@@ -449,14 +457,6 @@ function MobileMenuSection(props) {
     );
 }
 
-function MenuItem({ children }) {
-    return (
-        <div>
-            <p className="font-hntMedium text-lg">{props.menu.title}</p>
-        </div>
-    );
-}
-
 function NavButton(props) {
     return (
         <div className="px-2 sm:px-3">
@@ -526,21 +526,25 @@ function DropDownInner(props) {
                     duration: 0.1,
                 },
             }}
-            className="relative menu-item flex items-center px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-blue-50 mb-2 last:mb-0"
+            className="menu-item mb-2 last:mb-0"
         >
-            <a
-                href={props.item.link}
-                className="absolute w-full h-full inset-0 z-10"
-            ></a>
-            <div className="w-12">
-                <span>{props.item.icon()}</span>
-            </div>
-            <div className="w-full">
-                <p className="font-hntMedium text-sm ">{props.item.header}</p>
-                <p className="text-xs font-hntRegular text-grey-600">
-                    {props.item.description}
-                </p>
-            </div>
+            <Link href={props.item.link}>
+                <a>
+                    <div className="flex items-center px-4 py-2 rounded-lg transition-colors duration-200 hover:bg-blue-50">
+                        <div className="w-12">
+                            <span>{props.item.icon()}</span>
+                        </div>
+                        <div className="w-full">
+                            <p className="font-hntMedium text-sm ">
+                                {props.item.header}
+                            </p>
+                            <p className="text-xs font-hntRegular text-grey-600">
+                                {props.item.description}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </Link>
         </motion.div>
     );
 }

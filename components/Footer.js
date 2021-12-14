@@ -40,6 +40,14 @@ const footerLinks = [
                 text: "Careers",
                 link: "/company/careers/",
             },
+            {
+                text: "Privacy Policy",
+                link: "/privacy-policy/",
+            },
+            {
+                text: "Website Terms of Use",
+                link: "/terms/",
+            },
             // {
             //     text: "Sign in",
             //     link: "https://app.nue.io/login",

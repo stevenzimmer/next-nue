@@ -1,24 +1,19 @@
 import Head from "next/head";
-import { marked } from "marked";
-
 // Strapi API config
 import { API_URL } from "@/config/index";
-
-export default function Msa({ data }) {
+export default function Terms({ data }) {
     return (
         <>
             <Head>
-                <title>{data.data.attributes.Title}</title>
-                <meta key="robots" name="robots" content="noindex,follow" />
+                <title>Website terms of use</title>
             </Head>
             <div className="container py-40">
                 <div className="flex justify-center">
                     <div className="w-11/12 lg:w-10/12  xl:w-8/12">
                         <div className="content">
-                            <h1>{data.data.attributes.Title}</h1>
                             <div
                                 dangerouslySetInnerHTML={{
-                                    __html: data.data.attributes.Content,
+                                    __html: data.data.attributes.body,
                                 }}
                             ></div>
                         </div>
@@ -28,9 +23,8 @@ export default function Msa({ data }) {
         </>
     );
 }
-
 export async function getStaticProps(context) {
-    const res = await fetch(`${API_URL}/api/msa`);
+    const res = await fetch(`${API_URL}/api/term`);
     const data = await res.json();
 
     if (!data) {

@@ -80,19 +80,24 @@ body {
 
 .content {
     h1 {
-        @apply font-hntMedium mb-12 text-3xl md:text-4xl lg:text-6xl;
+        @apply font-hntMedium text-3xl md:text-4xl lg:text-6xl;
     }
-    p {
-        @apply mb-6;
-    }
+
     a {
         @apply underline text-blue-500;
     }
     strong {
         @apply font-hntMedium;
     }
+    ol {
+        @apply list-decimal;
+    }
     ul {
-        @apply pl-6 mb-6;
+        @apply list-disc;
+    }
+    ul,
+    ol {
+        @apply pl-12 mb-6;
 
         li {
             @apply mb-2 last:mb-0;

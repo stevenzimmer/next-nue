@@ -668,35 +668,37 @@ export default function About() {
                             <AboutBubble color="green">Complexity</AboutBubble>
                             <div className="w-64 mx-auto -translate-y-28 hidden lg:block">
                                 <div className="h-28 w-0.5 bg-green-200 mx-auto mb-6"></div>
-                                <div className="text-center mb-6">
+                                <div className="text-center ">
+                                    <div className="flex items-center justify-center mb-6">
+                                        <div className="px-2">
+                                            <div>
+                                                {icons.subscriptions.lg()}
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.consumption.lg()}
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.physicalGoods.lg()}
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.services.lg()}
+                                        </div>
+                                    </div>
                                     <div className="">
                                         <p className="font-hntMedium">
                                             Subscription + Consumption +
                                             Physical Goods + Services
                                         </p>
-                                    </div>
-                                </div>
-                                <div className="flex items-center justify-center">
-                                    <div className="px-2">
-                                        <div>{icons.subscriptions.lg()}</div>
-                                    </div>
-                                    <div>
-                                        <p className="text-green-200">+</p>
-                                    </div>
-                                    <div className="px-2">
-                                        {icons.consumption.lg()}
-                                    </div>
-                                    <div>
-                                        <p className="text-green-200">+</p>
-                                    </div>
-                                    <div className="px-2">
-                                        {icons.physicalGoods.lg()}
-                                    </div>
-                                    <div>
-                                        <p className="text-green-200">+</p>
-                                    </div>
-                                    <div className="px-2">
-                                        {icons.services.lg()}
                                     </div>
                                 </div>
                             </div>
@@ -818,7 +820,32 @@ export default function About() {
                                     </div>
                                 </div>
                                 <div className="">
-                                    <div className="text-center mb-6">
+                                    <div className="flex items-center justify-center mb-2">
+                                        <div className="px-2">
+                                            <div>
+                                                {icons.subscriptions.lg()}
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.consumption.lg()}
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.physicalGoods.lg()}
+                                        </div>
+                                        <div>
+                                            <p className="text-green-200">+</p>
+                                        </div>
+                                        <div className="px-2">
+                                            {icons.services.lg()}
+                                        </div>
+                                    </div>
+                                    <div className="text-center ">
                                         <p className="text-center mb-2 text-xl lg:text-2xl font-hntMedium ">
                                             Complexity
                                         </p>
@@ -827,8 +854,8 @@ export default function About() {
                                             Physical + Goods + Services
                                         </p>
                                     </div>
-
-                                    <div className="flex flex-wrap justify-center">
+                                    {/* 
+                                    <div className="flex flex-wrap justify-center hidden">
                                         <IconPill
                                             color="bg-green-100"
                                             svg={icons.physicalGoods.sm()}
@@ -854,7 +881,7 @@ export default function About() {
                                         >
                                             Subscriptions
                                         </IconPill>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
