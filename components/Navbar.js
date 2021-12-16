@@ -24,6 +24,7 @@ export default function Navbar() {
         if (mobileOpen) {
             setMobileOpen(!mobileOpen);
         }
+        setdropDownOpen("");
     }, [router.asPath]);
 
     return (
