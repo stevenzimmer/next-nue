@@ -72,6 +72,7 @@ module.exports = {
                 },
                 purple: {
                     DEFAULT: "#43A9D5",
+                    light: "#823EF2",
                 },
             },
             spacing: {

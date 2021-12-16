@@ -199,6 +199,55 @@ export default function Home({ data }) {
                 </div>
             </Section>
 
+            <Section bgColor="bg-gradient-to-br from-green-100 via-white to-red-100">
+                <SectionFade />
+                <div className="container relative py-20 z-10">
+                    <div className="flex justify-center">
+                        <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12">
+                            <div className="bg-white shadow-lg rounded-lg p-6">
+                                <div className="flex flex-wrap justify-center md:justify-start ">
+                                    <div className="w-full md:w-5/12 lg:w-5/12 relative mb-6 md:mb-0">
+                                        <div className=" flex items-center justify-center mx-auto  md:h-full w-48 relative overflow-auto ">
+                                            <div className="blob-1 bg-purple-light bg-opacity-60">
+                                                <Image
+                                                    src={`/images/customers/headshots/sunilmadan.png`}
+                                                    alt={`Sunil Madan headshot`}
+                                                    width={785}
+                                                    height={785}
+                                                />
+                                            </div>
+                                            <div className="absolute z-0 -bottom-2 left-0 right-0  "></div>
+                                            <div className="absolute bottom-0 right-0 w-20 h-20 rounded-full bg-white shadow flex items-center px-1">
+                                                <Image
+                                                    src={`/images/customers/logos/birdeye.png`}
+                                                    alt={`Birdeye logo`}
+                                                    width={376}
+                                                    height={200}
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="w-full md:w-7/12 lg:w-7/12 md:px-2">
+                                        <p className="text-black text-opacity-80 text-xl mb-6">
+                                            “Nue is a holy grail platform that
+                                            makes sales reps more efficient and
+                                            gives Finance accurate ARR metrics
+                                            from opportunity-to-cash.”
+                                        </p>
+                                        <p className="text-black text-opacity-50 text-lg">
+                                            Sunil Madan
+                                        </p>
+                                        <p className="text-black text-opacity-50 text-lg font-hntMedium">
+                                            CIO, Birdeye (formerly CIO, Zoom)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+
             <Section bgColor="bg-gradient-to-br from-white via-red-50 to-red-50">
                 <SectionFade />
                 <div className="absolute z-0 left-0 top-0 transform translate-y-1/3 -translate-x-1/3">
