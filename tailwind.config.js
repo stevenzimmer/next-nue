@@ -79,7 +79,11 @@ module.exports = {
         },
     },
     variants: {
-        extend: { translate: ["hover"], boxShadow: ["hover"] },
+        extend: {
+            translate: ["hover"],
+            boxShadow: ["hover"],
+            textOpacity: ["hover"],
+        },
     },
     plugins: [],
 };

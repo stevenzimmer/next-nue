@@ -86,18 +86,6 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-11/12 md:w-full lg:w-9/12 xl:w-7/12 hidden">
-                        <div className="flex justify-between flex-wrap ">
-                            <div className="w-full md:w-3/4 lg:w-4/5 mb-12 md:mb-0"></div>
-                            <div className="md:w-1/4 lg:w-1/5 text-right flex flex-col justify-between">
-                                <div className="mb-4"></div>
-                                <div className="flex items-center justify-between">
-                                    <Logo />
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </footer>

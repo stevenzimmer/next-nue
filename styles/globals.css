@@ -8,7 +8,7 @@ body {
 }
 
 .btn {
-    @apply py-2 px-3 whitespace-nowrap md:px-6 text-center text-sm md:text-base font-hntMedium font-semibold focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md hover:shadow-lg inline-block transition-shadow duration-200;
+    @apply py-2 px-3 whitespace-nowrap md:px-6 text-center text-sm md:text-base font-hntMedium font-semibold focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 rounded-lg shadow-md hover:shadow-lg inline-block transition-all duration-200;
     min-width: 110px;
 
     &-big {
@@ -16,6 +16,10 @@ body {
     }
     &-primary {
         @apply bg-gradient-to-r from-blue to-purple text-white;
+    }
+
+    &-indigo {
+        @apply bg-indigo-300 bg-opacity-30 text-indigo-300 hover:bg-opacity-50;
     }
 
     &-white {
@@ -83,8 +87,20 @@ body {
         @apply font-hntMedium text-3xl md:text-4xl lg:text-6xl;
     }
 
+    h2 {
+        @apply font-hntMedium text-3xl;
+    }
+
+    h3 {
+        @apply font-hntMedium text-2xl;
+    }
+
+    p {
+        @apply text-black text-opacity-70;
+    }
+
     a {
-        @apply underline text-blue-500;
+        @apply underline text-indigo-300 hover:underline no-underline;
     }
     strong {
         @apply font-hntMedium;

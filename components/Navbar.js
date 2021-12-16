@@ -46,7 +46,7 @@ export default function Navbar() {
                                                         >
                                                             <a
                                                                 href={`#`}
-                                                                className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
+                                                                className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 mx-6 font-hntMedium`}
                                                                 onMouseEnter={(
                                                                     e
                                                                 ) =>
