@@ -54,6 +54,7 @@ module.exports = {
                 gray: {},
                 grey: {
                     ...colors["blueGray"],
+                    DEFAULT: "#666666",
                 },
 
                 blue: {
@@ -69,10 +70,17 @@ module.exports = {
                 },
                 green: {
                     200: "#52CD99",
+                    secondary: "#81D4CA",
                 },
                 purple: {
                     DEFAULT: "#43A9D5",
                     light: "#823EF2",
+                },
+                orange: {
+                    DEFAULT: "#FF5300",
+                },
+                yellow: {
+                    DEFAULT: "#ffd43b",
                 },
             },
             spacing: {
