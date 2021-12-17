@@ -4,6 +4,7 @@ module.exports = {
     purge: [
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
+        "./layouts/**/*.{js,ts,jsx,tsx}",
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
@@ -71,6 +72,7 @@ module.exports = {
                 },
                 purple: {
                     DEFAULT: "#43A9D5",
+                    light: "#823EF2",
                 },
             },
             spacing: {
