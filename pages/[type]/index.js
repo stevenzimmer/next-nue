@@ -20,7 +20,7 @@ export default function Type() {
 
     useEffect(() => {
         fetchType();
-        console.log(contentType.type);
+        // console.log(contentType.type);
     }, [router.asPath]);
     const pageTheme = {
         "podcast-video": {

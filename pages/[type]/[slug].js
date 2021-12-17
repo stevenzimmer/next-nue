@@ -11,8 +11,8 @@ import SectionFade from "@/components/SectionFade";
 export default function TypeChild() {
     const router = useRouter();
     const { type, slug } = router.query;
-    console.log(type);
-    console.log(slug);
+    // console.log(type);
+    // console.log(slug);
     const [content, setContent] = useState("");
     const [contentType, setContentType] = useState("");
     const fetchContent = async () => {
@@ -140,7 +140,7 @@ export default function TypeChild() {
                         </div>
                     </>
                 )}
-                <div className="container relative">
+                <div className="container relative z-10">
                     <div className="flex justify-center">
                         <div className="w-11/12 sm:w-full xl:w-10/12">
                             <div className="flex items-center mb-6">
