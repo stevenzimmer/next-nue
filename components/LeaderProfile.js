@@ -47,11 +47,11 @@ export default function LeaderProfile({ leader }) {
             animate={controls}
             className="mb-12 lg:w-1/3 "
         >
-            <div className="mx-auto w-72 h-72">
+            <div className="w-72 h-72 mx-auto">
                 <div
-                    className={`${leader.blob.style} ${leader.blob.color} transform translate-x-6`}
+                    className={`${leader.blob.style} ${leader.blob.color} transform translate-x-6 flex justify-center items-end w-full h-full`}
                 >
-                    <div className="text-center transform -translate-x-4 translate-y-2">
+                    <div className="text-center transform -translate-x-4 -translate-y-2 ">
                         <Image
                             src={`/images/leadership/${leader.img.url}.png`}
                             alt={`${leader.name} headshot`}
