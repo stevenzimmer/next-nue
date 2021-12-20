@@ -9,7 +9,7 @@ export const dummyContent = [
         title: "What is RevOps?",
         description:
             "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
-        link: "/resources/what-is-revops/",
+        link: "/articles/what-is-revops/",
         slug: "what-is-revops",
     },
     {
@@ -20,7 +20,7 @@ export const dummyContent = [
         },
         label: "marketing",
         title: "Introducing Sales to RevOps",
-        link: "/resources/introducing-sales-to-revops/",
+        link: "/articles/introducing-sales-to-revops/",
         slug: "introducing-sales-to-revops",
         description:
             "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
@@ -34,7 +34,7 @@ export const dummyContent = [
         label: "news",
         title: "Let's talk Nue",
         slug: "lets-talk-nue",
-        link: "/resources/lets-talk-nue/",
+        link: "/articles/lets-talk-nue/",
         description:
             "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
     },

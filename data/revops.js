@@ -36,6 +36,9 @@ export const revops = [
     {
         header: "Articles",
         type: "articles",
+        themes: {
+            color: "#FBAE8A",
+        },
 
         featured: {
             label: "Beginners Guide",
@@ -79,8 +82,17 @@ export const revops = [
                 slug: "managing-revops-from-start-to-finish",
                 description:
                     "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
-                link: "/articles/managing-revops-from-start-to-finishe/",
+                link: "/articles/managing-revops-from-start-to-finish/",
                 sidebar: true,
+                tags: [
+                    "Nue",
+                    "Marketing",
+                    "New",
+                    "integrating",
+                    "Server setup",
+                    "RevOps",
+                    "Workplace",
+                ],
             },
             {
                 image: {
@@ -95,6 +107,13 @@ export const revops = [
                     "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
                 link: "/articles/integrating-revops-into-your-workplace/",
                 sidebar: true,
+                tags: [
+                    "integrating",
+                    "Server setup",
+                    "RevOps",
+                    "Workplace",
+                    "Marketing",
+                ],
             },
             {
                 image: {
@@ -104,10 +123,12 @@ export const revops = [
                 },
                 label: "beginners guide",
                 title: "What is RevOps?",
+                slug: "what-is-revops",
                 description:
                     "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
                 link: "/articles/what-is-revops/",
                 sidebar: true,
+                tags: ["Marketing", "New", "integrating", "Workplace", "Nue"],
             },
             {
                 image: {
@@ -117,8 +138,16 @@ export const revops = [
                 },
                 label: "marketing",
                 title: "Introducing Sales to RevOps",
+                slug: "introducing-sales-to-revops",
                 link: "/articles/introducing-sales-to-revops/",
                 sidebar: true,
+                tags: [
+                    "Nue",
+                    "Marketing",
+                    "integrating",
+                    "Server setup",
+                    "RevOps",
+                ],
                 description:
                     "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
             },
@@ -131,7 +160,16 @@ export const revops = [
                 label: "news",
                 title: "Let's talk Nue",
                 link: "/articles/lets-talk-nue/",
+                slug: "lets-talk-nue",
                 sidebar: true,
+                tags: [
+                    "Nue",
+                    "Marketing",
+                    "New",
+                    "integrating",
+                    "RevOps",
+                    "Workplace",
+                ],
                 description:
                     "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
             },
@@ -190,13 +228,53 @@ export const revops = [
             },
             {
                 header: titles[3] + " Articles",
-                items: dummyContent,
+                items: [
+                    {
+                        image: {
+                            url: "/images/revops/thumb-1.jpg",
+                            width: 380,
+                            height: 260,
+                        },
+                        label: "beginners guide",
+                        title: "What is RevOps?",
+                        description:
+                            "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
+                        link: "/articles/what-is-revops/",
+                    },
+                    {
+                        image: {
+                            url: "/images/revops/thumb-3.jpg",
+                            width: 380,
+                            height: 260,
+                        },
+                        label: "news",
+                        title: "Let's talk Nue",
+                        link: "/articles/lets-talk-nue/",
+                        description:
+                            "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
+                    },
+                    {
+                        image: {
+                            url: "/images/revops/thumb-2.jpg",
+                            width: 380,
+                            height: 260,
+                        },
+                        label: "marketing",
+                        title: "Introducing Sales to RevOps",
+                        link: "/articles/introducing-sales-to-revops/",
+                        description:
+                            "Interesting and positive highlight about Nue from press. Interesting and positive highlight about Nue. “Interesting and positive highlight about Nue.",
+                    },
+                ],
             },
         ],
     },
     {
         header: "Podcast & Video",
         type: "podcast-video",
+        themes: {
+            color: "#67AAA2",
+        },
         featured: {
             label: "Beginners Guide",
             title: "Featured RevOps Podcast",
@@ -447,6 +525,9 @@ export const revops = [
     {
         header: "Research",
         type: "research",
+        themes: {
+            color: "#729CE4",
+        },
         featured: {
             label: "Beginners Guide",
             title: "Featured Research item 1",

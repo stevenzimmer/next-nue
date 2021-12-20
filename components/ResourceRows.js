@@ -3,7 +3,7 @@ export default function ResourceRows(props) {
     return (
         <div className="mb-12">
             <div className="mb-6">
-                <h2 className="font-hntMedium text-2xl text-6xl md:text-5xl">
+                <h2 className="font-hntMedium text-2xl md:text-5xl">
                     {props.row.header}
                 </h2>
             </div>

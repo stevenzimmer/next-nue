@@ -2,7 +2,7 @@ import ResourceLabel from "./ResourceLabel";
 import Link from "next/link";
 import Image from "next/image";
 export default function Card(props) {
-    console.log("Card props", props);
+    // console.log("Card props", props);
     return (
         <div className="w-full lg:w-1/3 px-2 mb-6 lg:mb-0">
             <div className=" relative">

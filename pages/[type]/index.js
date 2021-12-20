@@ -1,53 +1,20 @@
-import { useState, useEffect } from "react";
 import Head from "next/head";
-
-import { useRouter } from "next/router";
 import Header1 from "@/components/text/Header1";
 import ResourceRows from "@/components/ResourceRows";
 import ResourceFeaturedRow from "@/components/ResourceFeaturedRow";
 import SectionFade from "@/components/SectionFade";
 import ResourcesSecondaryMenu from "@/components/ResourcesSecondaryMenu";
-export default function Type() {
-    const router = useRouter();
-    const { type } = router.query;
-    // console.log(type);
-    const [contentType, setContentType] = useState("");
-    const fetchType = async () => {
-        const response = await fetch(`/api/${type}`);
-        const data = await response.json();
-        setContentType(data);
-    };
-
-    useEffect(() => {
-        fetchType();
-        // console.log(contentType.type);
-    }, [router.asPath]);
-    const pageTheme = {
-        "podcast-video": {
-            fill: "#67AAA2",
-            stop1: "#67AAA2",
-            stop2: "#81D4CA",
-        },
-        articles: {
-            fill: "#efb8b0",
-            stop1: "#FBAE8A",
-            stop2: "#FBAE8A",
-        },
-        research: {
-            fill: "#1F55E2",
-            stop1: "#729CE4",
-            stop2: "#3C68FF",
-        },
-    };
-
+// import { NEXT_URL } from "@/config/index";
+import { revops } from "@/data/revops";
+export default function Type({ data, revops }) {
     return (
         <>
             <Head>
-                <title>{contentType.header} | RevOps Review</title>
+                <title>{data.header} | RevOps Review</title>
             </Head>
             <div className="py-40 relative">
                 <SectionFade />
-                {contentType && (
+                {data && (
                     <>
                         <div className="absolute top-0 right-0">
                             <svg
@@ -60,7 +27,7 @@ export default function Type() {
                                 <path
                                     opacity="0.2"
                                     d="M14.1038 -356.673C1.10504 -328.351 -5.91442 -269.598 10.0936 -220.904C54.7396 -85.121 138.679 41.0217 248.45 137.294C358.222 233.567 487.464 294.392 615.451 310.013C697.581 320.044 778.517 310.672 844.568 275.163C910.619 239.653 960.876 176.939 976.994 96.9228C991.517 25.0025 978.486 -56.2159 961.31 -135.189C941.747 -225.081 914.955 -318.762 856.62 -396.246C800.086 -471.338 719.278 -523.235 638.252 -555.698C510.644 -606.446 380.234 -614.248 266.831 -577.919C154.531 -541.494 50.6214 -436.282 14.1038 -356.673Z"
-                                    fill={pageTheme[contentType.type].fill}
+                                    fill={data.themes.color}
                                 />
                             </svg>
                         </div>
@@ -88,18 +55,12 @@ export default function Type() {
                                     >
                                         <stop
                                             offset="0.0224787"
-                                            stopColor={
-                                                pageTheme[contentType.type]
-                                                    .stop1
-                                            }
+                                            stopColor={data.themes.color}
                                             stopOpacity="0.68"
                                         />
                                         <stop
                                             offset="0.76693"
-                                            stopColor={
-                                                pageTheme[contentType.type]
-                                                    .stop2
-                                            }
+                                            stopColor={data.themes.color}
                                             stopOpacity="0"
                                         />
                                     </linearGradient>
@@ -112,24 +73,25 @@ export default function Type() {
                 <div className="container relative">
                     <div className="flex justify-center">
                         <div className="w-11/12 sm:w-full  xl:w-10/12">
-                            <div>
+                            <div className="mb-6">
                                 <Header1>RevOps Review</Header1>
                             </div>
-                            <ResourcesSecondaryMenu />
-                            {contentType && (
+                            <ResourcesSecondaryMenu
+                                menus={revops}
+                                active={data.type}
+                            />
+                            {data && (
                                 <>
-                                    <ResourceFeaturedRow
-                                        item={contentType.featured}
-                                    />
+                                    <ResourceFeaturedRow item={data.featured} />
 
-                                    {contentType.rows.map((row, i) => {
+                                    {data.rows.map((row, i) => {
                                         return (
                                             <ResourceRows row={row} key={i} />
                                         );
                                     })}
 
                                     <ResourceFeaturedRow
-                                        item={contentType.footer}
+                                        item={data.footer}
                                         swap={true}
                                     />
                                 </>
@@ -141,3 +103,40 @@ export default function Type() {
         </>
     );
 }
+
+export const getStaticProps = async (context) => {
+    const { type } = context.params;
+    // const res = await fetch(`${NEXT_URL}/api/${type}`);
+    // const data = await res.json();
+
+    const contentType = revops.find((revop) => revop.type === type);
+    console.log("contentType", contentType);
+
+    // const revopsRes = await fetch(`${NEXT_URL}/api/revops`);
+    // const revopsData = await revopsRes.json();
+
+    return {
+        props: { data: contentType, revops },
+    };
+};
+
+export const getStaticPaths = async (context) => {
+    // console.log("paths", context);
+    // const res = await fetch(`${NEXT_URL}/api/revops`);
+    // const data = await res.json();
+
+    const data = revops;
+
+    // console.log("data", data);
+    const paths = data.map((item) => {
+        // console.log("paths item", item);
+        return {
+            params: { type: item.type.toString() },
+        };
+    });
+
+    return {
+        paths,
+        fallback: false,
+    };
+};

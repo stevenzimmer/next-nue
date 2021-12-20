@@ -2,7 +2,7 @@ import ResourceLabel from "./ResourceLabel";
 import Link from "next/link";
 import Image from "next/image";
 export default function ResourceFeaturedRow(props) {
-    console.log("featured row props", props);
+    // console.log("featured row props", props);
     return (
         <div
             className={`flex justify-center sm:justify-between flex-wrap -mx-6 mb-12 ${

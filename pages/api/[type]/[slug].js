@@ -2,7 +2,7 @@ import { revops } from "@/data/revops";
 export default function handler(req, res) {
     const { type, slug } = req.query;
     const contentType = revops.find((revop) => revop.type === String(type));
-    console.log(contentType);
+    // console.log(contentType);
     // console.log(slug);
     const article = contentType.items.find(
         (item) => item.slug === String(slug)
