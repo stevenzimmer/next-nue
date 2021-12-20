@@ -45,20 +45,23 @@ export default function LeaderProfile({ leader }) {
             variants={item}
             initial="hidden"
             animate={controls}
-            className="w-full sm:w-1/2 lg:w-1/3 mb-12 "
+            className="mb-12 lg:w-1/3 "
         >
-            <div
-                className={`${leader.blob.style} ${leader.blob.color} mx-auto w-72 h-72 flex items-center justify-center `}
-            >
-                <div className="transform translate-y-5">
-                    <Image
-                        src={`/images/leadership/${leader.img.url}.png`}
-                        alt={`${leader.name} headshot`}
-                        width={leader.img.width}
-                        height={leader.img.height}
-                    />
+            <div className="mx-auto w-72 h-72">
+                <div
+                    className={`${leader.blob.style} ${leader.blob.color} transform translate-x-6`}
+                >
+                    <div className="text-center transform -translate-x-4 translate-y-2">
+                        <Image
+                            src={`/images/leadership/${leader.img.url}.png`}
+                            alt={`${leader.name} headshot`}
+                            width={leader.img.width}
+                            height={leader.img.height}
+                        />
+                    </div>
                 </div>
             </div>
+
             <div className="mb-6">
                 <p className="font-hntMedium">{leader.name}</p>
                 <p className="text-black text-sm text-opacity-60 font-hntMedium">
