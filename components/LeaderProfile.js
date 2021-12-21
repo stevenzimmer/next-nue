@@ -76,7 +76,7 @@ export default function LeaderProfile({ leader }) {
                     <a target="_blank">
                         <Image
                             src={`/images/social/linkedin.png`}
-                            alt={`${leader.name} headshot`}
+                            alt={`Linkedin Icon`}
                             width={20}
                             height={20}
                         />
