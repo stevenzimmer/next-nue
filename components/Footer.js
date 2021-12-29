@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             <div className="container relative z-10">
                 <div className="flex items-center md:items-stretch justify-start flex-wrap flex-col-reverse lg:flex-row">
-                    <div className="w-11/12 lg:w-2/5 ">
+                    <div className="w-11/12 lg:w-1/3 ">
                         <div className="flex flex-col justify-between h-full">
                             <div className="mb-2 lg:mb-0">
                                 <div className="mb-4">
@@ -37,13 +37,16 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-11/12 lg:w-3/5 mb-12 sm:mb-0">
+                    <div className="w-11/12  lg:w-2/3  mb-12 sm:mb-0">
                         <div className="flex justify-between flex-wrap">
                             <div className="w-full sm:w-4/5 lg:w-3/5 xl:w-4/5 mb-12 lg:mb-0">
-                                <div className="flex justify-start -mx-6">
+                                <div className="flex flex-wrap  justify-start -mx-6">
                                     {footerLinks.map((link, i) => {
                                         return (
-                                            <div key={i} className="w-1/2 px-6">
+                                            <div
+                                                key={i}
+                                                className="w-1/2 lg:w-1/3 px-6 mb-12 lg:mb-0"
+                                            >
                                                 <div className="mb-3">
                                                     <p className="uppercase font-hntMedium">
                                                         {link.header}

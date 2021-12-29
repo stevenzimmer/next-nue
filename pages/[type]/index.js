@@ -110,7 +110,7 @@ export const getStaticProps = async (context) => {
     // const data = await res.json();
 
     const contentType = revops.find((revop) => revop.type === type);
-    console.log("contentType", contentType);
+    // console.log("contentType", contentType);
 
     // const revopsRes = await fetch(`${NEXT_URL}/api/revops`);
     // const revopsData = await revopsRes.json();

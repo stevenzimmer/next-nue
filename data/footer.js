@@ -25,6 +25,19 @@ export const footerLinks = [
         ],
     },
     {
+        header: "Revops",
+        children: [
+            {
+                text: "RevOps Review",
+                link: "/articles/",
+            },
+            {
+                text: "Product Docs",
+                link: "/docs/",
+            },
+        ],
+    },
+    {
         header: "Company",
         children: [
             {

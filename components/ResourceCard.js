@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Card(props) {
     // console.log("Card props", props);
     return (
-        <div className="w-full lg:w-1/3 px-2 mb-6 lg:mb-0">
+        <div className="w-full lg:w-1/3 px-2 mb-6">
             <div className=" relative">
                 <Image
                     src={props.item.image.url}
@@ -20,7 +20,9 @@ export default function Card(props) {
             </div>
             <div className="py-3">
                 <div>
-                    <ResourceLabel>{props.item.label}</ResourceLabel>
+                    {props.item.label && (
+                        <ResourceLabel>{props.item.label}</ResourceLabel>
+                    )}
 
                     <Link href={props.item.link}>
                         <a className="text-lg md:text-xl font-hntMedium mb-2 hover:text-indigo-300 block">
