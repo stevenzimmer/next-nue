@@ -18,7 +18,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function DocsHeader() {
     return (
         <>
-            <div className="pt-28 md:pt-40 pb-12 bg-red-50 bg-opacity-20 relative">
+            <div className="pt-28 md:pt-28 pb-12 bg-red-50 bg-opacity-20 relative">
                 <div className="absolute left-0 top-0 w-full">
                     <svg
                         width="1056"

@@ -13,7 +13,7 @@ import { CaretIcon } from "@/components/icons/Caret";
 // Data
 import { docs } from "@/data/docs";
 export default function SidebarMenuItem({ category }) {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
     const router = useRouter();
 
     useEffect(() => {
@@ -22,8 +22,6 @@ export default function SidebarMenuItem({ category }) {
             : null;
         if (currentPost && currentPost.categoryID !== category.id) {
             setMenuOpen(false);
-        } else {
-            setMenuOpen(true);
         }
     }, [router.asPath]);
     return (

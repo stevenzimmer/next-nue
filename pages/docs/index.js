@@ -22,7 +22,7 @@ export default function Docs() {
                 />
             </Head>
             <DocsHeader />
-            <div className="relative">
+            <div className="relative bg-white">
                 <DocsBackground />
                 <div className="container relative ">
                     <div className="flex justify-between">
