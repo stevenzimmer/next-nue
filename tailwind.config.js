@@ -81,7 +81,11 @@ module.exports = {
         },
     },
     variants: {
-        extend: { translate: ["hover"], boxShadow: ["hover"] },
+        extend: {
+            translate: ["hover"],
+            boxShadow: ["hover"],
+            textColor: ["group-hover"],
+        },
     },
     plugins: [],
 };

@@ -42,37 +42,46 @@ export default function Navbar() {
                                                 {mainMenus.map((menu, i) => {
                                                     return (
                                                         <li
-                                                            className=""
+                                                            className="hover:text-indigo-300"
                                                             key={i}
                                                         >
-                                                            <a
-                                                                href={`#`}
-                                                                className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
-                                                                onMouseEnter={(
-                                                                    e
-                                                                ) =>
-                                                                    setdropDownOpen(
-                                                                        e.target.innerText.toLowerCase()
-                                                                    )
-                                                                }
-                                                                onMouseLeave={() =>
-                                                                    setdropDownOpen(
-                                                                        ""
-                                                                    )
+                                                            <Link
+                                                                href={
+                                                                    menu.link
+                                                                        ? menu.link
+                                                                        : "#"
                                                                 }
                                                             >
-                                                                {menu.title}
-                                                                <AnimatePresence>
-                                                                    {dropDownOpen ===
-                                                                        menu.title.toLowerCase() && (
-                                                                        <DropDown
-                                                                            list={
-                                                                                menu.dropdown
-                                                                            }
-                                                                        />
+                                                                <a
+                                                                    className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
+                                                                    onMouseEnter={(
+                                                                        e
+                                                                    ) =>
+                                                                        setdropDownOpen(
+                                                                            e.target.innerText.toLowerCase()
+                                                                        )
+                                                                    }
+                                                                    onMouseLeave={() =>
+                                                                        setdropDownOpen(
+                                                                            ""
+                                                                        )
+                                                                    }
+                                                                >
+                                                                    {menu.title}
+                                                                    {menu.dropdown && (
+                                                                        <AnimatePresence>
+                                                                            {dropDownOpen ===
+                                                                                menu.title.toLowerCase() && (
+                                                                                <DropDown
+                                                                                    list={
+                                                                                        menu.dropdown
+                                                                                    }
+                                                                                />
+                                                                            )}
+                                                                        </AnimatePresence>
                                                                     )}
-                                                                </AnimatePresence>
-                                                            </a>
+                                                                </a>
+                                                            </Link>
                                                         </li>
                                                     );
                                                 })}

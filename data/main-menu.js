@@ -110,6 +110,10 @@ export const mainMenus = [
         ],
     },
     {
+        title: "Customers",
+        link: "/customers/",
+    },
+    {
         title: "Company",
         dropdown: [
             {
