@@ -5,37 +5,54 @@ import PageDefault from "@/layouts/PageDefault";
 // Strapi API config
 import { API_URL } from "@/config/index";
 
-export default function Msa({ data }) {
+export default function Msa({ post }) {
+    // console.log(post);
     return (
         <>
-            <Head>
-                <title>{data.data.attributes.Title}</title>
-                <meta key="robots" name="robots" content="noindex,follow" />
-            </Head>
+            <SeoMetas metas={post.data.attributes.metas} />
+
             <PageDefault>
-                <h1 className="mb-6">{data.data.attributes.Title}</h1>
-                <div
-                    dangerouslySetInnerHTML={{
-                        __html: data.data.attributes.Content,
-                    }}
-                ></div>
+                <div className="content">
+                    <h1 className="mb-6">{post.data.attributes.Title}</h1>
+                    <div
+                        dangerouslySetInnerHTML={{
+                            __html: post.data.attributes.Content,
+                        }}
+                    ></div>
+                </div>
             </PageDefault>
         </>
     );
 }
 
 export async function getStaticProps(context) {
-    const res = await fetch(`${API_URL}/api/msa`);
-    const data = await res.json();
+    const res = await fetch(`${API_URL}/api/msa?populate=*`);
+    const post = await res.json();
 
-    if (!data) {
+    if (!post) {
         return {
             notFound: true,
         };
     }
 
     return {
-        props: { data },
+        props: { post },
         revalidate: 1,
     };
+}
+
+function SeoMetas({ metas }) {
+    console.log("metas", metas);
+    return (
+        <Head>
+            <title>{metas.title}</title>
+            <meta
+                key="robots"
+                name="robots"
+                content={`${metas.robotsIndex ? "index" : "noindex"},${
+                    metas.robotsFollow ? "follow" : "nofollow"
+                }`}
+            />
+        </Head>
+    );
 }

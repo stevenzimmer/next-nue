@@ -9,7 +9,10 @@ import Section from "@/components/Section";
 import SectionFade from "@/components/SectionFade";
 import HeaderP from "@/components/text/HeaderP";
 
-export default function Careers() {
+// Strapi API config
+import { API_URL } from "@/config/index";
+
+export default function Careers({ jobs }) {
     return (
         <>
             <Head>
@@ -49,331 +52,64 @@ export default function Careers() {
                                     <p className="text-lg">Open roles</p>
                                 </div>
                                 <div className="">
-                                    <ReactScrollLink
-                                        to="principal-engineer"
-                                        smooth={true}
-                                        duration={200}
-                                        className="text-lg cursor-pointer block mb-2 font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                    >
-                                        Principal Engineer
-                                    </ReactScrollLink>
-                                    <ReactScrollLink
-                                        to="senior-engineer"
-                                        smooth={true}
-                                        duration={200}
-                                        className="text-lg block cursor-pointer font-hntMedium hover:text-blue-500 transition-colors duration-200"
-                                    >
-                                        Senior Engineer
-                                    </ReactScrollLink>
+                                    {jobs.data.map((job, i) => {
+                                        return (
+                                            <ReactScrollLink
+                                                key={i}
+                                                to={job.attributes.Anchor}
+                                                smooth={true}
+                                                duration={200}
+                                                className="text-lg cursor-pointer block mb-2 font-hntMedium hover:text-blue-500 transition-colors duration-200"
+                                            >
+                                                {job.attributes.Title}
+                                            </ReactScrollLink>
+                                        );
+                                    })}
                                 </div>
                             </div>
                         </div>
                         <div className="w-11/12 lg:w-8/12">
-                            <div
-                                className="py-12 border-b"
-                                id="principal-engineer"
-                            >
-                                <div className="mb-6">
-                                    <h2 className="text-2xl md:text-5xl font-hntMedium">
-                                        Principal Engineer
-                                    </h2>
-                                </div>
-
-                                <HeaderP>
-                                    We are looking for curious, energetic rock
-                                    stars to join our engineering team.
-                                </HeaderP>
-                                <div className="mb-6">
-                                    <div className="mb-2">
-                                        <p className="font-hntMedium text-xl">
-                                            Job Requirements:
-                                        </p>
+                            {jobs.data.map((job, i) => {
+                                return (
+                                    <div
+                                        className="py-12 border-b"
+                                        id={job.attributes.Anchor}
+                                        key={i}
+                                    >
+                                        <div className="mb-6">
+                                            <h2 className="text-2xl md:text-5xl font-hntMedium">
+                                                {job.attributes.Title}
+                                            </h2>
+                                        </div>
+                                        <div
+                                            dangerouslySetInnerHTML={{
+                                                __html: job.attributes
+                                                    .Description,
+                                            }}
+                                            className="content"
+                                        ></div>
                                     </div>
-                                    <div>
-                                        <ul className="mb-6 list-disc pl-6">
-                                            <li>
-                                                You will be a full-stack
-                                                Principal SaaS Engineer /
-                                                hands-on Architect in Nue’s core
-                                                engineering team to deliver and
-                                                a metadata-driven, API-first,
-                                                componentized, highly-extensible
-                                                SaaS application suites that aim
-                                                to deliver top-notch user
-                                                experience and business values.
-                                            </li>
-                                            <li>
-                                                You will architect and implement
-                                                SaaS applications that are
-                                                highly scalable, secure, highly
-                                                available, fault tolerant using
-                                                cutting edge cloud technologies
-                                                deployed over AWS.
-                                            </li>
-                                            <li>
-                                                You will make and own
-                                                architectural decisions that
-                                                drive the scaling of Nue’s
-                                                applications.
-                                            </li>
-                                            <li>
-                                                You will establish and
-                                                continuously enhance the CICD
-                                                pipeline.
-                                            </li>
-                                            <li>
-                                                You will develop and maintain
-                                                automated tests on top of
-                                                industry-standard test
-                                                frameworks using Java, Python,
-                                                and integrate the tests into the
-                                                CICD pipeline.
-                                            </li>
-                                            <li>
-                                                You will implement solutions
-                                                using iterative processes, Agile
-                                                development methodologies and
-                                                scenario-driven development.
-                                            </li>
-                                            <li>
-                                                You will collaborate seamlessly
-                                                with core products and
-                                                engineering team members located
-                                                globally and reliably meet
-                                                deadlines.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="mb-2">
-                                        <p className="font-hntMedium text-xl">
-                                            Qualifications
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <ul className="mb-6 list-disc pl-6">
-                                            <li>
-                                                Highly motivated self-starter
-                                                with a builder&apos;s mindset;
-                                                expect plenty of freedom and
-                                                plenty of responsibilities
-                                            </li>
-                                            <li>
-                                                Bachelor’s degree in Computer
-                                                Science or related engineering
-                                                fields.
-                                            </li>
-                                            <li>
-                                                7+ years of hands-on experience
-                                                as a lead software engineer or
-                                                an architect in the enterprise
-                                                SaaS domain for applications,
-                                                including expertise in building
-                                                large and distributed systems
-                                                that support business-critical
-                                                cloud services deployed over AWS
-                                            </li>
-                                            <li>
-                                                In-depth knowledge and hands-on
-                                                experience of Java technologies,
-                                                Restful APIs, SpringBoot,
-                                                horizontal scalability,
-                                                microservices architecture, and
-                                                high availability principles.
-                                            </li>
-                                            <li>
-                                                In-depth knowledge and hands-on
-                                                experience of metadata-driven
-                                                design principles.
-                                            </li>
-                                            <li>
-                                                In-depth understanding of
-                                                service and data integration
-                                                among Cloud services.
-                                            </li>
-                                            <li>
-                                                In-depth understanding of RDBMS,
-                                                NoSQL and object modeling.
-                                            </li>
-                                            <li>
-                                                In-depth understanding of
-                                                componentized user interfaces.
-                                            </li>
-                                            <li>
-                                                Highly skilled in public cloud
-                                                technologies on AWS.
-                                            </li>
-                                            <li>
-                                                Familiar with one or more
-                                                Continuous Integration software
-                                                (Jenkins, Bitbucket Pipelines,
-                                                TravisCI, CircleCI, AWS
-                                                CodePipeline)
-                                            </li>
-                                            <li>
-                                                Familiar with one or more
-                                                Continuous Delivery/Deployment
-                                                software (Container technologies
-                                                such as Docker, Kubernetes,
-                                                Spinnaker, Terraform/AWS
-                                                CloudFormation, AWS EC2/VMs)
-                                            </li>
-                                            <li>
-                                                Excellent communication skills
-                                                Experience with financial SaaS
-                                                applications is preferred.
-                                            </li>
-                                            <li>
-                                                Experience with Salesforce
-                                                platform is preferred.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="py-12" id="senior-engineer">
-                                <div className="mb-6">
-                                    <h2 className="text-2xl md:text-5xl font-hntMedium">
-                                        Senior Engineer
-                                    </h2>
-                                </div>
-
-                                <div className="mb-6">
-                                    <div className="mb-2">
-                                        <p className="font-hntMedium text-xl">
-                                            Job Requirements:
-                                        </p>
-                                    </div>
-                                    <div>
-                                        <ul className="mb-6 list-disc pl-6">
-                                            <li>
-                                                Develops and architects
-                                                multi-tenancy SAAS application
-                                                with shared-nothing architecture
-                                                based on spring boot framework,
-                                                develop and architect scalable
-                                                and reliable application which
-                                                will leverage micro service
-                                                architecture includes API
-                                                gateway, service registry,
-                                                service monitoring etc.
-                                            </li>
-                                            <li>
-                                                Build and architect streaming
-                                                based pipeline to integrate with
-                                                externals GL/Accounting systems
-                                                with Kafka and Flink and
-                                                architect GL data model
-                                                normalization and job
-                                                management, build and architect
-                                                financial data analytics
-                                                platform with analytics storage
-                                                engine like postgres, snowflake,
-                                                redshift, etc.;
-                                            </li>
-                                            <li>
-                                                Works with other team members
-                                                and management to complement and
-                                                complete the development
-                                                process;
-                                            </li>
-                                            <li>
-                                                Mentors and guides other
-                                                software engineers;
-                                            </li>
-                                            <li>
-                                                Oversee the design, scoping,
-                                                implementation, and testing of
-                                                new features end-to-end;
-                                            </li>
-                                            <li>
-                                                Drive technical excellence and
-                                                implementation of best
-                                                engineering practices such as
-                                                design review, continuous
-                                                integration and code review;
-                                            </li>
-                                            <li>
-                                                Create and maintain an open and
-                                                transparent environment that
-                                                values speed, innovation and
-                                                quality;
-                                            </li>
-                                            <li>
-                                                Provide architecture and
-                                                technical guidance for the
-                                                software development team;
-                                            </li>
-                                            <li>
-                                                Stays current with relevant
-                                                technologies, applying them to
-                                                Nue’s SaaS applications as
-                                                appropriate;
-                                            </li>
-                                            <li>
-                                                Helps define the standards and
-                                                guidelines for the definition
-                                                and development of Nue’s
-                                                applications, components and
-                                                services;
-                                            </li>
-                                            <li>
-                                                Delivers world class, high
-                                                quality design and code using
-                                                the latest development tools and
-                                                frameworks. Uses agile
-                                                methodologies including TDD, CI,
-                                                Refactoring and Code Reviews.
-                                            </li>
-                                        </ul>
-                                        <HeaderP>
-                                            10% international travel may be
-                                            required.
-                                        </HeaderP>
-                                        <HeaderP>
-                                            <span className="font-hntMedium">
-                                                Education Requirement
-                                            </span>
-                                            : Bachelor’s degree or foreign
-                                            equivalent in Software Engineering,
-                                            Computer Science or a closely
-                                            related field.
-                                        </HeaderP>
-                                        <HeaderP>
-                                            <span className="font-hntMedium">
-                                                Experience Requirement
-                                            </span>
-                                            : 7 years of post-baccalaureate,
-                                            progressive experience in the same
-                                            or similar occupation.
-                                        </HeaderP>
-                                        <HeaderP>
-                                            <span className="font-hntMedium">
-                                                Special Requirements
-                                            </span>
-                                            : 7 years of software development,
-                                            design, and implementation
-                                            experience in the finance, billing,
-                                            and/or subscription software
-                                            industry, specifically using
-                                            multiple shard database
-                                            architecture. 7 years of experience
-                                            with Force.com application lifecycle
-                                            implementations. 7 years of
-                                            experience with application
-                                            performance profiling and tuning. 7
-                                            years of experience building highly
-                                            flexible Application Programming
-                                            Interfaces (APIs).
-                                        </HeaderP>
-                                    </div>
-                                </div>
-                            </div>
+                                );
+                            })}
                         </div>
                     </div>
                 </div>
             </Section>
         </>
     );
+}
+export async function getStaticProps(context) {
+    const res = await fetch(`${API_URL}/api/jobs?populate=*`);
+    const jobs = await res.json();
+
+    if (!jobs) {
+        return {
+            notFound: true,
+        };
+    }
+
+    return {
+        props: { jobs },
+        revalidate: 1,
+    };
 }
