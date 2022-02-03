@@ -84,10 +84,10 @@ export default function Platform() {
                         <div className="mb-12">
                             <FloatingImage
                                 classes={`mx-auto`}
-                                src={`/images/platform/hero-3.png`}
+                                src={`/images/platform/hero-4.png`}
                                 alt={`Platform hero graphic`}
-                                width={1301}
-                                height={516}
+                                width={1302}
+                                height={521}
                                 onLoad={() => {
                                     animationControlMain.start("show");
                                 }}

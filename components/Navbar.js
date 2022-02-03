@@ -37,7 +37,7 @@ export default function Navbar() {
                                 <div className="flex justify-between items-center w-full">
                                     <Logo />
                                     <div className="w-full items-center justify-between hidden lg:flex">
-                                        <div>
+                                        <div className="px-6">
                                             <ul className="flex items-center ">
                                                 {mainMenus.map((menu, i) => {
                                                     return (
