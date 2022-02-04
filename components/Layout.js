@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     return (
         <>
             <Head>
-                <link rel="icon" href="/nue-favicon.png" />
+                <link rel="icon" href="/nue-logo-in.png" />
                 <link
                     href="/fonts/HelveticaNowText/index.css"
                     rel="stylesheet"

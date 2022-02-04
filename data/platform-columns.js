@@ -147,7 +147,7 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Revenue Builder",
+            title: "Price & Promo Builder",
             text: "Configure complex price models and discounts (tiered, ramp, usage, etc) with our no code, business-user bundle and promo builder.",
         },
         {
@@ -176,7 +176,7 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Order Lifecycle Manager",
+            title: "Quote & Order Builder",
             text: "Manage all orders from all your sales channels in one place including renewals, coterms, changes, usage collection and provisioning.",
         },
         {
@@ -215,7 +215,7 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Revenue Manager",
+            title: "Revenue Builder",
             text: "Deliver accurate billing and revenue schedules to your ERP for invoicing and revenue recognition.",
         },
     ],
