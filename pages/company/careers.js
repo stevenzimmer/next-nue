@@ -1,5 +1,7 @@
 import { Link as ReactScrollLink } from "react-scroll";
 
+import qs from "qs";
+
 // Next
 import Head from "next/head";
 
@@ -99,7 +101,16 @@ export default function Careers({ jobs }) {
     );
 }
 export async function getStaticProps(context) {
-    const res = await fetch(`${API_URL}/api/jobs?populate=*`);
+    const query = qs.stringify(
+        {
+            sort: ["id:desc"],
+            populate: "*",
+        },
+        {
+            encodeValuesOnly: true,
+        }
+    );
+    const res = await fetch(`${API_URL}/api/jobs?${query}`);
     const jobs = await res.json();
 
     if (!jobs) {
