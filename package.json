@@ -18,6 +18,7 @@
     "react-blob": "^2.1.0",
     "react-cool-inview": "^2.0.8",
     "react-dom": "17.0.2",
+    "react-gtm-module": "^2.0.11",
     "react-intersection-observer": "^8.32.2",
     "react-markdown": "^7.1.1",
     "react-scroll": "^1.8.4",
