@@ -94,7 +94,7 @@ export default function Home({ data }) {
                     />
 
                     <div className="flex justify-center pt-32 lg:pt-40">
-                        <div className="w-11/12 lg:w-7/12 xl:w-5/12">
+                        <div className="w-11/12 lg:w-7/12 xl:w-6/12">
                             <div className="text-center relative z-20">
                                 <div className="mb-6">
                                     <Header1>

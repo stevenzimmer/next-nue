@@ -55,6 +55,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      fontSize: {
+        '7xl': ['68px', '82px'],
+      },
       container: {
         center: true,
       },
