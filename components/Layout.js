@@ -10,6 +10,10 @@ export default function Layout({ children }) {
                     href="/fonts/HelveticaNowText/index.css"
                     rel="stylesheet"
                 />
+                <link
+                  href="/fonts/AvenirNext/index.css"
+                  rel="stylesheet"
+                />
                 <meta property="og:locale" content="en_US" />
                 <meta property="og:type" content="website" />
 
