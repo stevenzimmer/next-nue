@@ -15,6 +15,7 @@ function NueApp({ Component, pageProps }) {
     } else {
       console.log('GTM not initialized')
     }
+    console.log('env', process.env.NODE_ENV)
   }, [])
 
     return (
