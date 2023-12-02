@@ -26,13 +26,13 @@ export default function Footer() {
 
                                 <div>
                                     <p className="text-grey-600">
-                                        RevOps for the Modern Company
+                                        Showcasing modern design and web trends
                                     </p>
                                 </div>
                             </div>
                             <div>
                                 <p className="text-grey-600 text-sm">
-                                    &#169; {new Date().getFullYear()} Nue.io
+                                    &#169; {new Date().getFullYear()} Mdrn Dsgn
                                 </p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export default function Footer() {
                                 </div>
                             </div>
                             <div className="w-full sm:text-right sm:w-1/5 md:w-1/5 lg:w-2/5 xl:w-1/5">
-                                <Link href="https://calendly.com/nue/nue-io-overview-conversation">
+                                <Link href="#">
                                     <a
                                         target="_blank"
                                         className="btn btn-primary btn-big "

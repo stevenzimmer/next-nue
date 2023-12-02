@@ -478,18 +478,13 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>About Nue</title>
+                <title>About Mdrn Dsgn</title>
                 <meta
                     name="description"
-                    content="Modern business starts with empowering
-                                    RevOps"
+                    content="Meta Description for the Mdrn Dsgn company page"
                 />
                 <meta property="og:title" content="About nue" />
-                <meta
-                    property="og:description"
-                    content="Modern business starts with empowering
-                    RevOps"
-                />
+               
             </Head>
             <Section bgColor="bg-gradient-to-br from-white via-red-50 to-red-100 ">
                 <SectionFade />
@@ -503,34 +498,16 @@ export default function About() {
                     <BlurRed1 />
                 </div>
 
-                <div className="container relative pt-32 lg:pt-40">
+                <div className="container relative pt-40">
                     <div className="flex justify-center mb-12">
                         <div className="w-11/12 md:w-full lg:w-11/12 xl:w-9/12 text-center">
-                            <HeaderLabel>About Nue</HeaderLabel>
+                            <HeaderLabel>About Mdrn Dsgn</HeaderLabel>
                             <Header1>
-                                Modern business starts with empowering RevOps
+                            Ex mollis cetero mandamus per. Mea at nonumy nostrum
                             </Header1>
                         </div>
                     </div>
-                    <div className="flex justify-center mb-24">
-                        <div className="w-11/12 md:w-10/12 xl:w-8/12 text-xl lg:text-3xl font-hntMedium">
-                            <p className="mb-6 leading-normal">
-                                “Go-to-market motions today have seen a
-                                collision of new requirements. At Nue we believe
-                                that the right way to accelerate business
-                                results is by giving RevOps teams the agility to
-                                sell however they want and wherever they want –
-                                with complete revenue visibility end-to-end.
-                            </p>
-                            <p className="mb-12 leading-normal">
-                                No more cobbling together solutions. No more
-                                coding projects. No more systems integrators.
-                                Just hit go. Nue enables every go-to-market
-                                motion expected of the modern business.”
-                            </p>
-                            <p className="font-hntMedium mb-12">Nue Team</p>
-                        </div>
-                    </div>
+                    
 
                     <div className="flex justify-center relative ">
                         <div className="flex justify-center w-full absolute top-0 left-0 transform -translate-x-20 md:-translate-x-32 lg:-translate-x-72">
@@ -704,7 +681,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="container relative pb-40 lg:hidden">
+                    <div className="container relative pb-20 lg:hidden">
                         <div className="flex justify-center">
                             <div className="w-11/12">
                                 <div className="mb-12">
@@ -854,8 +831,8 @@ export default function About() {
                                             Physical + Goods + Services
                                         </p>
                                     </div>
-                                    {/* 
-                                    <div className="flex flex-wrap justify-center hidden">
+                                    
+                                    <div className="flex flex-wrap justify-center">
                                         <IconPill
                                             color="bg-green-100"
                                             svg={icons.physicalGoods.sm()}
@@ -881,31 +858,23 @@ export default function About() {
                                         >
                                             Subscriptions
                                         </IconPill>
-                                    </div> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center mb-6">
-                        <div className="w-11/12 md:w-10/12 xl:w-6/12">
-                            <div className="text-center">
-                                <Header2>About the team</Header2>
-                            </div>
+                    <div className="flex justify-center mb-24">
+                        <div className="w-11/12 md:w-10/12 xl:w-8/12 text-xl lg:text-3xl font-hntMedium">
+                            <p className="mb-6 leading-normal">
+                            Id vis oportere deterruisset, no eum alterum vocibus lucilius. Ad solet similique has, vero numquam complectitur ea vis. Quod accusamus ei usu, omnis tacimates conceptam eam ei. Dicta melius eloquentiam eam id, ne sit simul volutpat liberavisse. Ei eum eius nemore labores, tritani labitur eripuit in pro.
+                            </p>
+                            <p className="mb-12 leading-normal">
+                            Quo alia tamquam numquam at, ea mei viris clita nominati. Ne numquam volumus sit, eligendi euripidis interesset eu cum, veri complectitur et mei. Suas tempor vocibus in usu, quo legendos constituam adversarium in. In mel propriae euripidis, ea vis omnis reprehendunt. 
+                            </p>
+                            <p className="font-hntMedium mb-12">Mdrn Dsgn Team</p>
                         </div>
                     </div>
-                    <div className="flex justify-center pb-40">
-                        <div className="w-11/12 md:w-10/12 xl:w-6/12">
-                            <div className="text-center">
-                                <p className="font-hntRegular leading-normal text-xl">
-                                    Nue was founded by a team that built Zuora,
-                                    Anaplan, and Salesforce Steelbrick (now
-                                    Salesforce CPQ). Our investors include
-                                    Information Venture Partners, NextWorld
-                                    Capital, and SV Technology.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                
                 </div>
             </Section>
         </>

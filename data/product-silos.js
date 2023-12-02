@@ -34,7 +34,7 @@ export const productSilos = [
                 );
             },
         },
-        label: "REVENUE OPERATIONS",
+        label: "Value Prop 1",
         anchor: "revenue-operations",
         img: {
             slug: "revenue-operations.png",
@@ -46,11 +46,11 @@ export const productSilos = [
             pos: "translate-x-1/4 rotate-90 origin-center",
         },
         section: {
-            title: "Grow revenue instead of integrating it",
+            title: "Value Prop 1 Zesty Tagline with a Twist",
             paras: [
                 {
-                    header: "Configure sophisticated pricing and product bundling with a business-user friendly tool",
-                    text: "No more heavy CPQ. Launch on B2B AND B2-any channels without IT intervention. Just use our Nue on Salesforce Apps and commerce UI components.",
+                    header: "Officiis oportere pro at, et tale meis prompta mel, vix natum errem ex. An sea habeo accumsan. Ne inani graeco expetendis vis.",
+                    text: "Lorem ipsum dolor sit amet, has ei ubique euismod epicurei, vel repudiandae ullamcorper ut, sea eu tractatos tincidunt comprehensam. Sale iuvaret blandit sed id. Dolor delicata te eam.",
                     icon: () => {
                         return (
                             <svg
@@ -77,8 +77,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Get coherent analytics from pipeline to revenue recognition",
-                    text: "Nue’s complete data model delivers end-to-end revenue analytics without a massive data collection exercise. Slice and dice by any data attribute from quote, order, renewal to upsell. Know which rep, region, bundle and discount has the best performance.",
+                    header: "Usu at quidam deterruisset necessitatibus, ad persius posidonium sit. Sed ad quod agam pericula",
+                    text: "Erat graeco sententiae id vix, et sit putent aliquid omnesque, porro partem definitionem ei mea. Ei his movet postea abhorreant, hinc erat accusamus id duo, oportere mnesarchum cu vel.",
                     icon: () => {
                         return (
                             <svg
@@ -103,8 +103,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Streamline accurate product provisioning",
-                    text: "Nue’s complete change data includes order assets and entitlements so that orders coming from CRM and self-service have all the details to be provisioned.",
+                    header: "In sea duis veri debitis, an exerci partem dissentiunt usu. No eos paulo solet nominavi. ",
+                    text: "Pri an fastidii euripidis constituam, quo ubique causae corrumpit et. Illum quidam principes eu vel. In clita molestiae eos, singulis quaerendum eos ea, in qui agam malis. Dicat mundi in ius, tibique tacimates his te. ",
                     icon: () => {
                         return (
                             <svg
@@ -180,18 +180,18 @@ export const productSilos = [
                 );
             },
         },
-        label: "SALES & CUSTOMER SUCCESS",
+        label: "Value Prop 2",
         anchor: "sales-customer-success",
         blob: {
             color: "bg-indigo-50",
             pos: "-translate-x-1/2 rotate-180",
         },
         section: {
-            title: "Sales-led monetization",
+            title: "In sea duis veri debitis",
             paras: [
                 {
-                    header: "Launch a plug and play Deal Desk function in Salesforce",
-                    text: "Nue’s Salesforce App delivers quotes, approvals workflows, and real-time revenue projections – TCV, ARR, MRR – for rapid fast Finance thumbs up.",
+                    header: "Ex mollis cetero mandamus per. Mea at nonumy nostrum.",
+                    text: "Pro in sint forensibus. Ancillae persecuti no nec, molestie expetendis eum ei. Insolens concludaturque te mei. Ex mollis cetero mandamus per. Mea at nonumy nostrum.",
                     icon: () => {
                         return (
                             <svg
@@ -222,8 +222,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Connect Sales and CS with our native Salesforce Apps",
-                    text: "Nue on Salesforce creates an end-to-end process for Sales and CS teams to manage quotes and orders within Salesforce – no matter the pricing complexity (ramp, tiered, consumption/usage, etc.).",
+                    header: " An sea habeo accumsan. Ne inani graeco expetendis vis. Eos id semper timeam",
+                    text: "Usu at quidam deterruisset necessitatibus, ad persius posidonium sit. Sed ad quod agam pericula. Legendos atomorum pri id. Pri an error disputando. Nonumes habemus hendrerit ei quo, purto porro dicant.",
                     icon: () => {
                         return (
                             <svg
@@ -246,8 +246,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Manage order changes and co-terminations",
-                    text: "Automate renewals, upgrades and change recalculations. Coterm subscriptions on renewal or upsell. Reduce errors and manual effort.",
+                    header: "Sit iusto dicunt te. Duo ei deserunt incorrupte, his aliquid denique deseruisse no.",
+                    text: "Ne vituperata signiferumque mel, movet cetero consectetuer nec id. Erat graeco sententiae id vix, et sit putent aliquid omnesque, porro partem definitionem ei mea. Ei his movet postea abhorreant, hinc.",
                     icon: () => {
                         return (
                             <svg
@@ -314,7 +314,7 @@ export const productSilos = [
                 );
             },
         },
-        label: "FINANCE",
+        label: "Value Prop 3",
         anchor: "finance",
         img: {
             slug: "finance-2.png",
@@ -326,11 +326,11 @@ export const productSilos = [
             pos: "-translate-x-1/3 -translate-y-0- rotate-0",
         },
         section: {
-            title: "Ensure accurate billing and collections",
+            title: "No eos paulo solet nominavi",
             paras: [
                 {
-                    header: "Bridge Sales, Operations and Finance data",
-                    text: "Nue brings together the best of CRM and ERP data attributes for a seamless end-to-end flow between the two systems and provisioning. Get the most out of your ERP investment.",
+                    header: "In sea duis veri debitis, an exerci partem dissentiunt usu an issi abba dabba",
+                    text: "Sit tamquam honestatis delicatissimi ne, cum ei latine malorum probatus. Vix tota torquatos interesset cu, his amet mutat iisque ex, no pro falli erant iudicabit.",
                     icon: () => {
                         return (
                             <svg
@@ -367,8 +367,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Monitor sales discounting with real-time revenue details",
-                    text: "Nue delivers real-time revenue projections from quote to order to change order - TCV, ARR, MRR so Finance never has to worry about what your sales team is quoting.",
+                    header: "Pri an fastidii euripidis constituam, quo ubique causae corrumpit et",
+                    text: "Illum quidam principes eu vel. In clita molestiae eos, singulis quaerendum eos ea, in qui agam malis. Dicat mundi in ius, tibique tacimates his te. Tale unum everti has ne.",
                     icon: () => {
                         return (
                             <svg
@@ -393,8 +393,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Invoice in your ERP",
-                    text: "Nue’s complete data model passes complete order data to ERP for accurate, clean invoices without manual intervention.",
+                    header: "Ex mollis cetero mandamus per. Mea at nonumy nostrum pro rata",
+                    text: "Id vis oportere deterruisset, no eum alterum vocibus lucilius. Ad solet similique has, vero numquam complectitur ea vis. Quod accusamus ei usu, omnis tacimates conceptam eam ei. ",
                     icon: () => {
                         return (
                             <svg
@@ -462,7 +462,7 @@ export const productSilos = [
             color: "bg-indigo-50 opacity-75",
             pos: "translate-x-1/3 rotate-180",
         },
-        label: "CUSTOMERS",
+        label: "Value prop 4",
         anchor: "customers",
         img: {
             slug: "customers.png",
@@ -470,11 +470,11 @@ export const productSilos = [
             height: 474,
         },
         section: {
-            title: "Customer-led revenue growth",
+            title: "Quo alia tamquam numquam at, ea mei viris",
             paras: [
                 {
-                    header: "Plug and play UI components for website sales",
-                    text: "Create dynamic pricing pages controlled with the latest pricing adjustments in Nue. Spin up customer cart flows with commerce orders that sync directly to CRM and ERP for one source of revenue truth.",
+                    header: "Ne numquam volumus sit, eligendi euripidis interesset",
+                    text: "Suas tempor vocibus in usu, quo legendos constituam adversarium in. In mel propriae euripidis, ea vis omnis reprehendunt..",
                     icon: () => {
                         return (
                             <svg
@@ -499,8 +499,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Give customers self-service order management",
-                    text: "Let customers the ability to manage their own renewals, see their usage, add users, add quantity, and more. No more back and forth with sales or support for subscription and other order changes.",
+                    header: "Cu mea alterum recteque. Ne etiam iudico pro, sonet",
+                    text: "Nam cu inciderint contentiones, sit ad alii dicit fuisset. In mentitum nominavi pertinacia duo, detraxit forensibus democritum in cum. .",
                     icon: () => {
                         return (
                             <svg
@@ -525,8 +525,8 @@ export const productSilos = [
                     },
                 },
                 {
-                    header: "Trigger offers and promotions based on customer behavior",
-                    text: "Expand customer accounts by Incorporating  product usage into your order profiles to reduce churn and deploy targeted upsells.",
+                    header: "Sed facilis graecis deleniti ne, vix an iudicabit",
+                    text: "Pri an sumo minim, qui saperet lucilius imperdiet an. Assentior temporibus no per. ",
                     icon: () => {
                         return (
                             <svg

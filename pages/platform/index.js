@@ -30,11 +30,11 @@ export default function Platform() {
         <>
             <Head>
                 <title>
-                    Manage your customer revenue lifecycles with one platform
+                    Platform page for Mdrn Dsgn - Modern Design Agency
                 </title>
                 <meta
                     name="description"
-                    content="Configure dynamic pricing. Sell on any channel. Expand customer revenue. Know exactly what to bill and when."
+                    content="Meta description for Mdrn Dsgn - Modern Design Agency"
                 />
             </Head>
 
@@ -63,18 +63,14 @@ export default function Platform() {
                                     <HeaderLabel>platform</HeaderLabel>
                                     <div className="mb-12">
                                         <Header1>
-                                            Manage your customer revenue
-                                            lifecycles with one platform
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
                                         </Header1>
                                     </div>
 
                                     <div className="md:mb-12 flex justify-center">
                                         <div className="w-11/12 sm:w-full ">
                                             <h2 className="text-lg md:text-2xl">
-                                                Configure dynamic pricing. Sell
-                                                on any channel. Expand customer
-                                                revenue. Know exactly what to
-                                                bill and when.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit Ut a risus nisi Proin porttitor dolor orci. Nam tincidunt tincidunt diam sed faucibus.
                                             </h2>
                                         </div>
                                     </div>

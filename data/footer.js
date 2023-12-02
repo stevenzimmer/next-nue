@@ -3,23 +3,23 @@ export const footerLinks = [
         header: "Platform",
         children: [
             {
-                text: "Platform Overview",
+                text: "Overview",
                 link: "/platform/",
             },
             {
-                text: "For RevOps",
+                text: "For Value Prop 1",
                 link: "/teams/",
             },
             {
-                text: "For Sales and CS",
+                text: "For Value Prop 2",
                 link: "/teams/#sales-customer-success",
             },
             {
-                text: "For Finance",
+                text: "For Value Prop 3",
                 link: "/teams/#finance",
             },
             {
-                text: "For Customers",
+                text: "For Value Prop 4",
                 link: "/teams/#customers",
             },
         ],
@@ -28,25 +28,25 @@ export const footerLinks = [
         header: "Company",
         children: [
             {
-                text: "About Nue",
+                text: "About Mdrn Dsgn",
                 link: "/company/",
             },
             {
                 text: "Careers",
-                link: "/company/careers/",
+                link: "#",
             },
             {
                 text: "Privacy Policy",
-                link: "/privacy-policy/",
+                link: "$",
             },
             {
                 text: "Terms of Use",
-                link: "/terms/",
+                link: "#",
             },
-            // {
-            //     text: "Sign in",
-            //     link: "https://app.nue.io/login",
-            // },
+            {
+                text: "Sign in",
+                link: "#",
+            },
         ],
     },
 ];

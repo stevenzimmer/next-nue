@@ -34,8 +34,7 @@ export const platformColumns = {
                         <span className="text-indigo-300">
                             Unified data model
                         </span>{" "}
-                        built for subscription, consumption, physical goods and
-                        services offerings together
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a risus nisi.
                     </>
                 );
             },
@@ -80,8 +79,7 @@ export const platformColumns = {
                 return (
                     <>
                         <span className="text-indigo-300">Omnichannel</span>{" "}
-                        with native quoting inside Salesforce CRM and outside
-                        for partners. Plug and play cart for website sales
+                        Morbi risus odio, volutpat sit amet dignissim at, tristique in justo. In fermentum ultrices lacus, vitae luctus ligula vestibulum ac
                     </>
                 );
             },
@@ -115,8 +113,7 @@ export const platformColumns = {
                         <span className="text-indigo-300">
                             Real-time calculation engine
                         </span>{" "}
-                        for real-time ARR visibility across the customer
-                        lifecycle and into your ERP
+                        Nam nulla lorem, euismod ac nibh at, scelerisque sodales nisi. In velit quam, mollis et diam 
                     </>
                 );
             },
@@ -147,8 +144,8 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Price & Promo Builder",
-            text: "Configure complex price models and discounts (tiered, ramp, usage, etc) with our no code, business-user bundle and promo builder.",
+            title: "Card Headline 1",
+            text: "Phasellus in purus est. Sed dignissim porta purus, id faucibus leo tincidunt id. Quisque vitae justo blandit.",
         },
         {
             icon: () => {
@@ -176,8 +173,8 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Quote & Order Builder",
-            text: "Manage all orders from all your sales channels in one place including renewals, coterms, changes, usage collection and provisioning.",
+            title: "Card Headline 2",
+            text: "ed id libero faucibus, consectetur nunc et, imperdiet elit. Nullam posuere erat a nulla tristique tincidunt. ",
         },
         {
             icon: () => {
@@ -215,8 +212,8 @@ export const platformColumns = {
                     </svg>
                 );
             },
-            title: "Revenue Builder",
-            text: "Deliver accurate billing and revenue schedules to your ERP for invoicing and revenue recognition.",
+            title: "Card Headline 3",
+            text: "Proin massa orci, mollis vitae malesuada et, consequat nec tortor. Sed a fringilla lacus, sed facilisis tortor. Nunc sodales vehicula lobortis.",
         },
     ],
 };

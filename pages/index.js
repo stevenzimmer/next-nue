@@ -52,11 +52,12 @@ export default function Home({ data }) {
     return (
         <>
             <Head>
-                <title>RevOps for the modern company</title>
+                <title>The modern company website design showcase |</title>
                 <meta
                     name="description"
-                    content="The system of record for revenue across the entire customer lifecycle"
+                    content="The meta description for the modern design company"
                 />
+         
             </Head>
             <Section bgColor="bg-gradient-to-br from-green-50 via-indigo-50 to-red-50 ">
                 <SectionFade />
@@ -98,21 +99,20 @@ export default function Home({ data }) {
                             <div className="text-center relative z-20">
                                 <div className="mb-6">
                                     <Header1>
-                                        RevOps for the modern company
+                                        Modern company homepage header
                                     </Header1>
                                 </div>
 
                                 <div className="mb-6 flex justify-center">
                                     <div className="w-11/12 sm:w-7/12 lg:w-9/12 xl:w-9/12">
                                         <h2 className="text-lg md:text-2xl">
-                                            The system of record for revenue
-                                            across the entire customer lifecycle
+                                            A website for showcasing modern web design trends
                                         </h2>
                                     </div>
                                 </div>
 
                                 <div className="">
-                                    <Link href="https://calendly.com/nue/nue-io-overview-conversation">
+                                    <Link href="#">
                                         <a
                                             target="_blank"
                                             className="cursor-pointer btn btn-big btn-primary"
@@ -229,16 +229,13 @@ export default function Home({ data }) {
                                     </div>
                                     <div className="w-full md:w-7/12 lg:w-7/12 md:px-2">
                                         <p className="text-black text-opacity-80 text-xl mb-6">
-                                            “Nue is a holy grail platform that
-                                            makes sales reps more efficient and
-                                            gives Finance accurate ARR metrics
-                                            from opportunity-to-cash.”
+                                            “Avant-garde lowbrow divisionism monumentalism socialist realism scuola romana cubo-futurism, cobra realism lyrical abstraction”
                                         </p>
                                         <p className="text-black text-opacity-50 text-lg">
-                                            Sunil Madan
+                                            Reference Name
                                         </p>
                                         <p className="text-black text-opacity-50 text-lg font-hntMedium">
-                                            CIO, Birdeye (formerly CIO, Zoom)
+                                            Reference title, and company name 
                                         </p>
                                     </div>
                                 </div>
@@ -302,26 +299,18 @@ export default function Home({ data }) {
                         <div className="flex justify-center ">
                             <div className="w-11/12 lg:w-6/12 xl:w-5/12">
                                 <div className="text-center">
-                                    <HeaderLabel>SALES VELOCITY</HeaderLabel>
+                                    <HeaderLabel>Section label 1</HeaderLabel>
 
                                     <div className="mb-6">
                                         <Header2>
-                                            Close deals with innovative pricing
+                                        Painterly fluxus abstraction super 
                                         </Header2>
                                     </div>
 
                                     <div className="">
+                                     
                                         <HeaderP>
-                                            Plug and play quoting and cart
-                                            functionality for rapid fast deals
-                                            regardless of pricing complexity –
-                                            direct sales or self-service.
-                                        </HeaderP>
-                                        <HeaderP>
-                                            Empower your reps to make the best
-                                            pricing and discounting decisions,
-                                            taking into account impact on
-                                            revenue.
+                                        Immagine&poesia caravaggisti art deco scuola romana divisionism modernism photorealism, neoclassicism der blaue reiter fluxus russian futurism rayonism.
                                         </HeaderP>
                                     </div>
                                 </div>
@@ -431,26 +420,19 @@ export default function Home({ data }) {
                         <div className="flex justify-center">
                             <div className="w-11/12 lg:w-7/12 xl:w-5/12">
                                 <div className="text-center">
-                                    <HeaderLabel>rev ops agility</HeaderLabel>
+                                    <HeaderLabel>Section label 2</HeaderLabel>
 
                                     <div className="mb-6">
                                         <Header2>
-                                            Manage dynamic customer lifecycles
+                                        Video art cubo futurism super
                                         </Header2>
                                     </div>
 
                                     <div className="">
                                         <HeaderP>
-                                            Ditch the spreadsheet and get your
-                                            time back. Nue automatically
-                                            calculates and recalculates order
-                                            changes whether that be usage
-                                            consumption, upsells, renewals, etc.
+                                        Neo-expressionism geometric abstraction neo-fauvism nonconformism neo-fauvism les nabis fauvism precisionism, russian futurism
                                         </HeaderP>
-                                        <HeaderP>
-                                            Nue enables seamless handoffs to
-                                            provisioning and your ERP.
-                                        </HeaderP>
+                                      
                                     </div>
                                 </div>
                             </div>
@@ -628,23 +610,18 @@ export default function Home({ data }) {
                         <div className="flex justify-center relative">
                             <div className="w-11/12 lg:w-9/12 xl:w-7/12">
                                 <div className="text-center">
-                                    <HeaderLabel>FINANCE CLARITY</HeaderLabel>
+                                    <HeaderLabel>Section Label 3</HeaderLabel>
 
                                     <div className="mb-6">
                                         <Header2>
-                                            Leverage clean ARR data from
-                                            opportunity-to-cash
+                                        video game art multiculturalism
                                         </Header2>
                                     </div>
 
                                     <div className="flex justify-center">
                                         <div className="w-full lg:w-9/12">
                                             <HeaderP>
-                                                No more cobbling together data.
-                                                Sales and Finance can finally be
-                                                friends with a single view of
-                                                revenue data across the entire
-                                                flow.
+                                            Illusionism russian symbolism eclecticism jugendstil socialist realism land art, deformalism video game art multiculturalism.
                                             </HeaderP>
                                         </div>
                                     </div>

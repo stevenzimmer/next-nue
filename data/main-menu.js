@@ -19,8 +19,8 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "Platform Overview",
-                description: "Manage customers revenue lifecycles",
+                header: "Overview",
+                description: "Id vis oportere deterruisset",
                 link: "/platform/",
             },
             {
@@ -40,8 +40,8 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "For RevOps",
-                description: "Grow revenue instead of integrating it",
+                header: "For Value Prop 1",
+                description: "No eum alterum vocibus lucilius",
                 link: "/teams/",
             },
             {
@@ -61,8 +61,8 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "For Sales and CS",
-                description: "Sales and CS-led monetization",
+                header: "For Value Prop 2",
+                description: "Ad solet similique has vero",
                 link: "/teams/#sales-customer-success",
             },
             {
@@ -83,7 +83,7 @@ export const mainMenus = [
                     );
                 },
                 header: "For Finance",
-                description: "Ensure accurate billing and collections data",
+                description: "Numquam complectitur ea vis",
                 link: "/teams/#finance",
             },
             {

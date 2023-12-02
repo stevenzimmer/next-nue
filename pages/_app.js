@@ -5,6 +5,7 @@ import Layout from "@/components/Layout";
 function NueApp({ Component, pageProps }) {
     return (
         <AuthProvider>
+          
             <Layout
                 {...pageProps}
                 onClick={() => {

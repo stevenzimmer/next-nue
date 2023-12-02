@@ -47,7 +47,7 @@ export default function Navbar() {
                                                         >
                                                             <a
                                                                 href={`#`}
-                                                                className={`main-nav-item font-hntMedium select-none relative text-lg py-3 px-6 font-hntMedium`}
+                                                                className={`main-nav-item select-none relative text-lg py-3 px-6 font-hntMedium`}
                                                                 onMouseEnter={(
                                                                     e
                                                                 ) =>
@@ -81,13 +81,13 @@ export default function Navbar() {
                                         <div className="flex items-center sm:-mx-3">
                                             <NavButton
                                                 type="white"
-                                                link="https://app.nue.io/login"
+                                                link="#"
                                             >
                                                 Sign in
                                             </NavButton>
                                             <NavButton
                                                 type="primary"
-                                                link="https://calendly.com/nue/nue-io-overview-conversation"
+                                                link="#"
                                             >
                                                 Book a demo
                                             </NavButton>
@@ -159,7 +159,7 @@ function MobileMenu(props) {
                             </NavButton>
                             <NavButton
                                 type="white"
-                                link="https://app.nue.io/login"
+                                link="#"
                             >
                                 Sign in
                             </NavButton>
