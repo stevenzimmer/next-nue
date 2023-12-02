@@ -37,7 +37,7 @@ export const footerLinks = [
             },
             {
                 text: "Privacy Policy",
-                link: "$",
+                link: "#",
             },
             {
                 text: "Terms of Use",

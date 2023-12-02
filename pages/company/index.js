@@ -483,7 +483,7 @@ export default function About() {
                     name="description"
                     content="Meta Description for the Mdrn Dsgn company page"
                 />
-                <meta property="og:title" content="About nue" />
+            
                
             </Head>
             <Section bgColor="bg-gradient-to-br from-white via-red-50 to-red-100 ">

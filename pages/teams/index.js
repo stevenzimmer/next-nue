@@ -18,11 +18,8 @@ export default function Teams() {
     return (
         <>
             <Head>
-                <title>Unify your end-to-end ARR journey</title>
-                <meta
-                    name="description"
-                    content="Nue helps teams manage their revenue streams, optimize them, and deliver complete overview and predictive analytics to their finance teams."
-                />
+                <title>Unify your Modern Design trends </title>
+               
             </Head>
             <div className="bg-gradient-to-br from-indigo-50 via-white to-indigo-50 relative overflow-hidden ">
                 <Section>
@@ -38,20 +35,16 @@ export default function Teams() {
                             <div className="w-11/12 lg:w-7/12 xl:w-6/12">
                                 <div className="text-center relative z-20">
                                     <div className="mb-6">
-                                        <HeaderLabel>for teams</HeaderLabel>
+                                        <HeaderLabel>for Design teams</HeaderLabel>
                                         <Header1>
-                                            Unify your end-to-end ARR journey
+                                            Unify your Modern Design trends
                                         </Header1>
                                     </div>
 
                                     <div className="mb-6 flex justify-center">
                                         <div className="w-11/12 sm:w-7/12 lg:w-10/12 ">
                                             <h2 className="text-lg md:text-2xl">
-                                                Nue helps teams manage their
-                                                revenue streams, optimize them,
-                                                and deliver complete overview
-                                                and predictive analytics to
-                                                their finance teams.
+                                            Ad solet similique has, vero numquam complectitur ea vis. Quod accusamus ei usu, omnis tacimates 
                                             </h2>
                                         </div>
                                     </div>

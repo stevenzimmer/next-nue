@@ -82,7 +82,7 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "For Finance",
+                header: "For Value Prop 3",
                 description: "Numquam complectitur ea vis",
                 link: "/teams/#finance",
             },
@@ -103,8 +103,8 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "For Customers",
-                description: "Customer-led revenue growth",
+                header: "For Value Prop 4",
+                description: "Insolens concludaturque te mei",
                 link: "/teams/#customers",
             },
         ],
@@ -129,7 +129,7 @@ export const mainMenus = [
                         </svg>
                     );
                 },
-                header: "About Nue",
+                header: "About Mdrn Dsgn",
                 description: "Who we are",
                 link: "/company/",
             },
@@ -153,7 +153,7 @@ export const mainMenus = [
                 },
                 header: "Careers",
                 description: "Come work with us",
-                link: "/company/careers/",
+                link: "#",
             },
         ],
     },

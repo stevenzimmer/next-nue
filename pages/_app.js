@@ -2,7 +2,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import "../styles/globals.css";
 import Layout from "@/components/Layout";
 
-function NueApp({ Component, pageProps }) {
+function MdrnApp({ Component, pageProps }) {
     return (
         <AuthProvider>
           
@@ -18,4 +18,4 @@ function NueApp({ Component, pageProps }) {
     );
 }
 
-export default NueApp;
+export default MdrnApp;
